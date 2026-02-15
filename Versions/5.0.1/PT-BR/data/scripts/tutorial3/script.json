@@ -1,0 +1,664 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial3a": {
+            "sign": [
+                "Alguns itens podem",
+                "modificar suas habilidades.",
+                "",
+                "Equipe este",
+                "Anel de Força",
+                "para obter a habilidade",
+                "que você precisa.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1
+                    ],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+                    "sizex": 24,
+                    "sizey": 24
+                }
+            ]
+        },
+        "tutorial3b": {
+            "sign": [
+                "Se não tiver cuidado,",
+                "algumas armadilhas podem",
+                "matar você instantaneamente.",
+                "",
+                "Esteja preparado.",
+                "",
+                "$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/levitation.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial3c": {
+            "sign": [
+                "Você deve permanecer atento",
+                "aos seus arredores para",
+                "evitar sucumbir às",
+                "armadilhas da masmorra.",
+                "",
+                "Você será agora testado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial3d": {
+            "sign": [
+                "Olhos e ouvidos atentos",
+                "fornecem amplos avisos.",
+                "",
+                "Se você não entrar em pânico,",
+                "poderá ainda sobreviver",
+                "às masmorras."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial3e": {
+            "sign": [
+                "$",
+                "Deixe um item sobre",
+                "certas armadilhas para garantir",
+                "que elas não se rearmem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial3/sign_spike.png",
+                    "sizex": 74,
+                    "sizey": 74
+                }
+            ]
+        },
+        "tutorial3f": {
+            "sign": [
+                "Pedregulhos podem causar",
+                "consequências imprevistas",
+                "pois podem ativar",
+                "múltiplos gatilhos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial3g": {
+            "sign": [
+                "Solte ou arremesse itens",
+                "para ativar armadilhas com segurança.",
+                "",
+                "Remova itens do seu",
+                "inventário com$ para soltá-los",
+                "na sua frente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 18,
+                    "g": 196,
+                    "b": 131,
+                    "a": 255
+                },
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0,
+                        2,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial3/rockdrop_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial3g_gamepad": {
+            "sign": [
+                "Solte ou arremesse itens",
+                "para ativar armadilhas com segurança.",
+                "",
+                "Remova itens do seu",
+                "inventário com$ para soltá-los",
+                "na sua frente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 18,
+                    "g": 196,
+                    "b": 131,
+                    "a": 255
+                },
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0,
+                        2,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial3/rockdrop_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuAlt2"
+                }
+            ]
+        },
+        "tutorial3h": {
+            "sign": [
+                "Alavancas e armadilhas podem",
+                "causar uma série de eventos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial3i": {
+            "sign": [
+                "$",
+                "Armadilhas de pedregulho são sempre",
+                "acompanhadas por um buraco",
+                "no teto.",
+                "",
+                "Certifique-se de ter",
+                "luz suficiente para vê-las claramente!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial3/sign_hole.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial3j": {
+            "sign": [
+                "CUIDADO:",
+                "",
+                "Armadilhas mortais à frente.",
+                "",
+                ""
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial3k": {
+            "sign": [
+                "Você sempre pode ouvir quando",
+                "um pedregulho está vindo!",
+                "",
+                "Tome cuidado ao ouvir",
+                "aquele som estrondoso."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial3l": {
+            "sign": [
+                "Pedregulhos rolando podem",
+                "destruir muitas coisas,",
+                "e cairão em",
+                "fossos e líquidos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial3m": {
+            "sign": [
+                "A habilidade Empurrar permite",
+                "empurrar pedregulhos com$ .",
+                "",
+                "STR também permite que você carregue",
+                "mais WGT sem que isso",
+                "atrase você."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial3/boulderpush.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        }
+    }
+}

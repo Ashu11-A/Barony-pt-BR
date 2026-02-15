@@ -1,0 +1,376 @@
+{
+	"version": 1,
+	"contents": [
+		{
+			"    FURNISHINGS": "-"
+		},
+		{
+			"GATE": "grade"
+		},
+		{
+			"LEVER": "alavanca"
+		},
+		{
+			"BUTTON": "botão"
+		},
+		{
+			"WALL LOCKS": "fechaduras de parede"
+		},
+		{
+			"DOOR": "porta"
+		},
+		{
+			"MURKY WATER": "água turva"
+		},
+		{
+			"LAVA": "lava"
+		},
+		{
+			"PITS": "poços"
+		},
+		{
+			"CONTAINERS": "recipientes"
+		},
+		{
+			"BREAKABLE BARRIERS": "barreiras quebráveis"
+		},
+		{
+			"    LOCATIONS": "-"
+		},
+		{
+			"MINEHEAD": "entrada da mina"
+		},
+		{
+			"HALL OF TRIALS": "saguão das provas"
+		},
+		{
+			"LICH'S BASTION": "covil de herx"
+		},
+		{
+			"THE MOLTEN THRONE": "trono de magma"
+		},
+		{
+			"HAMLET": "hamlet"
+		},
+		{
+			"TRANSITION FLOOR": "andar de transição"
+		},
+		{
+			"CITADEL SANCTUM": "santuário da cidadela"
+		},
+		{
+			"    DUNGEONS": "-"
+		},
+		{
+			"MINES": "minas"
+		},
+		{
+			"SWAMPS": "pântanos"
+		},
+		{
+			"LABYRINTH": "labirinto"
+		},
+		{
+			"UNDERWORLD": "submundo"
+		},
+		{
+			"RUINS": "ruínas"
+		},
+		{
+			"HELL": "inferno"
+		},
+		{
+			"CRYSTAL CAVES": "cavernas de cristal"
+		},
+		{
+			"ARCANE CITADEL": "cidadela arcana"
+		},
+		{
+			"    STATIONS": "-"
+		},
+		{
+			"SHOP": "loja"
+		},
+		{
+			"SINK": "pia"
+		},
+		{
+			"CAULDRON": "caldeirão"
+		},
+		{
+			"WORKBENCH": "bancada"
+		},
+		{
+			"FOUNTAIN": "fonte"
+		},
+		{
+			"CHEST": "baú"
+		},
+		{
+			"GRAVESTONE": "lápide"
+		},
+		{
+			"ASSIST SHRINE": "santuário de assistência"
+		},
+		{
+			"DAEDALUS SHRINE": "dédalo"
+		},
+		{
+			"OBELISK": "obelisco"
+		},
+		{
+			"BELL": "sino"
+		},
+		{
+			"    TRAPS": "-"
+		},
+		{
+			"BOULDER TRAP": "armadilha de pedregulho"
+		},
+		{
+			"ARROW TRAP": "armadilha de flechas"
+		},
+		{
+			"SPIKE TRAP": "armadilhas de espinhos"
+		},
+		{
+			"MAGIC TRAP": "armadilha mágica"
+		},
+		{
+			"SUMMONING TRAP": "armadilha de invocação"
+		},
+		{
+			"BRIMSTONE BOULDER": "pedregulho de enxofre"
+		},
+		{
+			"ARCANE BOULDER": "pedregulho arcano"
+		},
+		{
+			"CEILING TRAP": "armadilha de teto"
+		},
+		{
+			"    SECRET PLACES": "-"
+		},
+		{
+			"GNOMISH MINES": "minas gnômicas"
+		},
+		{
+			"MINETOWN": "vila mineira"
+		},
+		{
+			"TEMPLE": "templo"
+		},
+		{
+			"HAUNTED CASTLE": "castelo assombrado"
+		},
+		{
+			"SOKOBAN": "sokoban"
+		},
+		{
+			"MINOTAUR MAZE": "labirinto do minotauro"
+		},
+		{
+			"MYSTIC LIBRARY": "biblioteca mística"
+		},
+		{
+			"COCKATRICE LAIR": "covil da cocatriz"
+		},
+		{
+			"BRAM'S CASTLE": "castelo de bram"
+		},
+		{
+			"    GUILD LORE": "-"
+		},
+		{
+			"MERCHANTS' GUILD": "guilda dos mercadores"
+		},
+		{
+			"MAGICIANS' GUILD": "guilda dos magos"
+		},
+		{
+			"HUNTERS' GUILD": "guilda dos caçadores"
+		},
+		{
+			"THE CHURCH": "a igreja"
+		},
+		{
+			"MASONS' GUILD": "guilda dos pedreiros"
+		}
+	],
+	"contents_alphabetical": [
+		{
+			"ARCANE BOULDER": "pedregulho arcano"
+		},
+		{
+			"ARCANE CITADEL": "cidadela arcana"
+		},
+		{
+			"ARROW TRAP": "armadilha de flechas"
+		},
+		{
+			"ASSIST SHRINE": "santuário de assistência"
+		},
+		{
+			"BELL": "sino"
+		},
+		{
+			"BOULDER TRAP": "armadilha de pedregulho"
+		},
+		{
+			"BRAM'S CASTLE": "castelo de bram"
+		},
+		{
+			"BREAKABLE BARRIERS": "barreiras quebráveis"
+		},
+		{
+			"BRIMSTONE BOULDER": "pedregulho de enxofre"
+		},
+		{
+			"BUTTON": "botão"
+		},
+		{
+			"CAULDRON": "caldeirão"
+		},
+		{
+			"CEILING TRAP": "armadilha de teto"
+		},
+		{
+			"CHEST": "baú"
+		},
+		{
+			"CITADEL SANCTUM": "santuário da cidadela"
+		},
+		{
+			"COCKATRICE LAIR": "covil da cocatriz"
+		},
+		{
+			"CONTAINERS": "recipientes"
+		},
+		{
+			"CRYSTAL CAVES": "cavernas de cristal"
+		},
+		{
+			"DAEDALUS SHRINE": "dédalo"
+		},
+		{
+			"DOOR": "porta"
+		},
+		{
+			"FOUNTAIN": "fonte"
+		},
+		{
+			"GATE": "grade"
+		},
+		{
+			"GNOMISH MINES": "minas gnômicas"
+		},
+		{
+			"GRAVESTONE": "lápide"
+		},
+		{
+			"HALL OF TRIALS": "saguão das provas"
+		},
+		{
+			"HAMLET": "hamlet"
+		},
+		{
+			"HAUNTED CASTLE": "castelo assombrado"
+		},
+		{
+			"HELL": "inferno"
+		},
+		{
+			"HUNTERS' GUILD": "guilda dos caçadores"
+		},
+		{
+			"LABYRINTH": "labirinto"
+		},
+		{
+			"LAVA": "lava"
+		},
+		{
+			"LEVER": "alavanca"
+		},
+		{
+			"LICH'S BASTION": "covil de herx"
+		},
+		{
+			"MAGIC TRAP": "armadilha mágica"
+		},
+		{
+			"MAGICIANS' GUILD": "guilda dos magos"
+		},
+		{
+			"MASONS' GUILD": "guilda dos pedreiros"
+		},
+		{
+			"MERCHANTS' GUILD": "guilda dos mercadores"
+		},
+		{
+			"MINEHEAD": "entrada da mina"
+		},
+		{
+			"MINES": "minas"
+		},
+		{
+			"MINETOWN": "vila mineira"
+		},
+		{
+			"MINOTAUR MAZE": "labirinto do minotauro"
+		},
+		{
+			"MURKY WATER": "água turva"
+		},
+		{
+			"MYSTIC LIBRARY": "biblioteca mística"
+		},
+		{
+			"OBELISK": "obelisco"
+		},
+		{
+			"PITS": "poços"
+		},
+		{
+			"RUINS": "ruínas"
+		},
+		{
+			"SHOP": "loja"
+		},
+		{
+			"SINK": "pia"
+		},
+		{
+			"SOKOBAN": "sokoban"
+		},
+		{
+			"SPIKE TRAP": "armadilhas de espinhos"
+		},
+		{
+			"SUMMONING TRAP": "armadilha de invocação"
+		},
+		{
+			"SWAMPS": "pântanos"
+		},
+		{
+			"TEMPLE": "templo"
+		},
+		{
+			"THE CHURCH": "a igreja"
+		},
+		{
+			"THE MOLTEN THRONE": "trono de magma"
+		},
+		{
+			"TRANSITION FLOOR": "andar de transição"
+		},
+		{
+			"UNDERWORLD": "submundo"
+		},
+		{
+			"WALL LOCKS": "fechaduras de parede"
+		},
+		{
+			"WORKBENCH": "caldeirão"
+		}
+	]
+}

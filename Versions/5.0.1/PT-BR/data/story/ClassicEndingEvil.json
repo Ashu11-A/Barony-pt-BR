@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "*3Vitorioso, você entra no portal. Você não sabe o que esperar, mas\\n",
+        "está inundado de deleite. Você espera que a fonte do poder do Barão\\n",
+        "esteja agora ao seu alcance.\\n^",
+        "*3Antes que tenha tempo de pensar, você está subitamente diante das minas\\n",
+        "mais uma vez. Mas algo está diferente; o poder sedutor que você sentiu aqui\\n",
+        "está mais longe. Os céus negros estão clareando para mostrar a luz do dia.\\n^",
+        "*3De repente, as portas da mina se abrem totalmente. Seladas por séculos para conter\\n",
+        "o mal em seu interior, elas se abrem de dentro para fora, enquanto cem humanos agradecidos\\n",
+        "correm para fora. Parece que o poder do Barão escapou por entre seus dedos.\\n^",
+        "*4A fonte infernal desse poder sombrio permanece um mistério para você, e algumas\\n",
+        "escutas nas sombras o levam a acreditar que a Guilda dos Magos\\n",
+        "pode ter uma pista sobre alguma magia negra. Por enquanto, você decide deixar esta terra\\n",
+        "e retornar em outro momento para explorar os segredos de Hamlet..."
+    ],
+    "images": [
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/intro4.png",
+        "*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+        "*images/ui/Main Menus/Story/MagiciansGuild.png"
+    ]
+}

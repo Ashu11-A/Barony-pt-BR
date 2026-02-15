@@ -1,0 +1,520 @@
+{
+	"version": 1,
+	"contents": [
+		{
+			"    ARMOR": "-"
+		},
+		{
+			"SHIELDS": "escudos"
+		},
+		{
+			"LEATHER ARMOR": "armadura de couro"
+		},
+		{
+			"QUILTED ARMOR": "armadura acolchoada"
+		},
+		{
+			"CHAIN ARMOR": "armadura de malha"
+		},
+		{
+			"IRON ARMOR": "armadura de ferro"
+		},
+		{
+			"STEEL ARMOR": "armadura de aço"
+		},
+		{
+			"CRYSTAL ARMOR": "armadura de cristal"
+		},
+		{
+			"SPHINX'S CASQUE": "casco da esfinge"
+		},
+		{
+			"ORACLE'S TREADS": "passos do oráculo"
+		},
+		{
+			"DJINNI'S BRACE": "suporte do gênio"
+		},
+		{
+			"DRAGON'S MAIL": "malha de dragão"
+		},
+		{
+			"WRAITH'S GOWN": "túnica do espectro"
+		},
+		{
+			"    CLOTHING": "-"
+		},
+		{
+			"HATS & HOODS": "chapéus e capuzes"
+		},
+		{
+			"CROWNS & HEADDRESSES": "coroas e adornos"
+		},
+		{
+			"FACE ACCESSORIES": "acessórios de rosto"
+		},
+		{
+			"MASKS & VISORS": "máscaras e visores"
+		},
+		{
+			"CLOAKS & CLOTHING": "capas e roupas"
+		},
+		{
+			"BACKPACKS": "mochilas"
+		},
+		{
+			"    MELEE WEAPONS": "-"
+		},
+		{
+			"SWORDS": "espadas"
+		},
+		{
+			"GREATSWORDS": "espadas montantes"
+		},
+		{
+			"RAPIER": "rapieira"
+		},
+		{
+			"AXES": "machados"
+		},
+		{
+			"MACES": "maças"
+		},
+		{
+			"FLAILS": "mangual"
+		},
+		{
+			"SHILLELAGH": "shillelagh"
+		},
+		{
+			"POLEARMS": "armas de haste"
+		},
+		{
+			"DYRNWYN": "dyrnwyn"
+		},
+		{
+			"PARASHU": "parashu"
+		},
+		{
+			"SHARUR": "sharur"
+		},
+		{
+			"GUNGNIR": "gungnir"
+		},
+		{
+			"FIST WEAPONS": "armas de punho"
+		},
+		{
+			"WHIP": "chicote"
+		},
+		{
+			"    MISSILE WEAPONS": "-"
+		},
+		{
+			"SLINGSHOT": "estilingue"
+		},
+		{
+			"BOWS": "arcos"
+		},
+		{
+			"CROSSBOW": "besta"
+		},
+		{
+			"ARBALEST": "arbalesta"
+		},
+		{
+			"KHRYSELAKATOS": "khryselakatos"
+		},
+		{
+			"SWIFT & SPRINGSHOT AMMO": "munição rápida e de mola"
+		},
+		{
+			"SILVER & PIERCING AMMO": "munição de prata e perfurante"
+		},
+		{
+			"FIRE & HUNTING AMMO": "munição de fogo e caça"
+		},
+		{
+			"CRYSTAL AMMO": "munição de cristal"
+		},
+		{
+			"    THROWING WEAPONS": "-"
+		},
+		{
+			"TOMAHAWKS & DAGGERS": "tomahawks e adagas"
+		},
+		{
+			"CHAKRAMS & SHURIKENS": "chakrams e shurikens"
+		},
+		{
+			"BOOMERANG": "bumerangue"
+		},
+		{
+			"BOLAS": "bolas"
+		},
+		{
+			"SLUDGE BALLS": "bolas de lodo"
+		},
+		{
+			"    CRYSTALS": "-"
+		},
+		{
+			"ROCKS & GEMS": "pedras e gemas"
+		},
+		{
+			"CRYSTAL SHARD": "fragmento de cristal"
+		},
+		{
+			"MYSTIC ORB": "orbe mística"
+		},
+		{
+			"    FOOD": "-"
+		},
+		{
+			"MORSELS": "queijo e maçãs"
+		},
+		{
+			"CREAM PIE": "torta de creme"
+		},
+		{
+			"TOMALLEY": "tomalley"
+		},
+		{
+			"MEALS": "carne, peixe e pão"
+		},
+		{
+			"RATIONS": "rações"
+		},
+		{
+			"TIN & TIN OPENER": "lata e abridor de latas"
+		},
+		{
+			"BLOOD VIALS": "frascos de sangue"
+		},
+		{
+			"    POTIONS & DRINKS": "-"
+		},
+		{
+			"WATER": "água"
+		},
+		{
+			"EMPTY BOTTLE": "garrafa vazia"
+		},
+		{
+			"DEFENSIVE POTIONS": "poções defensivas"
+		},
+		{
+			"OFFENSIVE POTIONS": "poções ofensivas"
+		},
+		{
+			"ALEMBIC": "alambique"
+		},
+		{
+			"    TOOLS": "-"
+		},
+		{
+			"TORCHES & LANTERNS": "tocha e lanterna"
+		},
+		{
+			"MIRRORS": "espelhos"
+		},
+		{
+			"TOWEL": "toalha"
+		},
+		{
+			"MINING PICK": "picareta de mineração"
+		},
+		{
+			"TINKERING KIT": "kit de funileiro"
+		},
+		{
+			"FRYPAN": "frigideira"
+		},
+		{
+			"LOCKPICK": "gazua"
+		},
+		{
+			"KEYS": "chaves"
+		},
+		{
+			"SKELETON KEY": "chave mestra"
+		},
+		{
+			"    GADGETS": "-"
+		},
+		{
+			"BEARTRAP": "armadilha de urso"
+		},
+		{
+			"NOISEMAKER": "fazedor de ruído"
+		},
+		{
+			"DUMMYBOT": "boneco de treino"
+		},
+		{
+			"SENTRY BOT & SPELLBOT": "sentinela robô e sentinela mágica"
+		},
+		{
+			"GYROBOT": "girobô"
+		},
+		{
+			"TINKERED TRAPS": "armadilhas de funileiro"
+		},
+		{
+			"TELEPORTATION TRAP": "armadilha de teletransporte"
+		},
+		{
+			"    OTHER": "-"
+		},
+		{
+			"MAIL & LORE BOOKS": "cartas e livros de história"
+		},
+		{
+			"DEATH BOX": "caixa de morte"
+		},
+		{
+			"DUCK": "pato"
+		}
+	],
+	"contents_alphabetical": [
+		{
+			"ALEMBIC": "alambique"
+		},
+		{
+			"ARBALEST": "arbalesta"
+		},
+		{
+			"AXES": "machados"
+		},
+		{
+			"BACKPACKS": "mochilas"
+		},
+		{
+			"BEARTRAP": "armadilha de urso"
+		},
+		{
+			"BLOOD VIALS": "frascos de sangue"
+		},
+		{
+			"BOLAS": "bolas"
+		},
+		{
+			"BOOMERANG": "bumerangue"
+		},
+		{
+			"BOWS": "arcos"
+		},
+		{
+			"CHAIN ARMOR": "armadura de malha"
+		},
+		{
+			"CHAKRAMS & SHURIKENS": "chakrams e shurikens"
+		},
+		{
+			"CLOAKS & CLOTHING": "capas e roupas"
+		},
+		{
+			"CREAM PIE": "torta de creme"
+		},
+		{
+			"CROSSBOW": "besta"
+		},
+		{
+			"CROWNS & HEADDRESSES": "coroas e adornos"
+		},
+		{
+			"CRYSTAL AMMO": "munição de cristal"
+		},
+		{
+			"CRYSTAL ARMOR": "armadura de cristal"
+		},
+		{
+			"CRYSTAL SHARD": "fragmento de cristal"
+		},
+		{
+			"DARTS & PLUMBATA": "dardos e plumbata"
+		},
+		{
+			"DEATH BOX": "caixa de morte"
+		},
+		{
+			"DEFENSIVE POTIONS": "poções defensivas"
+		},
+		{
+			"DJINNI'S BRACE": "suporte do gênio"
+		},
+		{
+			"DRAGON'S MAIL": "malha de dragão"
+		},
+		{
+			"DUCK": "pato"
+		},
+		{
+			"DUMMYBOT": "boneco de treino"
+		},
+		{
+			"DYRNWYN": "dyrnwyn"
+		},
+		{
+			"EMPTY BOTTLE": "garrafa vazia"
+		},
+		{
+			"FACE ACCESSORIES": "acessórios de rosto"
+		},
+		{
+			"FIRE & HUNTING AMMO": "munição de fogo e caça"
+		},
+		{
+			"FIST WEAPONS": "armas de punho"
+		},
+		{
+			"FLAILS": "mangual"
+		},
+		{
+			"FRYPAN": "frigideira"
+		},
+		{
+			"GREATSWORDS": "espadas montantes"
+		},
+		{
+			"GUNGNIR": "gungnir"
+		},
+		{
+			"GYROBOT": "girobô"
+		},
+		{
+			"HATS & HOODS": "chapéus e capuzes"
+		},
+		{
+			"IRON ARMOR": "armadura de ferro"
+		},
+		{
+			"KEYS": "chaves"
+		},
+		{
+			"KHRYSELAKATOS": "khryselakatos"
+		},
+		{
+			"LEATHER ARMOR": "armadura de couro"
+		},
+		{
+			"LOCKPICK": "gazua"
+		},
+		{
+			"MACES": "maças"
+		},
+		{
+			"MAIL & LORE BOOKS": "cartas e livros de história"
+		},
+		{
+			"MASKS & VISORS": "máscaras e visores"
+		},
+		{
+			"MEALS": "carne, peixe e pão"
+		},
+		{
+			"MINING PICK": "picareta de mineração"
+		},
+		{
+			"MIRRORS": "espelhos"
+		},
+		{
+			"MORSELS": "queijo e maçãs"
+		},
+		{
+			"MYSTIC ORB": "orbe mística"
+		},
+		{
+			"NOISEMAKER": "fazedor de ruído"
+		},
+		{
+			"OFFENSIVE POTIONS": "poções ofensivas"
+		},
+		{
+			"ORACLE'S TREADS": "passos do oráculo"
+		},
+		{
+			"PARASHU": "parashu"
+		},
+		{
+			"POLEARMS": "armas de haste"
+		},
+		{
+			"QUILTED ARMOR": "armadura acolchoada"
+		},
+		{
+			"RAPIER": "rapieira"
+		},
+		{
+			"RATIONS": "rações"
+		},
+		{
+			"ROCKS & GEMS": "pedras e gemas"
+		},
+		{
+			"SENTRY BOT & SPELLBOT": "sentinela robô e sentinela mágica"
+		},
+		{
+			"SHARUR": "sharur"
+		},
+		{
+			"SHIELDS": "escudos"
+		},
+		{
+			"SHILLELAGH": "shillelagh"
+		},
+		{
+			"SILVER & PIERCING AMMO": "munição de prata e perfurante"
+		},
+		{
+			"SKELETON KEY": "chave mestra"
+		},
+		{
+			"SLINGSHOT": "estilingue"
+		},
+		{
+			"SPHINX'S CASQUE": "casco da esfinge"
+		},
+		{
+			"STEEL ARMOR": "armadura de aço"
+		},
+		{
+			"SWIFT & SPRINGSHOT AMMO": "munição rápida e de mola"
+		},
+		{
+			"SWORDS": "espadas"
+		},
+		{
+			"TELEPORTATION TRAP": "armadilha de teletransporte"
+		},
+		{
+			"TIN & TIN OPENER": "lata e abridor de latas"
+		},
+		{
+			"TINKERED TRAPS": "armadilhas de funileiro"
+		},
+		{
+			"TINKERING KIT": "kit de funileiro"
+		},
+		{
+			"TOMAHAWKS & DAGGERS": "tomahawks e adagas"
+		},
+		{
+			"TOMALLEY": "tomalley"
+		},
+		{
+			"TORCHES & LANTERNS": "tocha e lanterna"
+		},
+		{
+			"TOWEL": "toalha"
+		},
+		{
+			"WATER": "água"
+		},
+		{
+			"WHIP": "chicote"
+		},
+		{
+			"WRAITH'S GOWN": "túnica do espectro"
+		}
+	]
+}

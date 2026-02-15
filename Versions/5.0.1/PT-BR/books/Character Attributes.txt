@@ -1,0 +1,30 @@
+    Atributos do Personagem
+
+    Por Mestre de Guilda Slovinick
+
+    Como os testes de saúde e caráter dos novos candidatos se tornaram uma prioridade após o Desastre de Summerset, que arruinou a celebração de feriado de todos na última temporada, tomei a iniciativa de criar um novo código de julgamento, organizado ao longo de seis eixos separados, para julgar as qualidades de qualquer pessoa em particular.
+
+        Fica estabelecido que, para cada uma dessas escalas, o ponto de referência pelo qual todos os níveis são julgados será 0, o que representa a média máxima de todos na guilda; e que um número positivo indicará um nível acima da média entre seus pares, enquanto um número negativo denotará o oposto.
+
+    Agora, aos atributos em si:
+
+Força (STR): Uma escala para representar a força de uma pessoa. Pessoas de maior força causam mais dano e podem carregar mais equipamentos sem se cansarem.
+
+Destreza (DEX): Uma escala para representar a velocidade e agilidade de uma pessoa. Pessoas de maior destreza podem se mover mais rápido e ter mais certeza em seus golpes, além de serem mais habilidosas com armas à distância.
+
+Constituição (CON): Uma escala para representar a fortitude de uma pessoa. Pessoas de maior constituição suportam dores e dificuldades melhor do que aqueles com menor, e também podem se recuperar mais rapidamente de doenças. (Nota do editor: pesquisas modernas podem refutar a última medida, pois descobrimos que o veneno de aranhas gigantes se resolve em cerca de 10 segundos na maioria dos casos.)
+
+Inteligência (INT): Uma escala para representar a astúcia de uma pessoa. Pessoas de maior inteligência podem deduzir e executar nossos métodos místicos e mágicos melhor do que aqueles com menos inteligência. Uma mente forte também está mais conectada às energias mágicas, permitindo um poder mágico e uma regeneração mais fortes.
+
+Percepção (PER): Uma escala para representar o poder dos sentidos de uma pessoa. Pessoas de maior percepção podem penetrar melhor nas sombras da noite do que aquelas com menor percepção, e seus sentidos aguçados proporcionam maior acuidade em tarefas muito precisas de pontaria e artesanato.
+
+Carisma (CHR): Uma escala para representar o charme de uma pessoa. Pessoas de maior carisma podem ter mais sorte na coação de outros, especialmente no comércio e no campo de batalha. Os aliados respondem ao chamado de um líder carismático mais rapidamente.
+
+    Que a Guilda dos Magos use este guia até que futuros mestres de guilda o considerem desnecessário.
+
+~ Mestre de Guilda Slovinick
+
+16/06/158
+
+
+

@@ -1,0 +1,1029 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial_huba": {
+            "sign": [
+                "Livros de Feitiços"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubb": {
+            "sign": [
+                "Itens",
+                "Mágicos"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubc": {
+            "sign": [
+                "Armas de",
+                "Alcance"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubd": {
+            "sign": [
+                "Armadura"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hube": {
+            "sign": [
+                "Armas",
+                "Brancas"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubf": {
+            "sign": [
+                "Bem-vindo",
+                "à Ala",
+                "do Mestre"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubg": {
+            "sign": [
+                "Teste 2:",
+                "",
+                "Arcos, Flechas e",
+                "Armas de Arremesso"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubh": {
+            "sign": [
+                "Teste 3:",
+                "",
+                "Armadilhas, Espinhos",
+                "e Pedregulhos"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubi": {
+            "sign": [
+                "Teste 4:",
+                "",
+                "Comida, Avaliação",
+                "e Maldições"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubj": {
+            "sign": [
+                "Teste 1:",
+                "",
+                "Básico da Masmorra",
+                "e Combate Corpo a Corpo",
+                "",
+                "LIÇÃO INTRODUTÓRIA"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial_hubk": {
+            "sign": [
+                "Você está no Salão Oeste",
+                "de frente para o Pátio",
+                "",
+                "O Pátio abriga",
+                "os Testes 5 - 8"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubl": {
+            "sign": [
+                "Entrando no Salão Oeste",
+                "",
+                "O Salão Oeste contém",
+                "os Testes 1 - 4"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubm": {
+            "sign": [
+                "Você pode pular ou completar",
+                "qualquer Teste como desejar.",
+                "",
+                "Alguns heróis dominam",
+                "todos os Testes."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubn": {
+            "sign": [
+                "Bem-vindo ao",
+                "Salão dos Testes",
+                "",
+                "Aqui você será",
+                "ensinado e testado"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubo": {
+            "sign": [
+                "Teste 5:",
+                "",
+                "Magia, Livros de Feitiços",
+                "e Conjuração"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubp": {
+            "sign": [
+                "Teste 6:",
+                "",
+                "Furtividade e",
+                "Ataques Furtivos"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubq": {
+            "sign": [
+                "Teste 7:",
+                "",
+                "Recrutamento e Comandos",
+                "de Seguidores",
+                "",
+                "LIÇÃO AVANÇADA"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubr": {
+            "sign": [
+                "Teste 8:",
+                "",
+                "Poções e Alquimia",
+                "",
+                "LIÇÃO AVANÇADA"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubs": {
+            "sign": [
+                "Aproximando-se do Salão Leste",
+                "",
+                "O Salão Leste abriga",
+                "os Testes 9 e 10"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubt": {
+            "sign": [
+                "Teste 9:",
+                "Funilaria",
+                "",
+                "LIÇÃO AVANÇADA"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubu": {
+            "sign": [
+                "Teste 10:",
+                "",
+                "Mercadores e Lojas",
+                "",
+                "LIÇÃO AVANÇADA"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubv": {
+            "sign": [
+                "Puxe a Alavanca para Gerar",
+                "um Monstro Aleatório",
+                "",
+                "AVISO:",
+                "Use por sua conta e risco."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubw": {
+            "sign": [
+                "Suprimentos",
+                "de Funilaria"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubx": {
+            "sign": [
+                "Suprimentos",
+                "de Alquimia"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_huby": {
+            "sign": [
+                "Trajes"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubz": {
+            "sign": [
+                "Aventureiros que bravam as",
+                "masmorras selecionam uma classe,",
+                "que determina habilidades",
+                "iniciais e equipamento.",
+                "",
+                "$ $ $",
+                "Todas as Classes podem se beneficiar",
+                "dos ensinamentos dos Testes."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Warrior_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Warrior_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Warrior_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial_hubab": {
+            "sign": [
+                "Seus atributos servem como base",
+                "para muitas ações e capacidades.",
+                "",
+                "$$$$$$",
+                "",
+                "Classes de Aventureiro começam",
+                "com valores de atributos diferentes,",
+                "e aumentam em taxas diferentes."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1
+                    ],
+                    [
+                        1,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial_hubac": {
+            "sign": [
+                "Quando nas masmorras, aventureiros",
+                "ganham pontos de experiência (XP)",
+                "por seus feitos.",
+                "",
+                "Após ganhar 100 XP, heróis",
+                "melhoram de nível, concedendo",
+                "atributos mais altos, pontos",
+                "de vida (HP) e de magia (MP)."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial_hubad": {
+            "sign": [
+                "Ao melhorar níveis nas masmorras,",
+                "aventureiros ganham um aumento",
+                "de +1 para 3 atributos diferentes.",
+                "",
+                "Outro aumento de +1 é concedido a",
+                "um 4º atributo, se o aventureiro",
+                "tiver focado seu treinamento."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        3,
+                        4,
+                        5
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial_class": {
+            "sign": [
+                "Pupilos bem-sucedidos frequentemente",
+                "se unem a outros graduados,",
+                "selecionando classes cujos talentos",
+                "se complementam.",
+                "",
+                "Isso melhora suas chances de",
+                "sucesso quando finalmente reúnem",
+                "coragem para buscar aventura",
+                "nas masmorras."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial_garden": {
+            "sign": [
+                "Jardim dos Aventureiros",
+                "",
+                "Sem testes além",
+                "deste ponto."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial_cy": {
+            "sign": [
+                "Pátio das Classes",
+                "",
+                "Busque a sabedoria",
+                "dos heróis dentro."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial_pupil": {
+            "sign": [
+                "Pupilos no Salão dos Testes",
+                "são proibidos de selecionar uma",
+                "classe de aventura enquanto aprendem.",
+                "Seus feitos aqui",
+                "serão esquecidos.",
+                "",
+                "Ao buscar aventura, graduados",
+                "podem ostentar um título de classe e",
+                "fazer um nome para si mesmos nos",
+                "Arquivos de Aventura."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial_quit": {
+            "sign": [
+                "Você sempre pode retornar",
+                "ao Salão dos Testes",
+                "para continuar as lições.",
+                "",
+                "Pressione$ e",
+                "[ Sair para o Menu Principal ]",
+                "se quiser ir",
+                "se aventurar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Pausar Jogo"
+                }
+            ]
+        }
+    }
+}

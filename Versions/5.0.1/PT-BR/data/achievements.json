@@ -1,0 +1,2607 @@
+{
+  "achievements": {
+    "BARONY_ACH_ENTER_THE_DUNGEON": {
+      "name": "Entre na Masmorra",
+      "description": "Desça para o nível 1 da masmorra.",
+      "lore_points": 10,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ENTER_THE_DUNGEON_l.png",
+      "icon_unlocked": "BARONY_ACH_ENTER_THE_DUNGEON.png"
+    },
+    "BARONY_ACH_5000_SECOND_RULE": {
+      "name": "Regra dos 5000 Segundos",
+      "description": "Pegue 50 itens de comida detectados como um Rato ao longo de várias jogadas.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_5000_SECOND_RULE_l.png",
+      "icon_unlocked": "BARONY_ACH_5000_SECOND_RULE.png"
+    },
+    "BARONY_ACH_ALL_IN_REFLEXES": {
+      "name": "Tudo nos Reflexos",
+      "description": "Pegue a arma de arremesso voadora de um Insetoide ou Homem-Bode.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_ALL_IN_REFLEXES_l.png",
+      "icon_unlocked": "BARONY_ACH_ALL_IN_REFLEXES.png"
+    },
+    "BARONY_ACH_ALWAYS_WAITING": {
+      "name": "...Sempre Estarão Esperando",
+      "description": "Ponha um fim aos problemas dos Arquimagos.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_ALWAYS_WAITING_l.png",
+      "icon_unlocked": "BARONY_ACH_ALWAYS_WAITING.png",
+      "hidden": true
+    },
+    "BARONY_ACH_ANGEL_OF_DEATH": {
+      "name": "Anjo da Morte",
+      "description": "Execute um ataque furtivo fatal em um inimigo que esteja atacando outro jogador ou NPC aliado.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_ANGEL_OF_DEATH_l.png",
+      "icon_unlocked": "BARONY_ACH_ANGEL_OF_DEATH.png"
+    },
+    "BARONY_ACH_ARCANE_LINK": {
+      "name": "Elo Arcano",
+      "description": "Ganhe Regeneração de Mana extra de duas fontes simultaneamente.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ARCANE_LINK_l.png",
+      "icon_unlocked": "BARONY_ACH_ARCANE_LINK.png"
+    },
+    "BARONY_ACH_ARSENAL": {
+      "name": "Arsenal",
+      "description": "Tenha uma besta, arco e todos os tipos de munição em seu inventário de uma vez como um Caçador.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ARSENAL_l.png",
+      "icon_unlocked": "BARONY_ACH_ARSENAL.png"
+    },
+    "BARONY_ACH_BACK_TO_BASICS": {
+      "name": "De Volta ao Básico",
+      "description": "Termine um Teste após ter encontrado um lich.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BACK_TO_BASICS_l.png",
+      "icon_unlocked": "BARONY_ACH_BACK_TO_BASICS.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BAD_BEAUTIFUL": {
+      "name": "Malvado & Bonito",
+      "description": "Equipe 4 itens amaldiçoados de uma vez como um Íncubo ou Súcubo verdadeiro.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAD_BEAUTIFUL_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BEAUTIFUL.png"
+    },
+    "BARONY_ACH_BAD_BLOOD": {
+      "name": "Sangue Ruim",
+      "description": "Roube 500 de Vida com ataques furtivos desarmados fatais como um Vampiro Amaldiçoado verdadeiro.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAD_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BLOOD.png"
+    },
+    "BARONY_ACH_BAD_BOY_BARON": {
+      "name": "Barão Bad Boy",
+      "description": "Escape da Cidadela como um Íncubo verdadeiro.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAD_BOY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BOY_BARON.png"
+    },
+    "BARONY_ACH_BAD_REVIEW": {
+      "name": "Avaliação Negativa para MLP",
+      "description": "Vandalize um mural equino.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BAD_REVIEW_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_REVIEW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BAD_ROMANCE": {
+      "name": "Romance Ruim",
+      "description": "Recrute dois íncubos ou súcubos simultaneamente como uma Súcubo verdadeira.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAD_ROMANCE_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_ROMANCE.png"
+    },
+    "BARONY_ACH_BAIT_AND_SWITCH": {
+      "name": "Isca e Troca",
+      "description": "Teletransporte enquanto um inimigo estiver te atacando em combate corpo a corpo como uma Súcubo verdadeira.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAIT_AND_SWITCH_l.png",
+      "icon_unlocked": "BARONY_ACH_BAIT_AND_SWITCH.png"
+    },
+    "BARONY_ACH_BARFIGHT_CHAMP": {
+      "name": "Campeão de Briga de Bar",
+      "description": "Soque 50 inimigos até a morte enquanto estiver bêbado como um Homem-Bode verdadeiro.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BARFIGHT_CHAMP_l.png",
+      "icon_unlocked": "BARONY_ACH_BARFIGHT_CHAMP.png"
+    },
+    "BARONY_ACH_BAYOU_BARON": {
+      "name": "Barão do Bayou",
+      "description": "Escape da Cidadela como um Goblin verdadeiro.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAYOU_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BAYOU_BARON.png"
+    },
+    "BARONY_ACH_BLEATING_BARON": {
+      "name": "Barão Balhante",
+      "description": "Escape da Cidadela jogando como um verdadeiro Homem-Bode de qualquer classe.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLEATING_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BLEATING_BARON.png"
+    },
+    "BARONY_ACH_BLESSED": {
+      "name": "#Blessed",
+      "description": "Carregue uma Arma +10.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BLESSED_l.png",
+      "icon_unlocked": "BARONY_ACH_BLESSED.png"
+    },
+    "BARONY_ACH_BLOOD_BOIL": {
+      "name": "Faz seu Sangue Ferver",
+      "description": "Descubra os efeitos da água como um verdadeiro Vampiro.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_BOIL_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_BOIL.png"
+    },
+    "BARONY_ACH_BLOOD_IS_THE_LIFE": {
+      "name": "O Sangue é a Vida",
+      "description": "Escape da Cidadela como a classe Maldito sem ser curado e com a fome ativada.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_IS_THE_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_IS_THE_LIFE.png"
+    },
+    "BARONY_ACH_BLOOD_RUNS_CLEAR": {
+      "name": "Sangue Purificado",
+      "description": "Alcance o nível Lendário de Furtividade enquanto joga com a classe Maldito.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_RUNS_CLEAR_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_RUNS_CLEAR.png"
+    },
+    "BARONY_ACH_BLOOD_SPORT": {
+      "name": "Esporte Sangrento",
+      "description": "Assassine 50 alvos enquanto estiver invisível como um verdadeiro Vampiro.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_SPORT_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_SPORT.png"
+    },
+    "BARONY_ACH_BLOOD_VESSELS": {
+      "name": "Vasos Sanguíneos",
+      "description": "Acumule 20 frascos de sangue de uma vez como um Vampiro verdadeiro.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_VESSELS_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_VESSELS.png"
+    },
+    "BARONY_ACH_BODYGUARDS": {
+      "name": "Guarda-Costas",
+      "description": "Tenha 2 Golems de Cristal Dominados sob sua liderança.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BODYGUARDS_l.png",
+      "icon_unlocked": "BARONY_ACH_BODYGUARDS.png"
+    },
+    "BARONY_ACH_BOILERPLATE_BARON": {
+      "name": "Barão de Lata",
+      "description": "Escape da Cidadela como um Autômato verdadeiro.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BOILERPLATE_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOILERPLATE_BARON.png"
+    },
+    "BARONY_ACH_BOMBARDIER": {
+      "name": "Bombardeiro",
+      "description": "Mate 50 inimigos com poções arremessadas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BOMBARDIER_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBARDIER.png"
+    },
+    "BARONY_ACH_BOMBSHELL_BARON": {
+      "name": "Barão Bomba",
+      "description": "Escape da Cidadela jogando como uma Súcubo verdadeira de qualquer classe.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BOMBSHELL_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBSHELL_BARON.png"
+    },
+    "BARONY_ACH_BOMBTRACK": {
+      "name": "Rastro de Bomba",
+      "description": "Tenha 5 bombas acionadas por um único inimigo dentro de 5 segundos.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BOMBTRACK_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBTRACK.png"
+    },
+    "BARONY_ACH_BOMB_SQUAD": {
+      "name": "Esquadrão Antibombas",
+      "description": "Desarme com sucesso 5 Autômatos usando Arrombamento.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BOMB_SQUAD_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMB_SQUAD.png"
+    },
+    "BARONY_ACH_BONEHEADED": {
+      "name": "Cabeça-Dura",
+      "description": "\"Coma\" comida como um esqueleto.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONEHEADED_l.png",
+      "icon_unlocked": "BARONY_ACH_BONEHEADED.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BONE_TO_PICK": {
+      "name": "Osso Duro de Roer",
+      "description": "Tenha um familiar invocado atingindo o nível 35.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONE_TO_PICK_l.png",
+      "icon_unlocked": "BARONY_ACH_BONE_TO_PICK.png"
+    },
+    "BARONY_ACH_BONY_BARON": {
+      "name": "Barão Ossudo",
+      "description": "Escape da Cidadela jogando como um Esqueleto verdadeiro de qualquer classe.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BONY_BARON.png"
+    },
+    "BARONY_ACH_BOOKWORM": {
+      "name": "Traça de Livros",
+      "description": "Ganhe 50 Níveis de Magia lendo ou conjurando de Livros de Feitiços como um Insetoide verdadeiro ao longo de várias jogadas.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BOOKWORM_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOKWORM.png"
+    },
+    "BARONY_ACH_BOOTS_OF_SPEED": {
+      "name": "Botas de Velocidade",
+      "description": "Derrote o Barão Herx ou Baphomet em 20 minutos ou menos.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BOOTS_OF_SPEED_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOTS_OF_SPEED.png"
+    },
+    "BARONY_ACH_BORN_AGAIN": {
+      "name": "Nascido de Novo",
+      "description": "Sobreviva à morte instantânea com um amuleto de salvar vidas.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOTTLE_NOSED": {
+      "name": "Nariz de Garrafa",
+      "description": "Encontre poções extras em fontes 20 vezes como um homem-bode verdadeiro.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BOTTLE_NOSED_l.png",
+      "icon_unlocked": "BARONY_ACH_BOTTLE_NOSED.png"
+    },
+    "BARONY_ACH_BRAWLER": {
+      "name": "Brigão",
+      "description": "Obtenha a vitória na Cidadela atacando apenas com seus punhos e arremessando poções desde o início do jogo.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BRAWLER_l.png",
+      "icon_unlocked": "BARONY_ACH_BRAWLER.png"
+    },
+    "BARONY_ACH_BRING_A_TOWEL": {
+      "name": "Não Esqueça de Trazer uma Toalha!",
+      "description": "Use uma toalha para parar sangramento, limpar torta do rosto e limpar graxa das mãos.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BRING_A_TOWEL_l.png",
+      "icon_unlocked": "BARONY_ACH_BRING_A_TOWEL.png"
+    },
+    "BARONY_ACH_BUCKTOOTH_BARON": {
+      "name": "Barão Dentuço",
+      "description": "Escape da Cidadela jogando como um Vampiro verdadeiro de qualquer classe.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BUCKTOOTH_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BUCKTOOTH_BARON.png"
+    },
+    "BARONY_ACH_BUGGAR_BARON": {
+      "name": "Barão Inseto",
+      "description": "Escape da Cidadela como um Insetoide verdadeiro.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BUGGAR_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BUGGAR_BARON.png"
+    },
+    "BARONY_ACH_BUT_A_SCRATCH": {
+      "name": "É Apenas um Arranhão!",
+      "description": "Derrote um inimigo poderoso restando não mais que 5 pontos de vida.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BUT_A_SCRATCH_l.png",
+      "icon_unlocked": "BARONY_ACH_BUT_A_SCRATCH.png"
+    },
+    "BARONY_ACH_CALM_LIKE_A_BOMB": {
+      "name": "Calmo Como uma Bomba",
+      "description": "Jogue uma bomba de dano em um inimigo que foi adormecido por uma bomba de sono.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_CALM_LIKE_A_BOMB_l.png",
+      "icon_unlocked": "BARONY_ACH_CALM_LIKE_A_BOMB.png"
+    },
+    "BARONY_ACH_CAUGHT_IN_A_MOSH": {
+      "name": "Preso no Mosh",
+      "description": "Tenha pelo menos 4 sentinelas mirando no mesmo monstro de uma vez.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_CAUGHT_IN_A_MOSH_l.png",
+      "icon_unlocked": "BARONY_ACH_CAUGHT_IN_A_MOSH.png"
+    },
+    "BARONY_ACH_CHEERS": {
+      "name": "Saúde!",
+      "description": "Jogue bebida em outro personagem enquanto estiver sob seus efeitos.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CHEERS_l.png",
+      "icon_unlocked": "BARONY_ACH_CHEERS.png"
+    },
+    "BARONY_ACH_CHOPPING_BLOCK": {
+      "name": "Cepo de Decapitação",
+      "description": "Mate 50 inimigos incapacitados por efeitos de lentidão, sono ou paralisia com um machado como um Justiceiro ao longo de várias jogadas.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_CHOPPING_BLOCK_l.png",
+      "icon_unlocked": "BARONY_ACH_CHOPPING_BLOCK.png"
+    },
+    "BARONY_ACH_CHOSEN_ONE": {
+      "name": "Você Era o Escolhido!",
+      "description": "Morra enquanto equipado com um item Lendário.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CHOSEN_ONE_l.png",
+      "icon_unlocked": "BARONY_ACH_CHOSEN_ONE.png"
+    },
+    "BARONY_ACH_COCK_BLOCK": {
+      "name": "Bloqueio de Galo",
+      "description": "Bloqueie e não tome dano contra um ataque corpo a corpo de uma Cocatrice.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_COCK_BLOCK_l.png",
+      "icon_unlocked": "BARONY_ACH_COCK_BLOCK.png"
+    },
+    "BARONY_ACH_COLD_BLOODED": {
+      "name": "Sangue Frio",
+      "description": "Escape das Minas em um jogo cooperativo onde um Vampiro verdadeiro e um Insetoide estejam no grupo.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_COLD_BLOODED_l.png",
+      "icon_unlocked": "BARONY_ACH_COLD_BLOODED.png"
+    },
+    "BARONY_ACH_COMEDIAN": {
+      "name": "Comediante",
+      "description": "Equipe a arma e a capa do Funny Bones sem nenhum outro equipamento como um esqueleto.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_COMEDIAN_l.png",
+      "icon_unlocked": "BARONY_ACH_COMEDIAN.png"
+    },
+    "BARONY_ACH_COMMANDER_CHIEF": {
+      "name": "Comandante em Chefe",
+      "description": "Escape da Cidadela jogando como a classe Mesmer de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_COMMANDER_CHIEF_l.png",
+      "icon_unlocked": "BARONY_ACH_COMMANDER_CHIEF.png"
+    },
+    "BARONY_ACH_CONFESSOR": {
+      "name": "Confessor",
+      "description": "Domine um NPC que já seja seu aliado.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CONFESSOR_l.png",
+      "icon_unlocked": "BARONY_ACH_CONFESSOR.png"
+    },
+    "BARONY_ACH_COWBOY_FROM_HELL": {
+      "name": "Cowboy do Inferno",
+      "description": "Mate 50 inimigos com o chicote logo após teletransportá-los ao longo de várias jogadas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_COWBOY_FROM_HELL_l.png",
+      "icon_unlocked": "BARONY_ACH_COWBOY_FROM_HELL.png"
+    },
+    "BARONY_ACH_CULT_FOLLOWING": {
+      "name": "Seguidores da Seita",
+      "description": "Saia do Covil da Cocatrice.",
+      "lore_points": 3,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_CULT_FOLLOWING_l.png",
+      "icon_unlocked": "BARONY_ACH_CULT_FOLLOWING.png"
+    },
+    "BARONY_ACH_DESPAIR_CALMS": {
+      "name": "O Desespero Tem Sua Própria Calma",
+      "description": "Saia do Castelo de Bram.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_DESPAIR_CALMS_l.png",
+      "icon_unlocked": "BARONY_ACH_DESPAIR_CALMS.png"
+    },
+    "BARONY_ACH_DIPLOMA": {
+      "name": "Diploma",
+      "description": "Complete todos os Testes no Salão dos Testes.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_DIPLOMA_l.png",
+      "icon_unlocked": "BARONY_ACH_DIPLOMA.png"
+    },
+    "BARONY_ACH_DRUNK_POWER": {
+      "name": "Bêbado de Poder",
+      "description": "Escape da Cidadela jogando como a classe Cervejeiro de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_DRUNK_POWER_l.png",
+      "icon_unlocked": "BARONY_ACH_DRUNK_POWER.png"
+    },
+    "BARONY_ACH_DYSLEXIA": {
+      "name": "Dislexia",
+      "description": "Queime 50 livros de feitiços até as cinzas como um Goblin ao longo de várias jogadas.",
+      "lore_points": 3,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_DYSLEXIA_l.png",
+      "icon_unlocked": "BARONY_ACH_DYSLEXIA.png"
+    },
+    "BARONY_ACH_EARN_THIS": {
+      "name": "Mereça Isso",
+      "description": "Dê um item Lendário para um NPC Aliado.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_EARN_THIS_l.png",
+      "icon_unlocked": "BARONY_ACH_EARN_THIS.png"
+    },
+    "BARONY_ACH_ESCORT": {
+      "name": "Escolta",
+      "description": "Retorne a Hamlet com um NPC humano aliado.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_ESCORT_l.png",
+      "icon_unlocked": "BARONY_ACH_ESCORT.png"
+    },
+    "BARONY_ACH_EVIL_INCARNATE": {
+      "name": "Mal Encarnado",
+      "description": "Encontre e derrote o Baphomet.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_EVIL_INCARNATE_l.png",
+      "icon_unlocked": "BARONY_ACH_EVIL_INCARNATE.png"
+    },
+    "BARONY_ACH_EXPELLED": {
+      "name": "Expulso",
+      "description": "Morra no hub do Salão de Julgamentos.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_EXPELLED_l.png",
+      "icon_unlocked": "BARONY_ACH_EXPELLED.png",
+      "hidden": true
+    },
+    "BARONY_ACH_EXTERNAL_BATTERY": {
+      "name": "Bateria Externa",
+      "description": "Renuncie à alma de um familiar invocado enquanto estiver com zero MP.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_EXTERNAL_BATTERY_l.png",
+      "icon_unlocked": "BARONY_ACH_EXTERNAL_BATTERY.png"
+    },
+    "BARONY_ACH_EXTRA_CREDIT": {
+      "name": "Crédito Extra",
+      "description": "Encontre uma área secreta em cada um dos 10 Julgamentos no Salão de Julgamentos.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_EXTRA_CREDIT_l.png",
+      "icon_unlocked": "BARONY_ACH_EXTRA_CREDIT.png"
+    },
+    "BARONY_ACH_FACES_OF_DEATH": {
+      "name": "Faces da Morte",
+      "description": "Escape das Minas em um jogo cooperativo onde um Xamã e um Conjurador estão no grupo.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_FACES_OF_DEATH_l.png",
+      "icon_unlocked": "BARONY_ACH_FACES_OF_DEATH.png"
+    },
+    "BARONY_ACH_FAMILY_REUNION": {
+      "name": "Reunião de Família",
+      "description": "Recrute três aliados Homens-Bode como um verdadeiro Homem-Bode.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_FAMILY_REUNION_l.png",
+      "icon_unlocked": "BARONY_ACH_FAMILY_REUNION.png"
+    },
+    "BARONY_ACH_FASCIST": {
+      "name": "Fascist",
+      "description": "Consuma 50 livros ou pergaminhos não mágicos como um verdadeiro Autômato ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FASCIST_l.png",
+      "icon_unlocked": "BARONY_ACH_FASCIST.png"
+    },
+    "BARONY_ACH_FAST_LEARNER": {
+      "name": "Aprendiz Rápido",
+      "description": "Complete todos os Julgamentos com um tempo total combinado de menos de 20 minutos.",
+      "lore_points": 4,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_FAST_LEARNER_l.png",
+      "icon_unlocked": "BARONY_ACH_FAST_LEARNER.png"
+    },
+    "BARONY_ACH_FELL_BEAST": {
+      "name": "Besta Terrível",
+      "description": "Cause uma quantidade muito grande de dano a um inimigo usando uma arma à distância com um único tiro.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_FELL_BEAST_l.png",
+      "icon_unlocked": "BARONY_ACH_FELL_BEAST.png"
+    },
+    "BARONY_ACH_FILTHY_RICH": {
+      "name": "Podre de Rico",
+      "description": "Obtenha 10.000 de ouro.",
+      "lore_points": 1,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_FILTHY_RICH_l.png",
+      "icon_unlocked": "BARONY_ACH_FILTHY_RICH.png"
+    },
+    "BARONY_ACH_FIRE_MAYBE_DIFFERENT": {
+      "name": "Talvez Seja Diferente",
+      "description": "Leia dois pergaminhos de fogo.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FIRE_MAYBE_DIFFERENT_l.png",
+      "icon_unlocked": "BARONY_ACH_FIRE_MAYBE_DIFFERENT.png",
+      "hidden": true
+    },
+    "BARONY_ACH_FIXER_UPPER": {
+      "name": "Fixer-Upper",
+      "description": "Repare ou Desmonte 100 armadilhas aprimoradas e aliados mecânicos.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FIXER_UPPER_l.png",
+      "icon_unlocked": "BARONY_ACH_FIXER_UPPER.png"
+    },
+    "BARONY_ACH_FLUTTERSHY": {
+      "name": "Flutter Shy",
+      "description": "Ganhe acesso a uma área inacessível do nível usando o Flutter.",
+      "lore_points": 1,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FLUTTERSHY_l.png",
+      "icon_unlocked": "BARONY_ACH_FLUTTERSHY.png"
+    },
+    "BARONY_ACH_FOODLESS_CONDUCT": {
+      "name": "Conduta Sem Comida",
+      "description": "Vença o jogo sem comer nenhuma comida.",
+      "lore_points": 4,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FOODLESS_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_FOODLESS_CONDUCT.png"
+    },
+    "BARONY_ACH_FORUM_TROLL": {
+      "name": "Troll de Fórum",
+      "description": "Adquira 3 aliados Trolls, quebre 3 paredes e conjure Medo em 3 personagens como um Troll em uma única partida.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FORUM_TROLL_l.png",
+      "icon_unlocked": "BARONY_ACH_FORUM_TROLL.png"
+    },
+    "BARONY_ACH_FREE_REFILLS": {
+      "name": "Refil Grátis",
+      "description": "Encha 50 garrafas vazias em pias ou fontes.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FREE_REFILLS_l.png",
+      "icon_unlocked": "BARONY_ACH_FREE_REFILLS.png"
+    },
+    "BARONY_ACH_FUNCTIONAL": {
+      "name": "Funcional",
+      "description": "Cure sua ressaca 10 vezes em uma única partida como um verdadeiro Homem-Bode.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_FUNCTIONAL_l.png",
+      "icon_unlocked": "BARONY_ACH_FUNCTIONAL.png"
+    },
+    "BARONY_ACH_GASTRIC_BYPASS": {
+      "name": "Bypass Gástrico",
+      "description": "Mate um inimigo com um feitiço que te deixe com 5 ou menos de Energia como um verdadeiro Insetoide.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_GASTRIC_BYPASS_l.png",
+      "icon_unlocked": "BARONY_ACH_GASTRIC_BYPASS.png"
+    },
+    "BARONY_ACH_GIFTS_ETERNALS": {
+      "name": "Presentes dos Eternos",
+      "description": "Obtenha e vista um conjunto completo de Armadura de Artefato.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GIFTS_ETERNALS_l.png",
+      "icon_unlocked": "BARONY_ACH_GIFTS_ETERNALS.png"
+    },
+    "BARONY_ACH_GILDED": {
+      "name": "Gilded",
+      "description": "Obtenha 100.000 de ouro.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GILDED_l.png",
+      "icon_unlocked": "BARONY_ACH_GILDED.png"
+    },
+    "BARONY_ACH_GOODNIGHT_SWEET_PRINCE": {
+      "name": "Boa Noite, Doce Príncipe",
+      "description": "Assista seu Gyrobot ser esmagado por uma pedra.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_GOODNIGHT_SWEET_PRINCE_l.png",
+      "icon_unlocked": "BARONY_ACH_GOODNIGHT_SWEET_PRINCE.png",
+      "hidden": true
+    },
+    "BARONY_ACH_GUDIPARIAN_BAZI": {
+      "name": "Gudiparan Bazi",
+      "description": "Escape da Cidadela sem nunca atingir um inimigo com uma arma branca como um Caçador desde o início do jogo.",
+      "lore_points": 5,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_GUDIPARAN_BAZI_l.png",
+      "icon_unlocked": "BARONY_ACH_GUDIPARAN_BAZI.png"
+    },
+    "BARONY_ACH_GUERILLA_RADIO": {
+      "name": "Guerilla Radio",
+      "description": "Mate 20 inimigos que estão sendo atraídos por um Emissor de Ruído.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_GUERILLA_RADIO_l.png",
+      "icon_unlocked": "BARONY_ACH_GUERILLA_RADIO.png"
+    },
+    "BARONY_ACH_HARDCORE": {
+      "name": "Hardcore Clássico",
+      "description": "Termine o jogo do início ao fim com os modos Clássico e Hardcore ativados.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HARDCORE_l.png",
+      "icon_unlocked": "BARONY_ACH_HARDCORE.png"
+    },
+    "BARONY_ACH_HEAL_BOT": {
+      "name": "Robô de Cura",
+      "description": "Cure 1000 pontos de vida de jogadores ou NPCs aliados em uma única partida.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_HEAL_BOT_l.png",
+      "icon_unlocked": "BARONY_ACH_HEAL_BOT.png"
+    },
+    "BARONY_ACH_HOMICIDAL_MANIAC": {
+      "name": "Maníaco Homicida",
+      "description": "Mate pelo menos 10 humanos em um único jogo.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HOMICIDAL_MANIAC_l.png",
+      "icon_unlocked": "BARONY_ACH_HOMICIDAL_MANIAC.png"
+    },
+    "BARONY_ACH_HOT_SHOWER": {
+      "name": "Banho Quente",
+      "description": "Use uma pia ou fonte para apagar chamas.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_HOT_SHOWER_l.png",
+      "icon_unlocked": "BARONY_ACH_HOT_SHOWER.png"
+    },
+    "BARONY_ACH_HOT_TUB": {
+      "name": "Máquina do Tempo de Banheira de Hidromassagem",
+      "description": "Ganhe mais de 50 níveis de Natação com a Fome desativada, como se houvesse uma habilidade chamada Natação.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_HOT_TUB_l.png",
+      "icon_unlocked": "BARONY_ACH_HOT_TUB.png"
+    },
+    "BARONY_ACH_IF_YOU_LOVE_SOMETHING": {
+      "name": "Se Você Ama Algo",
+      "description": "Faça o Bumerangue retornar para você 100 vezes após atingir um inimigo ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_IF_YOU_LOVE_SOMETHING_l.png",
+      "icon_unlocked": "BARONY_ACH_IF_YOU_LOVE_SOMETHING.png"
+    },
+    "BARONY_ACH_ILLITERATE_CONDUCT": {
+      "name": "Conduta Analfabeta",
+      "description": "Vença o jogo sem ter lido nenhum livro, pergaminho ou livro de feitiços.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ILLITERATE_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_ILLITERATE_CONDUCT.png"
+    },
+    "BARONY_ACH_IN_GREATER_NUMBERS": {
+      "name": "Em Números Maiores",
+      "description": "Vença o jogo com pelo menos dois jogadores vivos.",
+      "lore_points": 5,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_IN_GREATER_NUMBERS_l.png",
+      "icon_unlocked": "BARONY_ACH_IN_GREATER_NUMBERS.png"
+    },
+    "BARONY_ACH_IN_THE_MIX": {
+      "name": "Na Mistura",
+      "description": "Prepare 50 poções usando um Alambique.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_IN_THE_MIX_l.png",
+      "icon_unlocked": "BARONY_ACH_IN_THE_MIX.png"
+    },
+    "BARONY_ACH_IRONIC_PUNISHMENT": {
+      "name": "Divisão de Punição Irônica",
+      "description": "Use o chicote para desarmar a arma branca de um alvo, pegue a arma e use-a para matar o mesmo alvo.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_IRONIC_PUNISHMENT_l.png",
+      "icon_unlocked": "BARONY_ACH_IRONIC_PUNISHMENT.png"
+    },
+    "BARONY_ACH_IRON_GUT": {
+      "name": "Estômago de Ferro",
+      "description": "Coma 20 latas de conserva como um verdadeiro Homem-Bode.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_IRON_GUT_l.png",
+      "icon_unlocked": "BARONY_ACH_IRON_GUT.png"
+    },
+    "BARONY_ACH_ITS_A_LIVING": {
+      "name": "É a Vida",
+      "description": "Cause o estado de sangramento em 50 inimigos enquanto usa o capuz do carrasco ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ITS_A_LIVING_l.png",
+      "icon_unlocked": "BARONY_ACH_ITS_A_LIVING.png"
+    },
+    "BARONY_ACH_I_WANT_IT_ALL": {
+      "name": "Eu Quero Tudo",
+      "description": "Jogue com todas as classes e raças de DLC.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_I_WANT_IT_ALL_l.png",
+      "icon_unlocked": "BARONY_ACH_I_WANT_IT_ALL.png"
+    },
+    "BARONY_ACH_JUNGLE_FEVER": {
+      "name": "Febre da Selva",
+      "description": "Escape do pântano.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_JUNGLE_FEVER_l.png",
+      "icon_unlocked": "BARONY_ACH_JUNGLE_FEVER.png"
+    },
+    "BARONY_ACH_KILL_COMMAND": {
+      "name": "Comando de Matar",
+      "description": "Faça seus aliados encantados matarem 50 inimigos.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_KILL_COMMAND_l.png",
+      "icon_unlocked": "BARONY_ACH_KILL_COMMAND.png"
+    },
+    "BARONY_ACH_KING_ARTHURS_BLADE": {
+      "name": "Espada do Rei Arthur",
+      "description": "Encontre a espada mística do Rei Arthur, Dyrnwyn.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_KING_ARTHURS_BLADE_l.png",
+      "icon_unlocked": "BARONY_ACH_KING_ARTHURS_BLADE.png"
+    },
+    "BARONY_ACH_KNOW_THYSELF": {
+      "name": "Conhece a Ti Mesmo",
+      "description": "Mate uma Sombra que está imitando sua identidade.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_KNOW_THYSELF_l.png",
+      "icon_unlocked": "BARONY_ACH_KNOW_THYSELF.png"
+    },
+    "BARONY_ACH_LAST_RESORT": {
+      "name": "Último Recurso",
+      "description": "Destrua uma pedra usando uma picareta enquanto ela está rolando em sua direção.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_LAST_RESORT_l.png",
+      "icon_unlocked": "BARONY_ACH_LAST_RESORT.png"
+    },
+    "BARONY_ACH_LEVITANT_LACKEY": {
+      "name": "Lacaio Levitante",
+      "description": "Comande um Gyrobot para pegar um item ou interagir com um interruptor que de outra forma seria inacessível.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LEVITANT_LACKEY_l.png",
+      "icon_unlocked": "BARONY_ACH_LEVITANT_LACKEY.png"
+    },
+    "BARONY_ACH_LICH_HUNTER": {
+      "name": "Caçador de Lich",
+      "description": "Encontre e derrote o Barão Herx em seu covil.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_LICH_HUNTER_l.png",
+      "icon_unlocked": "BARONY_ACH_LICH_HUNTER.png"
+    },
+    "BARONY_ACH_LIFE_FOR_A_LIFE": {
+      "name": "Vida por Vida",
+      "description": "Sacrifique toda a sua reserva de vida para Dominar um inimigo e sobreviva a isso.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LIFE_FOR_A_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_LIFE_FOR_A_LIFE.png"
+    },
+    "BARONY_ACH_LIKE_CLOCKWORK": {
+      "name": "Como um Relógio",
+      "description": "Escape da Cidadela como um Mecanista de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_LIKE_CLOCKWORK_l.png",
+      "icon_unlocked": "BARONY_ACH_LIKE_CLOCKWORK.png"
+    },
+    "BARONY_ACH_LOCAL_CUSTOMS": {
+      "name": "Costumes Locais",
+      "description": "Inicie um jogo com um arquivo de mod local carregado.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LOCAL_CUSTOMS_l.png",
+      "icon_unlocked": "BARONY_ACH_LOCAL_CUSTOMS.png"
+    },
+    "BARONY_ACH_MACHINE_HEAD": {
+      "name": "Machine Head",
+      "description": "Tenha uma sentinela de besta, uma sentinela mágica e um girocóptero todos ativos ao mesmo tempo.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_MACHINE_HEAD_l.png",
+      "icon_unlocked": "BARONY_ACH_MACHINE_HEAD.png"
+    },
+    "BARONY_ACH_MAGIC_MASTERY": {
+      "name": "Maestria Mágica",
+      "description": "Aprenda 20 feitiços.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MAGIC_MASTERY_l.png",
+      "icon_unlocked": "BARONY_ACH_MAGIC_MASTERY.png"
+    },
+    "BARONY_ACH_MANAGEMENT_TEAM": {
+      "name": "Equipe de Gestão",
+      "description": "Escape das Minas em um jogo cooperativo onde um Mecanista e um Mesmer estão no grupo.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_MANAGEMENT_TEAM_l.png",
+      "icon_unlocked": "BARONY_ACH_MANAGEMENT_TEAM.png"
+    },
+    "BARONY_ACH_MANY_PEDI_PALP": {
+      "name": "Many-Pedi-Palp",
+      "description": "Mate 50 inimigos presos em teias como uma Aranha ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_MANY_PEDI_PALP_l.png",
+      "icon_unlocked": "BARONY_ACH_MANY_PEDI_PALP.png"
+    },
+    "BARONY_ACH_MASTER": {
+      "name": "Master",
+      "description": "Encontre a Ala do Mestre no hub do Salão de Julgamentos.",
+      "lore_points": 4,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_MASTER_l.png",
+      "icon_unlocked": "BARONY_ACH_MASTER.png",
+      "hidden": true
+    },
+    "BARONY_ACH_MIXOLOGIST": {
+      "name": "Mestre Mixologista",
+      "description": "Aprenda todos os ingredientes de alquimia básicos e secundários.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MIXOLOGIST_l.png",
+      "icon_unlocked": "BARONY_ACH_MIXOLOGIST.png"
+    },
+    "BARONY_ACH_MONARCH": {
+      "name": "Monarch",
+      "description": "Faça com que aliados Insetoides matem 20 inimigos para você como um verdadeiro Insetoide.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_MONARCH_l.png",
+      "icon_unlocked": "BARONY_ACH_MONARCH.png"
+    },
+    "BARONY_ACH_MONSTER_SQUAD": {
+      "name": "Esquadrão Monstro",
+      "description": "Jogue uma partida com 3 ou mais jogadores onde todos sejam monstros.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_MONSTER_SQUAD_l.png",
+      "icon_unlocked": "BARONY_ACH_MONSTER_SQUAD.png"
+    },
+    "BARONY_ACH_MOVED_ITSELF": {
+      "name": "Aquela pedra se moveu sozinha!",
+      "description": "Mate um jogador aliado com uma pedra empurrada.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_MOVED_ITSELF_l.png",
+      "icon_unlocked": "BARONY_ACH_MOVED_ITSELF.png"
+    },
+    "BARONY_ACH_MUSCLE_MEMORY": {
+      "name": "Memória Muscular",
+      "description": "Coma comida quando transformado em humano como um verdadeiro Esqueleto.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_MUSCLE_MEMORY_l.png",
+      "icon_unlocked": "BARONY_ACH_MUSCLE_MEMORY.png"
+    },
+    "BARONY_ACH_MY_FINAL_FORM": {
+      "name": "Minha Forma Final",
+      "description": "Escape da Cidadela como um Xamã de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_MY_FINAL_FORM_l.png",
+      "icon_unlocked": "BARONY_ACH_MY_FINAL_FORM.png"
+    },
+    "BARONY_ACH_NARCISSIST": {
+      "name": "Narcisista",
+      "description": "Use um Escudo Espelhado para matar um inimigo usando o próprio feitiço refletido dele.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_NARCISSIST_l.png",
+      "icon_unlocked": "BARONY_ACH_NARCISSIST.png"
+    },
+    "BARONY_ACH_NATURAL_BORN_LEADER": {
+      "name": "Líder Nato",
+      "description": "Convença pelo menos três NPCs a segui-lo ao mesmo tempo.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_NATURAL_BORN_LEADER_l.png",
+      "icon_unlocked": "BARONY_ACH_NATURAL_BORN_LEADER.png"
+    },
+    "BARONY_ACH_NOT_A_TEAM_PLAYER": {
+      "name": "Não Joga em Equipe",
+      "description": "Mate outro jogador.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_NOT_A_TEAM_PLAYER_l.png",
+      "icon_unlocked": "BARONY_ACH_NOT_A_TEAM_PLAYER.png"
+    },
+    "BARONY_ACH_OFF_LIMITS": {
+      "name": "Fora de Alcance",
+      "description": "Tente encantar um monstro que não pode ser domado.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_OFF_LIMITS_l.png",
+      "icon_unlocked": "BARONY_ACH_OFF_LIMITS.png"
+    },
+    "BARONY_ACH_OHAI_MARK": {
+      "name": "OHAI MARK",
+      "description": "Teleporte-se e assassine 20 inimigos marcados em uma única partida.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_OHAI_MARK_l.png",
+      "icon_unlocked": "BARONY_ACH_OHAI_MARK.png"
+    },
+    "BARONY_ACH_ONE_MANS_TRASH": {
+      "name": "Lixo de um Homem",
+      "description": "Use um Bastão Mágico Amaldiçoado até que ele quebre.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ONE_MANS_TRASH_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_MANS_TRASH.png",
+      "hidden": true
+    },
+    "BARONY_ACH_ONE_PUNCH_MAN": {
+      "name": "One Punch Man",
+      "description": "Paralise um monstro com a habilidade Lendária de Luta Desarmada.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ONE_PUNCH_MAN_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_PUNCH_MAN.png"
+    },
+    "BARONY_ACH_ONE_WHO_KNOCKS": {
+      "name": "Eu Sou Aquele que Bate",
+      "description": "Aguente o ataque de um minotauro e não receba dano, sem bloquear.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_ONE_WHO_KNOCKS_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_WHO_KNOCKS.png"
+    },
+    "BARONY_ACH_OVERCLOCKED": {
+      "name": "Overclock",
+      "description": "Acumule 10 minutos de tempo de jogo com uma caldeira superaquecida como um verdadeiro Autômato.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_OVERCLOCKED_l.png",
+      "icon_unlocked": "BARONY_ACH_OVERCLOCKED.png"
+    },
+    "BARONY_ACH_OWN_WORST_ENEMY": {
+      "name": "Seu Próprio Pior Inimigo",
+      "description": "Faça um lich ser morto por seu próprio lacaio invocado.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_OWN_WORST_ENEMY_l.png",
+      "icon_unlocked": "BARONY_ACH_OWN_WORST_ENEMY.png",
+      "hidden": true
+    },
+    "BARONY_ACH_PENNILESS_CONDUCT": {
+      "name": "Conduta Sem um Tostão",
+      "description": "Vença o jogo sem coletar nenhum ouro.",
+      "lore_points": 4,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_PENNILESS_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_PENNILESS_CONDUCT.png"
+    },
+    "BARONY_ACH_PIMPIN": {
+      "name": "Cafetinagem Não é Fácil",
+      "description": "Recrute um total de 6 Súcubos, Íncubos ou Humanos como um verdadeiro Íncubo ou Súcubo.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_PIMPIN_l.png",
+      "icon_unlocked": "BARONY_ACH_PIMPIN.png"
+    },
+    "BARONY_ACH_PITY_FRIEND": {
+      "name": "Amigo por Pena",
+      "description": "Recrute um aliado humano como um monstro.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_PITY_FRIEND_l.png",
+      "icon_unlocked": "BARONY_ACH_PITY_FRIEND.png"
+    },
+    "BARONY_ACH_PLEASE_HOLD": {
+      "name": "Por Favor, Aguarde",
+      "description": "Atinja um inimigo com Munição de Caça ou de Fogo, e então o paralise com Munição de Mola.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PLEASE_HOLD_l.png",
+      "icon_unlocked": "BARONY_ACH_PLEASE_HOLD.png"
+    },
+    "BARONY_ACH_PLUS_BOOTS_OF_SPEED": {
+      "name": "Botas de Velocidade Abençoadas",
+      "description": "Alcance o estágio final em 45 minutos ou menos e vença o jogo.",
+      "lore_points": 5,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PLUS_BOOTS_OF_SPEED_l.png",
+      "icon_unlocked": "BARONY_ACH_PLUS_BOOTS_OF_SPEED.png"
+    },
+    "BARONY_ACH_POP_QUIZ": {
+      "name": "Teste Surpresa",
+      "description": "Conjure 20 feitiços diferentes de livros de feitiços como um verdadeiro Goblin em uma única partida.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_POP_QUIZ_l.png",
+      "icon_unlocked": "BARONY_ACH_POP_QUIZ.png"
+    },
+    "BARONY_ACH_POST_HARDCORE": {
+      "name": "Hardcore Pós-Moderno",
+      "description": "Termine o jogo do início ao fim com o modo Hardcore ativado e o modo Clássico desativado.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_POST_HARDCORE_l.png",
+      "icon_unlocked": "BARONY_ACH_POST_HARDCORE.png"
+    },
+    "BARONY_ACH_POTION_PREPARATION": {
+      "name": "Preparação de Poções",
+      "description": "Carregue 16 poções ou líquidos engarrafados diferentes em seu inventário que não precisem ser preparados primeiro.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_POTION_PREPARATION_l.png",
+      "icon_unlocked": "BARONY_ACH_POTION_PREPARATION.png"
+    },
+    "BARONY_ACH_POWER_HUNGRY": {
+      "name": "Faminto por Poder",
+      "description": "Escape da Cidadela jogando como a classe Maldito de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_POWER_HUNGRY_l.png",
+      "icon_unlocked": "BARONY_ACH_POWER_HUNGRY.png"
+    },
+    "BARONY_ACH_PROFESSIONAL_BURGLAR": {
+      "name": "Ladrão Profissional",
+      "description": "Mate pelo menos 3 lojistas em um único jogo.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PROFESSIONAL_BURGLAR_l.png",
+      "icon_unlocked": "BARONY_ACH_PROFESSIONAL_BURGLAR.png"
+    },
+    "BARONY_ACH_PUZZLE_MASTER": {
+      "name": "Mestre dos Quebra-Cabeças",
+      "description": "Desvende o mistério de Sokoban.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_PUZZLE_MASTER_l.png",
+      "icon_unlocked": "BARONY_ACH_PUZZLE_MASTER.png"
+    },
+    "BARONY_ACH_RAGE_AGAINST": {
+      "name": "Rage Against the Machine",
+      "description": "Mate 20 inimigos enquanto eles estiverem atacando Dummybots ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RAGE_AGAINST_l.png",
+      "icon_unlocked": "BARONY_ACH_RAGE_AGAINST.png"
+    },
+    "BARONY_ACH_RANGER_DANGER": {
+      "name": "Ranger Danger",
+      "description": "Escape da Cidadela como um Caçador de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_RANGER_DANGER_l.png",
+      "icon_unlocked": "BARONY_ACH_RANGER_DANGER.png"
+    },
+    "BARONY_ACH_REAL_BOY": {
+      "name": "Eu Sou um Menino de Verdade",
+      "description": "Recrute um aliado Humano e negocie com um mercador enquanto estiver sob os efeitos de polimorfismo como um verdadeiro Autômato.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_REAL_BOY_l.png",
+      "icon_unlocked": "BARONY_ACH_REAL_BOY.png"
+    },
+    "BARONY_ACH_RECYCLER": {
+      "name": "Recycler",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RECYCLER_l.png",
+      "icon_unlocked": "BARONY_ACH_RECYCLER.png"
+    },
+    "BARONY_ACH_REPOSSESSION": {
+      "name": "Repossession",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_REPOSSESSION_l.png",
+      "icon_unlocked": "BARONY_ACH_REPOSSESSION.png"
+    },
+    "BARONY_ACH_REUNITED": {
+      "name": "Reunited",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_REUNITED_l.png",
+      "icon_unlocked": "BARONY_ACH_REUNITED.png"
+    },
+    "BARONY_ACH_REVERSE_THIS_CURSE": {
+      "name": "Reverta Esta Maldição",
+      "description": "Encontre uma cura para a classe Maldito.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_REVERSE_THIS_CURSE_l.png",
+      "icon_unlocked": "BARONY_ACH_REVERSE_THIS_CURSE.png"
+    },
+    "BARONY_ACH_RHINESTONE_COWBOY": {
+      "name": "Cowboy de Brilhantes",
+      "description": "Identifique 50 pedaços de Vidro Inútil ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_RHINESTONE_COWBOY_l.png",
+      "icon_unlocked": "BARONY_ACH_RHINESTONE_COWBOY.png"
+    },
+    "BARONY_ACH_RHYTHM_OF_THE_KNIGHT": {
+      "name": "O Ritmo do Cavaleiro",
+      "description": "Realize uma troca de Bloqueio e Ataque 3 vezes contra um único inimigo sem receber um golpe não bloqueado.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RHYTHM_OF_THE_KNIGHT_l.png",
+      "icon_unlocked": "BARONY_ACH_RHYTHM_OF_THE_KNIGHT.png"
+    },
+    "BARONY_ACH_RICH_ALTER_EGO": {
+      "name": "Meu Alter-Ego Rico",
+      "description": "Como um monstro, negocie 50.000 de ouro enquanto estiver sob os efeitos de Polimorfismo ao longo de todos os seus jogos.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_RICH_ALTER_EGO_l.png",
+      "icon_unlocked": "BARONY_ACH_RICH_ALTER_EGO.png"
+    },
+    "BARONY_ACH_RIGHT_TO_REFUSE": {
+      "name": "Direito de Recusar",
+      "description": "Seja expulso de uma loja porque você é um monstro.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_RIGHT_TO_REFUSE_l.png",
+      "icon_unlocked": "BARONY_ACH_RIGHT_TO_REFUSE.png"
+    },
+    "BARONY_ACH_ROBBING_THE_CRADLE": {
+      "name": "Roubando o Berço",
+      "description": "Saqueie o Castelo Assombrado e escape com vida.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_ROBBING_THE_CRADLE_l.png",
+      "icon_unlocked": "BARONY_ACH_ROBBING_THE_CRADLE.png"
+    },
+    "BARONY_ACH_ROLL_THE_BONES": {
+      "name": "Role os Dados",
+      "description": "Escreva 50 pergaminhos com a Pena Mágica como um Xamã ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ROLL_THE_BONES_l.png",
+      "icon_unlocked": "BARONY_ACH_ROLL_THE_BONES.png"
+    },
+    "BARONY_ACH_RUST_IN_PEACE": {
+      "name": "Ferrugem em Paz",
+      "description": "Morra pelos efeitos de ter uma caldeira fria como um verdadeiro Autômato.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_RUST_IN_PEACE_l.png",
+      "icon_unlocked": "BARONY_ACH_RUST_IN_PEACE.png",
+      "hidden": true
+    },
+    "BARONY_ACH_SANDMAN": {
+      "name": "João Pestana",
+      "description": "Escape do labirinto de areia.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SANDMAN_l.png",
+      "icon_unlocked": "BARONY_ACH_SANDMAN.png"
+    },
+    "BARONY_ACH_SAVAGE": {
+      "name": "Selvagem",
+      "description": "Alcance o nível Lendário em qualquer habilidade de arma branca como um verdadeiro Goblin.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SAVAGE_l.png",
+      "icon_unlocked": "BARONY_ACH_SAVAGE.png"
+    },
+    "BARONY_ACH_SCALES_IN_FAVOR": {
+      "name": "Balança a Seu Favor",
+      "description": "Assassine uma Cocatriz.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SCALES_IN_FAVOR_l.png",
+      "icon_unlocked": "BARONY_ACH_SCALES_IN_FAVOR.png"
+    },
+    "BARONY_ACH_SECOND_CHANCE": {
+      "name": "Segunda Chance",
+      "description": "Reviva a si mesmo gastando sua mana como um esqueleto.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SECOND_CHANCE_l.png",
+      "icon_unlocked": "BARONY_ACH_SECOND_CHANCE.png"
+    },
+    "BARONY_ACH_SECRET_WEAPON": {
+      "name": "Arma Secreta",
+      "description": "Mate um lich com uma poção arremessada.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SECRET_WEAPON_l.png",
+      "icon_unlocked": "BARONY_ACH_SECRET_WEAPON.png"
+    },
+    "BARONY_ACH_SEE_THAT": {
+      "name": "Entre na Masmorra",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SEE_THAT_l.png",
+      "icon_unlocked": "BARONY_ACH_SEE_THAT.png"
+    },
+    "BARONY_ACH_SELF_FLAGELLATION": {
+      "name": "Auto-Flagelação",
+      "description": "Faça com que 30 inimigos se matem sob a retaliação de um Demônio Interior ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SELF_FLAGELLATION_l.png",
+      "icon_unlocked": "BARONY_ACH_SELF_FLAGELLATION.png"
+    },
+    "BARONY_ACH_SERIAL_THRILLA": {
+      "name": "Assassino em Série",
+      "description": "Ganhe 100 de mana de Amuletos de Estrangulamento como um verdadeiro Íncubo ou Súcubo.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SERIAL_THRILLA_l.png",
+      "icon_unlocked": "BARONY_ACH_SERIAL_THRILLA.png"
+    },
+    "BARONY_ACH_SITTING_DUCK": {
+      "name": "Alvo Fácil",
+      "description": "Mate 10 inimigos enquanto estiverem paralisados ou enredados em uma única partida.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SITTING_DUCK_l.png",
+      "icon_unlocked": "BARONY_ACH_SITTING_DUCK.png"
+    },
+    "BARONY_ACH_SKELETON_CREW": {
+      "name": "Tripulação de Esqueletos",
+      "description": "Invoque dois Familiares Esqueletos ao mesmo tempo.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SKELETON_CREW_l.png",
+      "icon_unlocked": "BARONY_ACH_SKELETON_CREW.png"
+    },
+    "BARONY_ACH_SOCIAL_BUTTERFLY": {
+      "name": "Borboleta Social",
+      "description": "Recrute 50 aliados enquanto estiver Transformado ou Polimorfado como um Xamã ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SOCIAL_BUTTERFLY_l.png",
+      "icon_unlocked": "BARONY_ACH_SOCIAL_BUTTERFLY.png"
+    },
+    "BARONY_ACH_SOCIOPATHS": {
+      "name": "Sociopaths",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_SOCIOPATHS_l.png",
+      "icon_unlocked": "BARONY_ACH_SOCIOPATHS.png"
+    },
+    "BARONY_ACH_SOULLESS": {
+      "name": "Soulless",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_SOULLESS_l.png",
+      "icon_unlocked": "BARONY_ACH_SOULLESS.png"
+    },
+    "BARONY_ACH_SPEAR_OF_DESTINY": {
+      "name": "Lança do Destino",
+      "description": "Encontre a lança lendária de Odin, Gungnir.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPEAR_OF_DESTINY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPEAR_OF_DESTINY.png"
+    },
+    "BARONY_ACH_SPELUNKY": {
+      "name": "Spelunky!",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPELUNKY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPELUNKY.png"
+    },
+    "BARONY_ACH_SPICE_OF_LIFE": {
+      "name": "Tempero da Vida",
+      "description": "Inicie pelo menos um jogo com cada classe.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SPICE_OF_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_SPICE_OF_LIFE.png"
+    },
+    "BARONY_ACH_SPICY": {
+      "name": "Spicy!",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SPICY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPICY.png"
+    },
+    "BARONY_ACH_SPONGE": {
+      "name": "Sponge",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_SPONGE_l.png",
+      "icon_unlocked": "BARONY_ACH_SPONGE.png"
+    },
+    "BARONY_ACH_SPUD_LORD": {
+      "name": "Senhor das Batatas",
+      "description": "Encontre a maça falante mística, Sharur.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPUD_LORD_l.png",
+      "icon_unlocked": "BARONY_ACH_SPUD_LORD.png"
+    },
+    "BARONY_ACH_SQUAD_GHOULS": {
+      "name": "Esquadrão Carniçal",
+      "description": "Recrute quatro carniçais ao mesmo tempo como um esqueleto.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SQUAD_GHOULS_l.png",
+      "icon_unlocked": "BARONY_ACH_SQUAD_GHOULS.png"
+    },
+    "BARONY_ACH_STFU": {
+      "name": "STFU",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_STFU_l.png",
+      "icon_unlocked": "BARONY_ACH_STFU.png"
+    },
+    "BARONY_ACH_STROBE": {
+      "name": "Que Haja Estroboscópio",
+      "description": "Abuse do feitiço Luz conjurando-o 20 vezes em um único minuto.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_STROBE_l.png",
+      "icon_unlocked": "BARONY_ACH_STROBE.png"
+    },
+    "BARONY_ACH_STRUNG_OUT": {
+      "name": "Corda no Limite",
+      "description": "Use munição rápida enquanto empunha o arco composto para marcar 10 acertos em inimigos em um curto período de tempo.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_STRUNG_OUT_l.png",
+      "icon_unlocked": "BARONY_ACH_STRUNG_OUT.png"
+    },
+    "BARONY_ACH_STUCK_ON_YOU": {
+      "name": "Preso em Você",
+      "description": "Faça uma fonte abençoar seu equipamento como uma verdadeira Súcubo.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_STUCK_ON_YOU_l.png",
+      "icon_unlocked": "BARONY_ACH_STUCK_ON_YOU.png"
+    },
+    "BARONY_ACH_SUPER_SHREDDER": {
+      "name": "Super Triturador",
+      "description": "Recicle itens em 1000 unidades de Sucata e Essência usando Kits de Ferramentas de Artesanato.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SUPER_SHREDDER_l.png",
+      "icon_unlocked": "BARONY_ACH_SUPER_SHREDDER.png"
+    },
+    "BARONY_ACH_SURROGATES": {
+      "name": "Surrogates",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SURROGATES_l.png",
+      "icon_unlocked": "BARONY_ACH_SURROGATES.png"
+    },
+    "BARONY_ACH_SURVIVALISTS": {
+      "name": "Survivalists",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_SURVIVALISTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SURVIVALISTS.png"
+    },
+    "BARONY_ACH_SWINGERS": {
+      "name": "Swingers",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_SWINGERS_l.png",
+      "icon_unlocked": "BARONY_ACH_SWINGERS.png"
+    },
+    "BARONY_ACH_TAKE_THIS_OUTSIDE": {
+      "name": "Vamos Resolver Lá Fora",
+      "description": "Empurre 10 monstros contra portas.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TAKE_THIS_OUTSIDE_l.png",
+      "icon_unlocked": "BARONY_ACH_TAKE_THIS_OUTSIDE.png"
+    },
+    "BARONY_ACH_TAKING_WITH": {
+      "name": "Vou Levar Você Comigo",
+      "description": "Mate um inimigo após você estar morto usando veneno, fogo ou armadilhas aprimoradas arremessadas.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TAKING_WITH_l.png",
+      "icon_unlocked": "BARONY_ACH_TAKING_WITH.png"
+    },
+    "BARONY_ACH_TEACHABLE_MOMENT": {
+      "name": "Momento de Aprendizado",
+      "description": "Morra durante qualquer Julgamento no Salão de Julgamentos.",
+      "lore_points": 5,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TEACHABLE_MOMENT_l.png",
+      "icon_unlocked": "BARONY_ACH_TEACHABLE_MOMENT.png",
+      "hidden": true
+    },
+    "BARONY_ACH_TELEFRAG": {
+      "name": "Telefrag",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TELEFRAG_l.png",
+      "icon_unlocked": "BARONY_ACH_TELEFRAG.png"
+    },
+    "BARONY_ACH_TEMPTRESS": {
+      "name": "Temptress",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_TEMPTRESS_l.png",
+      "icon_unlocked": "BARONY_ACH_TEMPTRESS.png"
+    },
+    "BARONY_ACH_TEMPT_FATE": {
+      "name": "Tentar a Sorte",
+      "description": "Coma Tomalley logo após vomitar.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TEMPT_FATE_l.png",
+      "icon_unlocked": "BARONY_ACH_TEMPT_FATE.png"
+    },
+    "BARONY_ACH_THANKS_MR_SKELTAL": {
+      "name": "Obrigado, Sr. Esqueleto",
+      "description": "Encontre o machado místico, Parashu.",
+      "lore_points": 5,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THANKS_MR_SKELTAL_l.png",
+      "icon_unlocked": "BARONY_ACH_THANKS_MR_SKELTAL.png"
+    },
+    "BARONY_ACH_THANK_ME_LATER": {
+      "name": "Você vai me Agradecer Depois",
+      "description": "Arremesse uma poção de Cura ou Cura Extra em outro Jogador ou NPC aliado.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_THANK_ME_LATER_l.png",
+      "icon_unlocked": "BARONY_ACH_THANK_ME_LATER.png"
+    },
+    "BARONY_ACH_THANK_THE_TANK": {
+      "name": "Agradeça ao Tanque",
+      "description": "Faça um jogador aliado ou NPC matar um inimigo que você esteja Bloqueando.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_THANK_THE_TANK_l.png",
+      "icon_unlocked": "BARONY_ACH_THANK_THE_TANK.png"
+    },
+    "BARONY_ACH_THESEUS_LEGACY": {
+      "name": "O Legado de Teseu",
+      "description": "Escape do Labirinto do Minotauro.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THESEUS_LEGACY_l.png",
+      "icon_unlocked": "BARONY_ACH_THESEUS_LEGACY.png"
+    },
+    "BARONY_ACH_THE_WAY_YOU_LIKE_IT": {
+      "name": "Do Jeito Que Você Gosta",
+      "description": "Amaldiçoe uma arma abençoada como uma verdadeira Súcubo.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_THE_WAY_YOU_LIKE_IT_l.png",
+      "icon_unlocked": "BARONY_ACH_THE_WAY_YOU_LIKE_IT.png"
+    },
+    "BARONY_ACH_THICK_SKULL": {
+      "name": "Cabeça Dura",
+      "description": "Mate um Escaravelho usando um feitiço mágico.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THICK_SKULL_l.png",
+      "icon_unlocked": "BARONY_ACH_THICK_SKULL.png"
+    },
+    "BARONY_ACH_THROW_ME_THE_WHIP": {
+      "name": "Jogue-me o Chicote!",
+      "description": "Seja esmagado por uma pedra.",
+      "lore_points": 5,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THROW_ME_THE_WHIP_l.png",
+      "icon_unlocked": "BARONY_ACH_THROW_ME_THE_WHIP.png"
+    },
+    "BARONY_ACH_THUNDERGNOME": {
+      "name": "Thundergnome",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THUNDERGNOME_l.png",
+      "icon_unlocked": "BARONY_ACH_THUNDERGNOME.png"
+    },
+    "BARONY_ACH_TIME_TO_PLAN": {
+      "name": "Com Tempo Suficiente para Planejar",
+      "description": "Dê o golpe final em um minotauro usando máquinas e/ou armadilhas.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_TIME_TO_PLAN_l.png",
+      "icon_unlocked": "BARONY_ACH_TIME_TO_PLAN.png"
+    },
+    "BARONY_ACH_TIME_TO_SUFFER": {
+      "name": "Hora de Sofrer",
+      "description": "Escape da Cidadela como um Punidor de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TIME_TO_SUFFER_l.png",
+      "icon_unlocked": "BARONY_ACH_TIME_TO_SUFFER.png"
+    },
+    "BARONY_ACH_TORCHERER": {
+      "name": "Torcherer",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TORCHERER_l.png",
+      "icon_unlocked": "BARONY_ACH_TORCHERER.png"
+    },
+    "BARONY_ACH_TOUGH_AS_NAILS": {
+      "name": "Duro na Queda",
+      "description": "Faça com que 50 inimigos quebrem suas armas contra você ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_TOUGH_AS_NAILS_l.png",
+      "icon_unlocked": "BARONY_ACH_TOUGH_AS_NAILS.png"
+    },
+    "BARONY_ACH_TRADITION": {
+      "name": "É Tradição",
+      "description": "Mate 20 inimigos que estejam perto de uma fonte como um verdadeiro Íncubo.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRADITION_l.png",
+      "icon_unlocked": "BARONY_ACH_TRADITION.png"
+    },
+    "BARONY_ACH_TRASH_COMPACTOR": {
+      "name": "Compactador de Lixo",
+      "description": "Consuma 100 de sucata como um verdadeiro Autômato.",
+      "lore_points": 1,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRASH_COMPACTOR_l.png",
+      "icon_unlocked": "BARONY_ACH_TRASH_COMPACTOR.png"
+    },
+    "BARONY_ACH_TRIBAL": {
+      "name": "Tribal",
+      "description": "Escape das Minas em um jogo cooperativo onde um verdadeiro Homem-Bode e um Goblin estão no grupo.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs"
+      ],
+      "icon_locked": "BARONY_ACH_TRIBAL_L.png",
+      "icon_unlocked": "BARONY_ACH_TRIBAL.png"
+    },
+    "BARONY_ACH_TRIBE_SUBSCRIBE": {
+      "name": "Tribo & Subscrição",
+      "description": "Recrute 4 Goblins como um verdadeiro Goblin.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRIBE_SUBSCRIBE_l.png",
+      "icon_unlocked": "BARONY_ACH_TRIBE_SUBSCRIBE.png"
+    },
+    "BARONY_ACH_TRICKS_AND_TRAPS": {
+      "name": "Truques e Armadilhas",
+      "description": "Descubra o Templo infestado de armadilhas no pântano.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_TRICKS_AND_TRAPS_l.png",
+      "icon_unlocked": "BARONY_ACH_TRICKS_AND_TRAPS.png"
+    },
+    "BARONY_ACH_TROLLS_BLOOD": {
+      "name": "Sangue de Troll",
+      "description": "Ganhe Regeneração de Vida extra de duas fontes simultaneamente.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_TROLLS_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_TROLLS_BLOOD.png"
+    },
+    "BARONY_ACH_TURN_UNDEAD": {
+      "name": "Expulsar Mortos-Vivos",
+      "description": "Escape da Cidadela jogando como a classe Conjurador de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_TURN_UNDEAD_l.png",
+      "icon_unlocked": "BARONY_ACH_TURN_UNDEAD.png"
+    },
+    "BARONY_ACH_TWISTY_PASSAGES": {
+      "name": "Passagens Tortuosas",
+      "description": "Escape das minas.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_TWISTY_PASSAGES_l.png",
+      "icon_unlocked": "BARONY_ACH_TWISTY_PASSAGES.png"
+    },
+    "BARONY_ACH_UNSTOPPABLE_FORCE": {
+      "name": "Força Imparável",
+      "description": "Quebre 50 peças de armadura inimiga ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_UNSTOPPABLE_FORCE_l.png",
+      "icon_unlocked": "BARONY_ACH_UNSTOPPABLE_FORCE.png"
+    },
+    "BARONY_ACH_UTILITY_BELT": {
+      "name": "Cinto de Utilidades",
+      "description": "Tenha um de cada item de Artesanato em seu inventário.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_UTILITY_BELT_l.png",
+      "icon_unlocked": "BARONY_ACH_UTILITY_BELT.png"
+    },
+    "BARONY_ACH_VEGETARIAN_CONDUCT": {
+      "name": "Conduta Vegetariana",
+      "description": "Vença o jogo sem ter comido latas, carne ou peixe.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_VEGETARIAN_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_VEGETARIAN_CONDUCT.png"
+    },
+    "BARONY_ACH_VOLATILE": {
+      "name": "Volatile",
+      "description": "Cause dano a múltiplos inimigos com uma única poção instável preparada 20 vezes.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_VOLATILE_l.png",
+      "icon_unlocked": "BARONY_ACH_VOLATILE.png"
+    },
+    "BARONY_ACH_WELL_PREPARED": {
+      "name": "Bem Preparado",
+      "description": "Tenha 3 efeitos de Esferas Místicas ativos simultaneamente.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WELL_PREPARED_l.png",
+      "icon_unlocked": "BARONY_ACH_WELL_PREPARED.png"
+    },
+    "BARONY_ACH_WELL_READ": {
+      "name": "Bem Lido",
+      "description": "Encontre e leia todos os livros.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WELL_READ_l.png",
+      "icon_unlocked": "BARONY_ACH_WELL_READ.png"
+    },
+    "BARONY_ACH_WHAT_NOW": {
+      "name": "E Agora?",
+      "description": "Quebre seu Bastão Mágico do Encantamento enquanto você não conhece o feitiço Encantar como um Mesmer.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_WHAT_NOW_l.png",
+      "icon_unlocked": "BARONY_ACH_WHAT_NOW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_WONDERFUL_TOYS": {
+      "name": "Brinquedos Maravilhosos",
+      "description": "Use uma Armadilha de Teleporte para se enviar a uma parte do nível que de outra forma seria inacessível.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_WONDERFUL_TOYS_l.png",
+      "icon_unlocked": "BARONY_ACH_WONDERFUL_TOYS.png"
+    },
+    "BARONY_ACH_YES_WE_CAN": {
+      "name": "Sim, Nós Podemos!",
+      "description": "Coma 10 latas de comida em uma única partida.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_YES_WE_CAN_l.png",
+      "icon_unlocked": "BARONY_ACH_YES_WE_CAN.png"
+    },
+    "BARONY_ACH_YOUNG_BLOOD": {
+      "name": "Youngblood",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_YOUNG_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_YOUNG_BLOOD.png"
+    },
+    "BARONY_ACH_DAPPER": {
+      "name": "Elegante",
+      "description": "Vista 30 peças diferentes de equipamento para cabeça e rosto ao longo de várias partidas, excluindo itens de classe inicial.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DAPPER_l.png",
+      "icon_unlocked": "BARONY_ACH_DAPPER.png"
+    },
+    "BARONY_ACH_BY_EXAMPLE": {
+      "name": "Pelo Exemplo",
+      "description": "Ajude seguidores a ganhar um nível inteiro apenas com base no bônus de XP dado por Inspiração.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BY_EXAMPLE_l.png",
+      "icon_unlocked": "BARONY_ACH_BY_EXAMPLE.png"
+    },
+    "BARONY_ACH_CRUMPLE_ZONES": {
+      "name": "Zonas de Deformação",
+      "description": "Sobreviva a ser esmagado por uma pedra apenas porque você está usando uma Cartola ou um Capacete de Mineração.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CRUMPLE_ZONES_l.png",
+      "icon_unlocked": "BARONY_ACH_CRUMPLE_ZONES.png"
+    },
+    "BARONY_ACH_ETERNAL_REWARD": {
+      "name": "Sua Recompensa Eterna",
+      "description": "Seja morto por um Mímico.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ETERNAL_REWARD_l.png",
+      "icon_unlocked": "BARONY_ACH_ETERNAL_REWARD.png",
+      "hidden": true
+    },
+    "BARONY_ACH_I_NEEDED_THAT": {
+      "name": "Eu Precisava Disso!",
+      "description": "Tenha 10 peças do seu equipamento roubadas por um Mímico ao longo de várias partidas.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_I_NEEDED_THAT_l.png",
+      "icon_unlocked": "BARONY_ACH_I_NEEDED_THAT.png"
+    },
+    "BARONY_ACH_LOCKJAW": {
+      "name": "Lockjaw",
+      "description": "Faça um Mímico morrer usando o dano do feitiço Trancar.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_LOCKJAW_l.png",
+      "icon_unlocked": "BARONY_ACH_LOCKJAW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_MON_PETIT": {
+      "name": "Mon Petite Chou-Fleur",
+      "description": "Conquiste um Íncubo ou Súcubo com um gesto romântico.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_MON_PETIT_l.png",
+      "icon_unlocked": "BARONY_ACH_MON_PETIT.png"
+    },
+    "BARONY_ACH_PET_DA_DOG": {
+      "name": "Você Pode Acariciar o Cachorro",
+      "description": "Equipe um Capuz de Lobo abençoado.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_PET_DA_DOG_l.png",
+      "icon_unlocked": "BARONY_ACH_PET_DA_DOG.png"
+    },
+    "BARONY_ACH_SMOKIN": {
+      "name": "Smokin'",
+      "description": "Receba dano de regeneração de vida negativa causada pelo Cachimbo.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SMOKIN_l.png",
+      "icon_unlocked": "BARONY_ACH_SMOKIN.png"
+    },
+    "BARONY_ACH_SSSMOKIN": {
+      "name": "SSSSSMOKIN'",
+      "description": "Recrute um NPC do sexo oposto enquanto estiver usando uma máscara facial completa.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_SSSMOKIN_l.png",
+      "icon_unlocked": "BARONY_ACH_SSSMOKIN.png"
+    },
+    "BARONY_ACH_DUNGEONSEED": {
+      "name": "João Semente de Masmorra",
+      "description": "Escape das Minas em sua primeira tentativa no Placar de Líderes para 12 Eventos de Semente diferentes.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DUNGEONSEED_l.png",
+      "icon_unlocked": "BARONY_ACH_DUNGEONSEED.png"
+    },
+    "BARONY_ACH_REAP_SOW": {
+      "name": "Colha o que Você Semeia",
+      "description": "Vença qualquer Evento de Semente.",
+      "lore_points": 4,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_REAP_SOW_l.png",
+      "icon_unlocked": "BARONY_ACH_REAP_SOW.png"
+    },
+    "BARONY_ACH_GROWTH_MINDSET": {
+      "name": "Mentalidade de Crescimento",
+      "description": "Jogue novamente um Evento de Semente e envie uma Pontuação Máxima melhor após escapar das Minas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GROWTH_MINDSET_l.png",
+      "icon_unlocked": "BARONY_ACH_GROWTH_MINDSET.png"
+    },
+    "BARONY_ACH_SPROUTS": {
+      "name": "Sprouts",
+      "description": "Alcance os Pântanos em um Evento de Semente com outro jogador em uma partida cooperativa.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_SPROUTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SPROUTS.png"
+    },
+    "BARONY_ACH_BLOOM_PLANTED": {
+      "name": "Floresça Onde Você Foi Plantado",
+      "description": "Mate um lich ou demônio em um Evento de Semente onde sua Classe ou Raça é predeterminada.",
+      "lore_points": 4,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BLOOM_PLANTED_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOM_PLANTED.png"
+    },
+    "BARONY_ACH_CARTOGRAPHER": {
+      "name": "Cartographer",
+      "description": "Inicie o editor de níveis de Barony.",
+      "lore_points": 4,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_CARTOGRAPHER_l.png",
+      "icon_unlocked": "BARONY_ACH_CARTOGRAPHER.png"
+    },
+    "BARONY_ACH_BAT1000": {
+      "name": "Arremesso Perfeito",
+      "description": "Erre 81 ataques corpo a corpo contra Morcegos ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BAT1000_l.png",
+      "icon_unlocked": "BARONY_ACH_BAT1000.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BEAR_WITH_ME": {
+      "name": "Tenha Paciência Comigo",
+      "description": "Destrua o Escudo de um Bugbear enquanto ele estiver defendendo.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BEAR_WITH_ME_l.png",
+      "icon_unlocked": "BARONY_ACH_BEAR_WITH_ME.png"
+    },
+    "BARONY_ACH_BULL_RUSH": {
+      "name": "Investida do Touro",
+      "description": "Ganhe o efeito de Velocidade após tocar em um Santuário de Dédalo.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BULL_RUSH_l.png",
+      "icon_unlocked": "BARONY_ACH_BULL_RUSH.png"
+    },
+    "BARONY_ACH_BY_THE_BOOK": {
+      "name": "Segundo o Livro",
+      "description": "Prepare uma receita de poção registrada na entrada da Habilidade de Alquimia no Compêndio em até 10 segundos após abrir a página.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BY_THE_BOOK_l.png",
+      "icon_unlocked": "BARONY_ACH_BY_THE_BOOK.png",
+      "hidden": true
+    },
+    "BARONY_ACH_CURIOSITY": {
+      "name": "Curiosity",
+      "description": "Pesquise qualquer entrada no Compêndio.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CURIOSITY_l.png",
+      "icon_unlocked": "BARONY_ACH_CURIOSITY.png"
+    },
+    "BARONY_ACH_ISEENTIT": {
+      "name": "Eu Vi Tudo!",
+      "description": "Descubra todas as entradas na aba Mundo do Compêndio.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ISEENTIT_l.png",
+      "icon_unlocked": "BARONY_ACH_ISEENTIT.png"
+    },
+    "BARONY_ACH_JUBBAITED": {
+      "name": "Jub-baited",
+      "description": "Mate um Gnomo derrubando um sino sobre ele.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_JUBBAITED_l.png",
+      "icon_unlocked": "BARONY_ACH_JUBBAITED.png"
+    },
+    "BARONY_ACH_RUNG_OUT": {
+      "name": "Sino Quebrado",
+      "description": "Quebre 20 sinos ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_RUNG_OUT_l.png",
+      "icon_unlocked": "BARONY_ACH_RUNG_OUT.png"
+    },
+    "BARONY_ACH_SMASH_MELEE": {
+      "name": "Esmagamento de Combate",
+      "description": "Destrua 500 recipientes quebráveis usando ataques corpo a corpo ao longo de várias partidas.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SMASH_MELEE_l.png",
+      "icon_unlocked": "BARONY_ACH_SMASH_MELEE.png"
+    },
+    "BARONY_ACH_JANITOR": {
+      "name": "Janitor",
+      "description": "Carregue 4 ou mais tipos diferentes de chaves ao mesmo tempo.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_JANITOR_l.png",
+      "icon_unlocked": "BARONY_ACH_JANITOR.png"
+    },
+    "BARONY_ACH_CALL_LOCKSMITH": {
+      "name": "Chame o Chaveiro",
+      "description": "Arrombe 20 trancas de Ferro, Bronze ou Prata ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_CALL_LOCKSMITH_l.png",
+      "icon_unlocked": "BARONY_ACH_CALL_LOCKSMITH.png"
+    },
+    "BARONY_ACH_PREMIUM_LOOTBOX": {
+      "name": "Caixa de Saque Premium",
+      "description": "Use Chaves de Bronze, Prata e Ouro para acessar 20 salas de tesouro ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PREMIUM_LOOTBOX_l.png",
+      "icon_unlocked": "BARONY_ACH_PREMIUM_LOOTBOX.png"
+    },
+    "BARONY_ACH_WITCHES_BREW": {
+      "name": "Poção da Bruxa",
+      "description": "Prepare ou cozinhe 50 itens em um Caldeirão ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WITCHES_BREW_l.png",
+      "icon_unlocked": "BARONY_ACH_WITCHES_BREW.png"
+    },
+    "BARONY_ACH_HOBBYIST": {
+      "name": "Hobbyist",
+      "description": "Crie 50 itens em uma Bancada ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HOBBYIST_l.png",
+      "icon_unlocked": "BARONY_ACH_HOBBYIST.png"
+    },
+    "BARONY_ACH_POWER_BALLAD": {
+      "name": "Balada de Poder",
+      "description": "Tenha 4 ou mais efeitos de Canção Bárdica de Nível 4 ativos ao mesmo tempo vindos de Instrumentos de Bardo.",
+      "lore_points": 3,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_POWER_BALLAD_l.png",
+      "icon_unlocked": "BARONY_ACH_POWER_BALLAD.png"
+    },
+    "BARONY_ACH_BLESSED_ADDITION": {
+      "name": "Adição Abençoada",
+      "description": "Mate 50 inimigos enquanto estiver sob os efeitos de um Símbolo Sagrado ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BLESSED_ADDITION_l.png",
+      "icon_unlocked": "BARONY_ACH_BLESSED_ADDITION.png"
+    },
+    "BARONY_ACH_BARDIC_INSPIRATION": {
+      "name": "Inspiração Bárdica",
+      "description": "Ganhe 10 níveis consecutivos com uma Canção Bárdica ativa em uma única partida.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BARDIC_INSPIRATION_l.png",
+      "icon_unlocked": "BARONY_ACH_BARDIC_INSPIRATION.png"
+    },
+    "BARONY_ACH_FIGHT_FIRE_WITH": {
+      "name": "Fogo Contra Fogo",
+      "description": "Mate uma criatura de fogo usando Sopro de Fogo como uma verdadeira Salamandra.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FIGHT_FIRE_WITH_l.png",
+      "icon_unlocked": "BARONY_ACH_FIGHT_FIRE_WITH.png"
+    },
+    "BARONY_ACH_MAKE_SMOKEY_PROUD": {
+      "name": "Deixe o Smokey Orgulhoso",
+      "description": "Apague a si mesmo enquanto estiver em chamas como uma verdadeira Dríade usando Germinar.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MAKE_SMOKEY_PROUD_l.png",
+      "icon_unlocked": "BARONY_ACH_MAKE_SMOKEY_PROUD.png"
+    },
+    "BARONY_ACH_THATS_A_WRAP": {
+      "name": "Está Embrulhado",
+      "description": "Mate 50 inimigos com um Mangual enquanto estiverem presos por Boleadeiras ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_THATS_A_WRAP_l.png",
+      "icon_unlocked": "BARONY_ACH_THATS_A_WRAP.png"
+    },
+    "BARONY_ACH_SKID_ROW": {
+      "name": "Área de Deslize",
+      "description": "Empurre 50 inimigos Escorregadios em uma única partida.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SKID_ROW_l.png",
+      "icon_unlocked": "BARONY_ACH_SKID_ROW.png"
+    },
+    "BARONY_ACH_LET_HIM_COOK": {
+      "name": "Deixa Ele Cozinhar",
+      "description": "Prepare 100 rações ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_LET_HIM_COOK_l.png",
+      "icon_unlocked": "BARONY_ACH_LET_HIM_COOK.png"
+    },
+    "BARONY_ACH_FLAVORTOWN": {
+      "name": "Flavortown",
+      "description": "Consuma um de cada sabor de ração temperada em uma única partida.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FLAVORTOWN_l.png",
+      "icon_unlocked": "BARONY_ACH_FLAVORTOWN.png"
+    },
+    "BARONY_ACH_HELLS_KITCHEN": {
+      "name": "Cozinha do Inferno",
+      "description": "Tenha 25 fogos de gordura ativos ao mesmo tempo.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_HELLS_KITCHEN_l.png",
+      "icon_unlocked": "BARONY_ACH_HELLS_KITCHEN.png"
+    },
+    "BARONY_ACH_FOOD_FIGHT": {
+      "name": "GUERRA DE COMIDA!!!",
+      "description": "Cege 4 alvos diferentes em 5 segundos usando Bolas de Lavagem.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FOOD_FIGHT_l.png",
+      "icon_unlocked": "BARONY_ACH_FOOD_FIGHT.png"
+    },
+    "BARONY_ACH_SECOND_BREAKFAST": {
+      "name": "Segundo Café da Manhã",
+      "description": "Pegue Rações fornecidas por outro jogador enquanto estiver com fome.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_SECOND_BREAKFAST_l.png",
+      "icon_unlocked": "BARONY_ACH_SECOND_BREAKFAST.png"
+    },
+    "BARONY_ACH_HAUNTED": {
+      "name": "Haunted",
+      "description": "Seja morto por uma Sombra cujo túmulo você profanou usando o feitiço Destruir.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_HAUNTED_l.png",
+      "icon_unlocked": "BARONY_ACH_HAUNTED.png",
+      "hidden": true
+    },
+    "BARONY_ACH_WRECKING_CREW": {
+      "name": "Equipe de Demolição",
+      "description": "Use o feitiço Destruir em 20 objetos em uma única partida.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_WRECKING_CREW_l.png",
+      "icon_unlocked": "BARONY_ACH_WRECKING_CREW.png"
+    },
+    "BARONY_ACH_FAVORITE_BOOK": {
+      "name": "Livro Favorito",
+      "description": "Reapreenda e esqueça o mesmo feitiço 5 vezes usando o cetro do Herdeiro.",
+      "lore_points": 1,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FAVORITE_BOOK_l.png",
+      "icon_unlocked": "BARONY_ACH_FAVORITE_BOOK.png"
+    },
+    "BARONY_ACH_BONK": {
+      "name": "BONK.",
+      "description": "Desça até o nível 1 da masmorra.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BONK_l.png",
+      "icon_unlocked": "BARONY_ACH_BONK.png"
+    },
+    "BARONY_ACH_RIGHTEOUS_FURY": {
+      "name": "Fúria Justa",
+      "description": "Use Zelo Divino para matar 50 inimigos mortos-vivos ou demoníacos em uma única partida.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_RIGHTEOUS_FURY_l.png",
+      "icon_unlocked": "BARONY_ACH_RIGHTEOUS_FURY.png"
+    },
+    "BARONY_ACH_PARRY_TANK": {
+      "name": "Tanque de Aparagem",
+      "description": "Apare 20 ataques seguidos sem receber nenhum dano corpo a corpo durante sua sequência em uma única partida.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PARRY_TANK_l.png",
+      "icon_unlocked": "BARONY_ACH_PARRY_TANK.png"
+    },
+    "BARONY_ACH_TOUCHE": {
+      "name": "Touche",
+      "description": "Cause 1000 de dano com a riposta do florete ao longo de várias partidas.",
+      "lore_points": 3,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_TOUCHE_l.png",
+      "icon_unlocked": "BARONY_ACH_TOUCHE.png"
+    },
+    "BARONY_ACH_MERCENARY_ARMY": {
+      "name": "Exército Mercenário",
+      "description": "Use Joias para recrutar aliados 20 vezes como um verdadeiro Gnomo ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MERCENARY_ARMY_l.png",
+      "icon_unlocked": "BARONY_ACH_MERCENARY_ARMY.png"
+    },
+    "BARONY_ACH_COLONIST": {
+      "name": "Colonist",
+      "description": "Use Germinar 50 vezes ao longo de várias partidas como uma verdadeira Dríade ou Micônide.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_COLONIST_l.png",
+      "icon_unlocked": "BARONY_ACH_COLONIST.png"
+    },
+    "BARONY_ACH_EAT_ME": {
+      "name": "Coma-me",
+      "description": "Colha 50 Cogumelos Micônides ou Nozes de Dríade usando Germinar em uma única partida.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_EAT_ME_l.png",
+      "icon_unlocked": "BARONY_ACH_EAT_ME.png"
+    },
+    "BARONY_ACH_CULINARY_AMBASSADOR": {
+      "name": "Embaixador Culinário",
+      "description": "Cozinhe uma refeição que você não pode comer.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CULINARY_AMBASSADOR_l.png",
+      "icon_unlocked": "BARONY_ACH_CULINARY_AMBASSADOR.png",
+      "hidden": true
+    },
+    "BARONY_ACH_NO_CAP": {
+      "name": "Sem Chapéu",
+      "description": "Use um capacete que impeça sua folhagem de crescer por pelo menos 5 andares de masmorra como um verdadeiro Micônide.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_NO_CAP_l.png",
+      "icon_unlocked": "BARONY_ACH_NO_CAP.png"
+    },
+    "BARONY_ACH_PRICKLY_PERSONALITY": {
+      "name": "Personalidade Espinhosa",
+      "description": "Mate 20 inimigos com dano de Espinhos como uma verdadeira Dríade ao longo de várias partidas.",
+      "lore_points": 1,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_PRICKLY_PERSONALITY_l.png",
+      "icon_unlocked": "BARONY_ACH_PRICKLY_PERSONALITY.png"
+    },
+    "BARONY_ACH_DONT_TOUCH_HAIR": {
+      "name": "Não Toque no Cabelo",
+      "description": "Atravesse 25 andares de Masmorra e nunca perca sua folhagem como uma verdadeira Dríade ou Micônide.",
+      "lore_points": 3,
+      "category": "joker",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DONT_TOUCH_HAIR_l.png",
+      "icon_unlocked": "BARONY_ACH_DONT_TOUCH_HAIR.png"
+    },
+    "BARONY_ACH_FIRE_FIGHTER": {
+      "name": "Combatente do Fogo",
+      "description": "Mantenha o estado Radiante por 5 andares de Masmorra como uma verdadeira Salamandra.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FIRE_FIGHTER_l.png",
+      "icon_unlocked": "BARONY_ACH_FIRE_FIGHTER.png"
+    },
+    "BARONY_ACH_GARGOYLES_QUEST": {
+      "name": "Jornada da Gárgula",
+      "description": "Mantenha o estado Pétreo por 10 andares de Masmorra como uma verdadeira Salamandra.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_GARGOYLES_QUEST_l.png",
+      "icon_unlocked": "BARONY_ACH_GARGOYLES_QUEST.png"
+    },
+    "BARONY_ACH_DISCIPLINE": {
+      "name": "Discipline",
+      "description": "Complete 25 andares de Masmorra como uma verdadeira Salamandra sem entrar nas formas Radiante ou de Pedra.",
+      "lore_points": 3,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DISCIPLINE_l.png",
+      "icon_unlocked": "BARONY_ACH_DISCIPLINE.png"
+    },
+    "BARONY_ACH_MASTER_MAGIC": {
+      "name": "Mestre da Magia",
+      "description": "Alcance o nível Lendário em todas as três escolas de feitiços.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MASTER_MAGIC_l.png",
+      "icon_unlocked": "BARONY_ACH_MASTER_MAGIC.png"
+    },
+    "BARONY_ACH_QUACKERY": {
+      "name": "Quackery",
+      "description": "Use Espírito de Ave por 5 minutos em uma única partida.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_QUACKERY_l.png",
+      "icon_unlocked": "BARONY_ACH_QUACKERY.png"
+    },
+    "BARONY_ACH_DISTRACTED": {
+      "name": "Distracted",
+      "description": "Receba dano interrompendo seu uso de Espírito de Ave.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DISTRACTED_l.png",
+      "icon_unlocked": "BARONY_ACH_DISTRACTED.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BOOM_DYNAMITE": {
+      "name": "Bum! Lá vai Dinamite",
+      "description": "Mate 50 Inimigos usando explosões de Armadilhas ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOOM_DYNAMITE_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOM_DYNAMITE.png"
+    },
+    "BARONY_ACH_PAY_TO_WIN": {
+      "name": "Pagar para Ganhar",
+      "description": "Gaste 5000 de ouro exigidos para efeitos mágicos ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PAY_TO_WIN_l.png",
+      "icon_unlocked": "BARONY_ACH_PAY_TO_WIN.png"
+    },
+    "BARONY_ACH_BOLDER_BOULDER": {
+      "name": "Pedra Pesada",
+      "description": "Mate um inimigo rolando um Espírito da Terra contra ele com Telecinese.",
+      "lore_points": 1,
+      "category": "technique",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOLDER_BOULDER_l.png",
+      "icon_unlocked": "BARONY_ACH_BOLDER_BOULDER.png"
+    },
+    "BARONY_ACH_DOESNT_COUNT": {
+      "name": "Não Conta",
+      "description": "Desvie 50 golpes usando a Armadura de Mago ao longo de várias partidas.",
+      "lore_points": 1,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DOESNT_COUNT_l.png",
+      "icon_unlocked": "BARONY_ACH_DOESNT_COUNT.png"
+    },
+    "BARONY_ACH_THATS_CHEATING": {
+      "name": "Isso é Trapaça!",
+      "description": "Impeça um lich de conjurar 10 feitiços em você usando feitiços de Nulidade.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THATS_CHEATING_l.png",
+      "icon_unlocked": "BARONY_ACH_THATS_CHEATING.png"
+    },
+    "BARONY_ACH_APPRENTICES": {
+      "name": "Aprendizes",
+      "description": "Escape das Minas em um jogo cooperativo com um Herdeiro, mais um Mago, Curandeiro ou Arcanista.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_APPRENTICES_l.png",
+      "icon_unlocked": "BARONY_ACH_APPRENTICES.png"
+    },
+    "BARONY_ACH_SHORT_SHORTS": {
+      "name": "Calças Curtas",
+      "description": "Escape das Minas em um jogo cooperativo com mais de 3 jogadores onde todos os personagens são baixos em suas raças originais.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_SHORT_SHORTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SHORT_SHORTS.png"
+    },
+    "BARONY_ACH_HOLY_ORDER": {
+      "name": "Ordem Sagrada",
+      "description": "Escape das Minas em um jogo cooperativo com um Paladino, mais um Monge, Sacristão ou Clérigo.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_HOLY_ORDER_l.png",
+      "icon_unlocked": "BARONY_ACH_HOLY_ORDER.png"
+    },
+    "BARONY_ACH_CONSCRIPTED": {
+      "name": "Recrutado",
+      "description": "Escape das Minas em um jogo cooperativo com um Sapeador, mais um Guerreiro ou Bárbaro.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_CONSCRIPTED_l.png",
+      "icon_unlocked": "BARONY_ACH_CONSCRIPTED.png"
+    },
+    "BARONY_ACH_LONER_LEAGUE": {
+      "name": "Liga dos Solitários",
+      "description": "Escape das Minas em um jogo cooperativo com um Eremita, mais um Andarilho ou Ninja.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_LONER_LEAGUE_l.png",
+      "icon_unlocked": "BARONY_ACH_LONER_LEAGUE.png"
+    },
+    "BARONY_ACH_RIZZLERS": {
+      "name": "Rizzlers",
+      "description": "Escape das Minas em um jogo cooperativo com um Bardo, mais um Mercador, Coringa ou Ladino.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_RIZZLERS_l.png",
+      "icon_unlocked": "BARONY_ACH_RIZZLERS.png"
+    },
+    "BARONY_ACH_FOREIGN_EXCHANGE": {
+      "name": "Intercâmbio Cultural",
+      "description": "Escape das Minas em um jogo cooperativo com mais de 3 jogadores com pelo menos uma raça de cada DLC.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs",
+        "deserters_disciples"
+      ],
+      "icon_locked": "BARONY_ACH_FOREIGN_EXCHANGE_l.png",
+      "icon_unlocked": "BARONY_ACH_FOREIGN_EXCHANGE.png"
+    },
+    "BARONY_ACH_STUDY_ABROAD": {
+      "name": "Estudando Fora",
+      "description": "Escape das Minas em um jogo cooperativo com mais de 3 jogadores com pelo menos uma classe de cada DLC.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": [
+        "myths_outcasts",
+        "legends_pariahs",
+        "deserters_disciples"
+      ],
+      "icon_locked": "BARONY_ACH_STUDY_ABROAD_l.png",
+      "icon_unlocked": "BARONY_ACH_STUDY_ABROAD.png"
+    },
+    "BARONY_ACH_SOURCE_ENGINE": {
+      "name": "Motor de Origem",
+      "description": "Gaste 1000 pontos de magia usando Focos de Feitiçaria ao longo de várias partidas.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SOURCE_ENGINE_l.png",
+      "icon_unlocked": "BARONY_ACH_SOURCE_ENGINE.png"
+    },
+    "BARONY_ACH_SWAN_SONG": {
+      "name": "Canto do Cisne",
+      "description": "Escape da Cidadela como um Bardo de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_SWAN_SONG_l.png",
+      "icon_unlocked": "BARONY_ACH_SWAN_SONG.png"
+    },
+    "BARONY_ACH_MISSION_GOD": {
+      "name": "Missão de Deus",
+      "description": "Escape da Cidadela como um Paladino de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MISSION_GOD_l.png",
+      "icon_unlocked": "BARONY_ACH_MISSION_GOD.png"
+    },
+    "BARONY_ACH_NEPO_BABY": {
+      "name": "Herdeiro do Berço",
+      "description": "Escape da Cidadela como um Herdeiro de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_NEPO_BABY_l.png",
+      "icon_unlocked": "BARONY_ACH_NEPO_BABY.png"
+    },
+    "BARONY_ACH_REINTEGRATED": {
+      "name": "Reintegrado",
+      "description": "Escape da Cidadela como um Eremita de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_REINTEGRATED_l.png",
+      "icon_unlocked": "BARONY_ACH_REINTEGRATED.png"
+    },
+    "BARONY_ACH_DUNGEON_SEIGE": {
+      "name": "Cerco à Masmorra",
+      "description": "Escape da Cidadela como um Sapeador de qualquer raça.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DUNGEON_SEIGE_l.png",
+      "icon_unlocked": "BARONY_ACH_DUNGEON_SEIGE.png"
+    },
+    "BARONY_ACH_BURNINATION_BARON": {
+      "name": "Barão da Incineração",
+      "description": "Escape da Cidadela como uma verdadeira Salamandra.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BURNINATION_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BURNINATION_BARON.png"
+    },
+    "BARONY_ACH_BOLETE_BARON": {
+      "name": "Barão dos Cogumelos",
+      "description": "Escape da Cidadela como um verdadeiro Micônide.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOLETE_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOLETE_BARON.png"
+    },
+    "BARONY_ACH_BARKSKIN_BARON": {
+      "name": "Barão da Pele de Árvore",
+      "description": "Escape da Cidadela como uma verdadeira Dríade.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BARKSKIN_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BARKSKIN_BARON.png"
+    },
+    "BARONY_ACH_BONKERS_BARON": {
+      "name": "Barão Maluco",
+      "description": "Escape da Cidadela como um verdadeiro Gremlin.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BONKERS_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BONKERS_BARON.png"
+    },
+    "BARONY_ACH_BITTY_BARON": {
+      "name": "Barão Miúdo",
+      "description": "Escape da Cidadela como um verdadeiro Gnomo.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BITTY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BITTY_BARON.png"
+    }
+  }
+}

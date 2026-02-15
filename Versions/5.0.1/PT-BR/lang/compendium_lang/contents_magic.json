@@ -1,0 +1,160 @@
+{
+	"version": 1,
+	"contents": [
+		{
+			"    MAGIC ITEMS": "-"
+		},
+		{
+			"MAGICSTAFFS": "cajados mágicos"
+		},
+		{
+			"SCEPTER": "cetro"
+		},
+		{
+			"SOURCE FOCI": "focos de origem"
+		},
+		{
+			"HOLY SYMBOLS": "símbolos sagrados"
+		},
+		{
+			"DARK ICONS": "ícones sombrios"
+		},
+		{
+			"MUSICAL INSTRUMENTS": "instrumentos"
+		},
+		{
+			"ENCHANTED RINGS": "anéis encantados"
+		},
+		{
+			"ENCHANTED AMULETS": "amuletos encantados"
+		},
+		{
+			"JEWELS": "joias"
+		},
+		{
+			"    ARCANA": "-"
+		},
+		{
+			"SCROLLS": "pergaminhos"
+		},
+		{
+			"ENCHANTED FEATHER": "pena encantada"
+		},
+		{
+			"    SORCERY": "-"
+		},
+		{
+			"EVOCATION": "evocação"
+		},
+		{
+			"CONTRAVENTION": "contravenção"
+		},
+		{
+			"KINESIS": "cinética"
+		},
+		{
+			"TEMULTURGY": "temulturgia"
+		},
+		{
+			"    THAUMATURGY": "-"
+		},
+		{
+			"BLESSINGS": "bênçãos"
+		},
+		{
+			"DIVINATIONS": "divinações"
+		},
+		{
+			"MIRACULOUS FEATS": "feitos miraculosos"
+		},
+		{
+			"MEDITATIONS": "meditações"
+		},
+		{
+			"    MYSTICISM": "-"
+		},
+		{
+			"SARKOMANCY": "sarcomancia"
+		},
+		{
+			"PSIANIMUS": "psianimus"
+		},
+		{
+			"DAIMONIA": "daimonia"
+		},
+		{
+			"IMPETURIA": "impeturia"
+		}
+	],
+	"contents_alphabetical": [
+		{
+			"SCEPTER": "cetro"
+		},
+		{
+			"BLESSINGS": "bênçãos"
+		},
+		{
+			"CONTRAVENTION": "contravenção"
+		},
+		{
+			"DAIMONIA": "daimonia"
+		},
+		{
+			"DARK ICONS": "ícones sombrios"
+		},
+		{
+			"DIVINATIONS": "divinações"
+		},
+		{
+			"ENCHANTED AMULETS": "amuletos encantados"
+		},
+		{
+			"ENCHANTED FEATHER": "pena encantada"
+		},
+		{
+			"ENCHANTED RINGS": "anéis encantados"
+		},
+		{
+			"EVOCATION": "evocação"
+		},
+		{
+			"HOLY SYMBOLS": "símbolos sagrados"
+		},
+		{
+			"IMPETURIA": "impeturia"
+		},
+		{
+			"JEWELS": "joias"
+		},
+		{
+			"KINESIS": "cinética"
+		},
+		{
+			"MAGICSTAFFS": "cajados mágicos"
+		},
+		{
+			"MEDITATIONS": "meditações"
+		},
+		{
+			"MIRACULOUS FEATS": "feitos miraculosos"
+		},
+		{
+			"MUSICAL INSTRUMENTS": "instrumentos"
+		},
+		{
+			"PSIANIMUS": "psianimus"
+		},
+		{
+			"SARKOMANCY": "sarcomancia"
+		},
+		{
+			"SCROLLS": "pergaminhos"
+		},
+		{
+			"SOURCE FOCI": "focos de origem"
+		},
+		{
+			"TEMULTURGY": "temulturgia"
+		}
+	]
+}

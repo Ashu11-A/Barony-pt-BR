@@ -1,0 +1,51 @@
+{
+    "version": 1,
+    "window_title": "Enfrente 10 desafios que ensinam e testam suas habilidades de aventura, preparando você para enfrentar a masmorra!",
+    "default_hover_text": "Passe o mouse sobre uma entrada para mais informações.",
+    "levels": {
+        "tutorial_hub": {
+            "title": "O Salão dos Testes",
+            "desc": "Descrição: O centro onde todos os testes do tutorial podem ser acessados."
+        },
+        "tutorial1": {
+            "title": "Teste 1: Básico da Masmorra e Combate Corpo a Corpo",
+            "desc": "Descrição: Aprenda como interagir com a masmorra, como atacar com armas brancas e defender com escudos."
+        },
+        "tutorial2": {
+            "title": "Teste 2: Arcos, Flechas e Armas de Arremesso",
+            "desc": "Descrição: Aprenda sobre diferentes tipos de arcos e munições, e como usar armas de arremesso."
+        },
+        "tutorial3": {
+            "title": "Teste 3: Armadilhas, Espinhos e Pedregulhos",
+            "desc": "Descrição: Aprenda sobre os tipos de armadilhas que você encontrará, quão perigosas elas são e como evitá-las."
+        },
+        "tutorial4": {
+            "title": "Teste 4: Comida, Avaliação e Maldições",
+            "desc": "Descrição: Aprenda sobre fome e comida, e como a avaliação pode ajudá-lo a mitigar o risco de itens não identificados."
+        },
+        "tutorial5": {
+            "title": "Teste 5: Magia, Livros de Feitiços e Conjuração",
+            "desc": "Descrição: Aprenda como memorizar feitiços e conjurar a partir de pergaminhos, tomos e cajados mágicos."
+        },
+        "tutorial6": {
+            "title": "Teste 6: Furtividade e Ataques Furtivos",
+            "desc": "Descrição: Aprenda como abordar o combate com vantagem usando escuridão, flanqueamento e assassinatos."
+        },
+        "tutorial7": {
+            "title": "Teste 7: Recrutamento e Comandos de Seguidores",
+            "desc": "Descrição: Aprenda como liderar seguidores para aproveitar ao máximo suas capacidades versáteis."
+        },
+        "tutorial8": {
+            "title": "Teste 8: Poções e Alquimia",
+            "desc": "Descrição: Aprenda o básico de beber e arremessar poções, bem como misturar as suas próprias com um alambique."
+        },
+        "tutorial9": {
+            "title": "Teste 9: Funilaria",
+            "desc": "Descrição: Aprenda sobre muitos dispositivos que usam a perícia de Funilaria, desde abrir fechaduras até criar defesas elaboradas."
+        },
+        "tutorial10": {
+            "title": "Teste 10: Mercadores e Lojas",
+            "desc": "Descrição: Aprenda sobre os mercadores enigmáticos, que são tão exigentes quanto poderosos, e como eles podem ajudá-lo."
+        }
+    }
+}

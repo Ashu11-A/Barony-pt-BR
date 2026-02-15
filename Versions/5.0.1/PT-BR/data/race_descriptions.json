@@ -1,0 +1,1360 @@
+{
+	"version": 1,
+	"descriptions": {
+		"human": {
+			"title": "Humano",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					5,
+					8
+				]
+			},
+			"line_spacing": [
+				4
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				2,
+				3
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Nado mais rápido",
+				"- Bem-vindo pelos lojistas",
+				"",
+				"Resistências",
+				"Nenhuma",
+				"",
+				"Amigável Com",
+				"Humanos, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"Nenhuma"
+			]
+		},
+		"skeleton": {
+			"title": "Esqueleto",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					10,
+					16
+				]
+			},
+			"traits_active_if_polymorphed_out_of": [
+				5
+			],
+			"traits_active_if_polymorphed_into": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			],
+			"line_spacing": [
+				4
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Não sente fome ou morre de inanição",
+				"- Regeneração de PV e PM",
+				"reduzida em 75%",
+				"- Ressuscita-se por 75PM",
+				"- Imune a Queimadura",
+				"- Imune a Estrangulamento",
+				"- Velocidade de nado reduzida em 50%",
+				"",
+				"Resistências",
+				"- Espadas",
+				"- Ataques à Distância",
+				"- Machados",
+				"- Magia",
+				"",
+				"Amigável Com",
+				"- Ghouls, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Maças",
+				"- Armas de Haste",
+				"- Punição"
+			]
+		},
+		"vampire": {
+			"title": "Vampiro",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					12,
+					18
+				]
+			},
+			"line_spacing": [
+				20,
+				0,
+				2,
+				0,
+				-2,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				-12,
+				0,
+				0,
+				0,
+				0,
+				0,
+				-12,
+				2,
+				0
+			],
+			"traits_active_if_polymorphed_out_of": [
+				8,
+				9,
+				10
+			],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Sangria, Levitação",
+				"Características",
+				"- Usa PV quando sem PM para",
+				"conjurar e manter feitiços",
+				"- Só pode saciar a fome",
+				"com Frascos de Sangue",
+				"- Abates podem dropar Frascos de Sangue",
+				"- Sangria / Assassinate",
+				"abates dropam Frascos de Sangue",
+				"",
+				"Resistências",
+				"- Espadas",
+				"- Ataques à Distância",
+				"- Machados",
+				"- Magia",
+				"",
+				"Amigável Com",
+				"- Vampiros, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Maças",
+				"- Armas de Haste",
+				"- Água",
+				"- Punição",
+				"",
+				"",
+				""
+			]
+		},
+		"succubus": {
+			"title": "Súcubo",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					12,
+					16
+				]
+			},
+			"line_spacing": [
+				4,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				-4,
+				0,
+				0,
+				0,
+				-8,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Teletransporte, Polimorfismo",
+				"Características",
+				"- Equipamento amaldiçoado pode ser",
+				"removido; concede bônus",
+				"- Equipamento abençoado não é",
+				"removível; concede bônus",
+				"- +PM por Estrangulamento",
+				"- Capaz de recrutar Humanos",
+				"Bêbados/Confusos",
+				"",
+				"Resistências",
+				"- Magia",
+				"- Armas de Haste",
+				"",
+				"Amigável Com",
+				"- Succubi, Incubi,",
+				"Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Espadas",
+				"- Punição",
+				"",
+				"",
+				"",
+				""
+			]
+		},
+		"goatman": {
+			"title": "Homem-bode",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					11,
+					16
+				]
+			},
+			"line_spacing": [
+				4,
+				0,
+				0,
+				2,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				2,
+				0,
+				0
+			],
+			"traits_active_if_polymorphed_out_of": [
+				2,
+				3,
+				9,
+				10
+			],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Afligido por Alcoolismo,",
+				"causando Ressacas",
+				"- +FOR/CON/Resist. a Dano/",
+				"Ação Livre enquanto Bêbado",
+				"- Pode recrutar outros Bêbados",
+				"- Come Latas sem um Abridor",
+				"- Imune ao efeito Oleoso",
+				"- Pode encontrar poções bônus",
+				"ao interagir com fontes",
+				"Resistências",
+				"- Espadas",
+				"",
+				"",
+				"",
+				"Amigável Com",
+				"- Homens-bode, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Armas de Haste",
+				"- Machados",
+				"- Ataques à Distância",
+				"- Magia"
+			]
+		},
+		"automaton": {
+			"title": "Autômato",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					12,
+					16
+				]
+			},
+			"line_spacing": [
+				4,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				6,
+				0,
+				0,
+				0,
+				-2,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Salvar Material",
+				"Características",
+				"- Requer Calor (CT) para",
+				"sobreviver e conjurar feitiços",
+				"- Regenera CT com uma caldeira quente",
+				"abastecida por gemas e papel",
+				"- Pode remover itens amaldiçoados",
+				"- Imune a Queimadura",
+				"- +20 em Reparos de Engenharia",
+				"- Bem-vindo pelos lojistas",
+				"Resistências",
+				"- Ataques à Distância",
+				"- Desarmado",
+				"",
+				"Amigável Com",
+				"- Autômatos, Humanos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Machados",
+				"- Maças",
+				"- Magia"
+			]
+		},
+		"incubus": {
+			"title": "Íncubo",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					10,
+					15
+				]
+			},
+			"line_spacing": [
+				4,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Teletransporte, Marca Arcana",
+				"Características",
+				"- Equipamento amaldiçoado pode ser",
+				"removido; concede bônus",
+				"- Equipamento abençoado não é",
+				"removível; concede bônus",
+				"- +PM por Estrangulamento",
+				"",
+				"Resistências",
+				"- Magia",
+				"- Armas de Haste",
+				"",
+				"",
+				"Amigável Com",
+				"- Succubi, Incubi,",
+				"Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Ataques à Distância",
+				"- Espadas",
+				"- Punição"
+			]
+		},
+		"goblin": {
+			"title": "Goblin",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					9,
+					14
+				]
+			},
+			"line_spacing": [
+				4
+			],
+			"traits_active_if_polymorphed_out_of": [
+				7
+			],
+			"traits_active_if_polymorphed_into": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Equipamento usado tem menor",
+				"chance de degradar",
+				"- Aumentar qualquer perícia de",
+				"Arma de Combate aumenta todas",
+				"- Perícias de arma sobem mais devagar",
+				"- Não pode memorizar novos feitiços",
+				"",
+				"Resistências",
+				"- Espadas",
+				"- Desarmado",
+				"",
+				"",
+				"Amigável Com",
+				"- Goblins, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Machados",
+				"- Armas de Haste",
+				"- Ataques à Distância"
+			]
+		},
+		"insectoid": {
+			"title": "Insetoide",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					11,
+					15
+				]
+			},
+			"line_spacing": [
+				4,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				-8,
+				0,
+				0,
+				0,
+				8
+			],
+			"traits_active_if_polymorphed_out_of": [
+				4,
+				5,
+				6,
+				7
+			],
+			"traits_active_if_polymorphed_into": [
+				8,
+				9
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Flutuar, Investida, Borrifar Ácido",
+				"Características",
+				"- Requer Energia (EN) para",
+				"sobreviver e conjurar feitiços",
+				"- Recupera EN consumindo",
+				"comida e líquidos doces",
+				"- Imune a Veneno",
+				"- Imune a comida estragada",
+				"",
+				"Resistências",
+				"- Maças",
+				"- Desarmado",
+				"",
+				"Amigável Com",
+				"- Insetoides, Escaravelhos",
+				"Escorpiões, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Machados",
+				"- Armas de Haste",
+				"- Ataques à Distância",
+				"",
+				""
+			]
+		},
+		"rat": {
+			"title": "Rato",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					6,
+					14
+				]
+			},
+			"line_spacing": [
+				4
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				2,
+				3,
+				4
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Maior chance de ganhar",
+				"DES/INT ao subir de nível",
+				"- Imune a comida estragada",
+				"",
+				"Resistências",
+				"- Machados",
+				"- Armas de Haste",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Amigável Com",
+				"- Ratos, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Desarmado",
+				"- Ataques à Distância",
+				"- Espadas",
+				"- Maças"
+			]
+		},
+		"spider": {
+			"title": "Aranha",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					6,
+					14
+				]
+			},
+			"line_spacing": [
+				4
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				2,
+				3,
+				4
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Maior chance de ganhar",
+				"PER/CON ao subir de nível",
+				"- Imune a comida estragada",
+				"",
+				"Resistências",
+				"- None",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Amigável Com",
+				"- Spiders, Scarabs, Scorpions,",
+				"Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Machados"
+			]
+		},
+		"crab": {
+			"title": "Caranguejo",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					6,
+					14
+				]
+			},
+			"line_spacing": [
+				4
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				2,
+				3,
+				4
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Maior chance de ganhar",
+				"PER/CON ao subir de nível",
+				"- Imune a comida estragada",
+				"",
+				"Resistências",
+				"- None",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Amigável Com",
+				"- Crabs, Scarabs, Scorpions,",
+				"Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Machados"
+			]
+		},
+		"troll": {
+			"title": "Troll",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					6,
+					12
+				]
+			},
+			"line_spacing": [
+				4
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				2,
+				3,
+				4
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Maior chance de ganhar",
+				"FOR/CON ao subir de nível",
+				"- Imune a comida estragada",
+				"",
+				"Resistências",
+				"- Maças",
+				"- Armas de Haste",
+				"- Desarmado",
+				"- Ataques à Distância",
+				"",
+				"Amigável Com",
+				"- Trolls, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"Espadas",
+				"Machados"
+			]
+		},
+		"imp": {
+			"title": "Diabrete",
+			"text_line_highlights": {
+				"traits_lines": [
+					1
+				],
+				"benefit_lines": [
+					7,
+					11
+				]
+			},
+			"line_spacing": [
+				4
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				2,
+				3,
+				4,
+				5
+			],
+			"left_align": [
+				"",
+				"Características",
+				"- Maior chance de ganhar",
+				"INT/DES ao subir de nível",
+				"- Levitação",
+				"- Imune a comida estragada",
+				"",
+				"Resistências",
+				"- Machados",
+				"",
+				"",
+				"Amigável Com",
+				"- Diabretes, Autômatos"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Magia",
+				"- Espadas"
+			]
+		},
+		"dryad": {
+			"title": "Dríade",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					13,
+					18
+				]
+			},
+			"line_spacing": [
+				22,
+				0,
+				2,
+				0,
+				-2,
+				-2,
+				0,
+				-2,
+				-2,
+				0,
+				0,
+				0,
+				-12,
+				0,
+				0,
+				0,
+				0,
+				-8,
+				0,
+				0
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Germinar, Espinhos",
+				"Características",
+				"- Cresce folhagem ao subir nível",
+				"sem equipamentos de cabeça,",
+				"concede +PODER, +REG PM",
+				"- +% de Crescimento ao",
+				"consumir água; forma curta bufa",
+				"chance % e +5% de evasão",
+				"- Crescimento de CAR reduzido em 20%",
+				"- Bem-vindo pelos lojistas",
+				"",
+				"Resistências",
+				"- Ataques à Distância",
+				"- Desarmado",
+				"- Armas de Haste",
+				"",
+				"Amigável Com",
+				"- Dryads; Humans (Neutral)"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Fogo",
+				"- Machados",
+				"- Espadas",
+				"- Magia",
+				"",
+				""
+			]
+		},
+		"myconid": {
+			"title": "Miconídeo",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					13,
+					17
+				]
+			},
+			"line_spacing": [
+				8,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				-8,
+				0,
+				0,
+				0,
+				-8
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Germinar, Spores",
+				"Características",
+				"- Cresce folhagem ao subir nível",
+				"sem equipamentos de cabeça,",
+				"concede defesa física",
+				"- +MP and +Growth % from",
+				"    rotten food; short form",
+				"bufa chance %",
+				"- Crescimento de DES reduzido em 20%",
+				"- Bem-vindo pelos lojistas",
+				"",
+				"Resistências",
+				"- Maças",
+				"- Magia",
+				"",
+				"Amigável Com",
+				"- Myconids; Humans (Neutral)"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Espadas",
+				"- Machados",
+				"",
+				"",
+				""
+			]
+		},
+		"salamander": {
+			"title": "Salamandra",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					14,
+					19
+				]
+			},
+			"line_spacing": [
+				52,
+				-2,
+				0,
+				-2,
+				-2,
+				0,
+				0,
+				-2,
+				-2,
+				-2,
+				-2,
+				0,
+				0,
+				-16,
+				-2,
+				-2,
+				-2,
+				-10,
+				-4,
+				-2
+			],
+			"traits_active_if_polymorphed_out_of": [
+				4,
+				5,
+				6,
+				10,
+				11
+			],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Sopro de Fogo",
+				"Características",
+				"- Usa Fervor (FR) para conjurar",
+				"spells, regen. até 50%",
+				"- Ganhar XP aumenta FR",
+				"- Muda para Forma Radiante usando",
+				"Sopro de Fogo at 75% FR",
+				"- Forma de Pedra a 25% de FR",
+				"- CAR bufa Formas e ganho de FR",
+				"- +25% de fome",
+				"- Bem-vindo pelos lojistas",
+				"",
+				"Resistências",
+				"- Espadas",
+				"- Desarmado",
+				"- Fogo",
+				"",
+				"Amigável Com",
+				"- Salamanders;",
+				"    Humans (Neutral)"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Armas de Haste",
+				"- Ataques à Distância",
+				"",
+				"",
+				"",
+				"",
+				""
+			]
+		},
+		"gremlin": {
+			"title": "Gremlin",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					11,
+					15
+				]
+			},
+			"line_spacing": [
+				4,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Desfigurar",
+				"Características",
+				"- Perito em quebrar objetos",
+				"concedendo VEL, REG PM, DANO",
+				"conforme mais são quebrados",
+				"- Evasivo quando Escorregadio",
+				"- Visão Furtiva Aprimorada",
+				"- Crescimento de CON reduzido em 20%",
+				"",
+				"Resistências",
+				"- Armas de Haste",
+				"- Magia",
+				"",
+				"Amigável Com",
+				"- Gremlins; Goblins (Neutral)"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Espadas",
+				"- Machados"
+			]
+		},
+		"gnome": {
+			"title": "Gnomo",
+			"text_line_highlights": {
+				"traits_lines": [
+					3
+				],
+				"benefit_lines": [
+					1,
+					12,
+					16
+				]
+			},
+			"line_spacing": [
+				4,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				-8,
+				0,
+				0,
+				0
+			],
+			"traits_active_if_polymorphed_out_of": [],
+			"traits_active_if_polymorphed_into": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"left_align": [
+				"",
+				"Feitiços Inatos",
+				"- Forjar Joia",
+				"Características",
+				"- Sentir ouro (quando Cego)",
+				"- Aumento na REG PM ao",
+				"acumular ouro",
+				"- Combate com Picareta Aprimorado",
+				"- Crescimento de FOR reduzido em 20%",
+				"- Recruta com joias forjadas",
+				"- Bem-vindo pelos lojistas",
+				"",
+				"Resistências",
+				"- Armas de Haste",
+				"- Espadas",
+				"",
+				"Neutro Com",
+				"- Humanos, Trolls"
+			],
+			"right_align": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Fraquezas",
+				"- Magia",
+				"- Ataques à Distância",
+				"",
+				"",
+				""
+			]
+		}
+	}
+}

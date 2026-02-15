@@ -1,0 +1,2172 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial9a": {
+            "sign": [
+                "Estes itens estão todos",
+                "quebrados e inúteis.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/recycle.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial9b": {
+            "sign": [
+                "$",
+                "O gyrobot é o assistente",
+                "móvel do funileiro.",
+                "Uma vez implantado, use seus",
+                "comandos para realizar",
+                "uma variedade de tarefas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/gyrobotdeploy.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_gyrobot.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial9c": {
+            "sign": [
+                "O bonecobot fornecido",
+                "anteriormente estava danificado.",
+                "",
+                "Repare-o para",
+                "sobreviver a esta armadilha.",
+                "Se ele estiver quebrado, você",
+                "deve [Criar] um novo",
+                "no menu de funilaria."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9d": {
+            "sign": [
+                "O kit de funilaria pode",
+                "ser usado para reparar.",
+                "",
+                "Isso é essencial para",
+                "manter as máquinas criadas",
+                "e o próprio kit em",
+                "condições de funcionamento.",
+                "Se seu kit quebrar, você",
+                "pode não encontrar outro."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9e": {
+            "sign": [
+                "NOTICE:",
+                "Você está preso.",
+                "",
+                "A alavanca abrirá",
+                "o portão, mas também",
+                "soltará um pedregulho para",
+                "destruir você.",
+                "",
+                "Você deve funilar",
+                "para prosseguir."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/boulder_block.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial9f": {
+            "sign": [
+                "Armadilhas criadas como",
+                "esta podem ser arremessadas",
+                "em pisos, paredes ou",
+                "até portas e baús.",
+                "",
+                "Armadilhas implantadas não",
+                "ativarão contra aliados,",
+                "a menos que modificadas com",
+                "uma gazua."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/firetrap.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial9g": {
+            "sign": [
+                "Use o kit de funilaria",
+                "para abrir o menu de funilaria,",
+                "e selecione a aba de reparo.",
+                "Então escolha itens para melhorar.",
+                "",
+                "Mantenha suas máquinas",
+                "reparadas e aprimoradas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        4
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9h": {
+            "sign": [
+                "Sua estratégia e",
+                "engenhosidade com a",
+                "funilaria serão agora",
+                "testadas.",
+                "",
+                "Certifique-se de estar preparado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1
+                    ],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9i": {
+            "sign": [
+                "O número de máquinas",
+                "que você pode implantar por vez",
+                "baseia-se na sua",
+                "perícia de funilaria.",
+                "",
+                "Escolha sabiamente e",
+                "acompanhe suas",
+                "aliadas mecânicas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9is": {
+            "sign": [
+                "Você pode desmantelar itens",
+                "no seu inventário com",
+                "o menu de funilaria.",
+                "",
+                "Pressione$ no seu kit",
+                "e selecione [Funilar].",
+                "Use la aba [Desmantelar]",
+                "para começar a escolher itens",
+                "para transformar em sucata."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/salvage.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial9is_gamepad": {
+            "sign": [
+                "Você pode desmantelar itens",
+                "no seu inventário com",
+                "o menu de funilaria.",
+                "",
+                "Pressione$ no seu kit",
+                "e selecione [Funilar].",
+                "Use a aba [Desmantelar]",
+                "para começar a escolher itens",
+                "para transformar em sucata."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/salvage.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial9j": {
+            "sign": [
+                "Selecione itens para criar",
+                "na aba de criação do",
+                "menu de funilaria.",
+                "Veja os custos de sucata ao",
+                "pairar sobre cada item.",
+                "",
+                "Você enfrentará um teste",
+                "de sobrevivência usando os",
+                "itens que criar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9k": {
+            "sign": [
+                "With the tinkering kit",
+                "equipado, segure$para",
+                "ativar a auto-sucata.",
+                "",
+                "Itens que você pegar",
+                "com$ serão desmantelados",
+                "em sucata útil."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/autoscrap.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial9l": {
+            "sign": [
+                "Para acessar rápido o",
+                "menu de funilaria com o",
+                "kit de funilaria equipado,",
+                "segure$e pressione$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/repair_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial9l_gamepad": {
+            "sign": [
+                "Para acessar rápido o",
+                "menu de funilaria com o",
+                "kit de funilaria equipado,",
+                "segure$e pressione$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/repair_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial9m": {
+            "sign": [
+                "Veja!",
+                "$",
+                "Com o kit de funilaria",
+                "você pode acessar máquinas,",
+                "armadilhas e itens utilitários,",
+                "assumindo que tenha a",
+                "perícia e suprimento de sucata."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_tinkerkit.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial9n": {
+            "sign": [
+                "Máquinas e armadilhas",
+                "criadas podem sofrer",
+                "danos em combate.",
+                "Se não estiverem quebradas, podem",
+                "ser reparadas e reutilizadas.",
+                "",
+                "Mas mesmo sucata",
+                "quebrada pode ter valor",
+                "para um funileiro."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9o": {
+            "sign": [
+                "Sentinelas são vulneráveis",
+                "e podem ser rapidamente",
+                "destruídas por inimigos.",
+                "",
+                "Outras ferramentas podem ajudar",
+                "você a manter inimigos à",
+                "distância, permitindo que sentinelas",
+                "ataquem livremente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9p": {
+            "sign": [
+                "$",
+                "Bonecobots são resistentes",
+                "e bons em manter a",
+                "atenção do inimigo.",
+                "",
+                "Saiba que você não pode",
+                "atirar através deles."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/dummybot.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_dummy.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial9q": {
+            "sign": [
+                "Você pode recuperar um pouco",
+                "de sucata ao arrombar",
+                "um baú trancado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/chest_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial9q_gamepad": {
+            "sign": [
+                "Você pode recuperar um pouco",
+                "de sucata ao arrombar",
+                "um baú trancado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/chest_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial9r": {
+            "sign": [
+                "Tochas podem fornecer",
+                "um suprimento constante de",
+                "sucata de metal.",
+                "",
+                "Alguma perícia de funilaria",
+                "pode ser ganha com",
+                "desmantelamento persistente.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/torcher.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Tinkering02_32.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial9re": {
+            "sign": [
+                "Funileiros habilidosos",
+                "podem ocasionalmente ganhar",
+                "sucata extra ao",
+                "desmantelar itens."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9s": {
+            "sign": [
+                "$",
+                "Você não tem armas de",
+                "longo alcance ou arremesso.",
+                "Mas uma sentinela pode lutar",
+                "contra inimigos por você."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/sentry.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_sentry.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial9t": {
+            "sign": [
+                "$",
+                "Armadilhas de urso são colocadas",
+                "no chão com$ .",
+                "Inimigos que pisarem nelas",
+                "ficam imobilizados,",
+                "tornando-os alvos fáceis",
+                "por um tempo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_beartrap.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial9u": {
+            "sign": [
+                "Esta porta está trancada.",
+                "",
+                "$ ",
+                "Portas e baús trancados",
+                "podem ser arrombados, mas",
+                "abri-los é geralmente",
+                "mais rápido se você for",
+                "bom em funilaria."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/lockpick.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/locking.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial9v": {
+            "sign": [
+                "$  $",
+                "",
+                "Itens desmantelados rendem",
+                "sucata de metal e sucata mágica.",
+                "",
+                "Sucata mágica é mais rara",
+                "e necessária para",
+                "tarefas mais complexas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/metal_scrap.png",
+                    "sizex": 32,
+                    "sizey": 32
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/magic_scrap.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial9w": {
+            "sign": [
+                "$",
+                "Use$ para comandar máquinas.",
+                "Desative, colete",
+                "e leve-as consigo",
+                "para uso contínuo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/deactivate_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_deactivate.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial9w_gamepad": {
+            "sign": [
+                "$",
+                "Use$ para comandar máquinas.",
+                "Desative, colete",
+                "e leve-as consigo",
+                "para uso contínuo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/deactivate_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_deactivate.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial9x": {
+            "sign": [
+                "$",
+                "O fazedor de ruído é um dispositivo",
+                "simples, mas útil,",
+                "criado por funileiros.",
+                "Use-O para atrair monstros",
+                "para onde você quiser."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_noisemaker.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial9y": {
+            "sign": [
+                "A maioria das máquinas e",
+                "armadilhas criadas são equipadas",
+                "como armas.",
+                "",
+                "Use$ para implantá-las",
+                "na sua frente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/deploy.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial9z": {
+            "sign": [
+                "Há um troll",
+                "além deste portão",
+                "para o qual você não está",
+                "equipado para lutar.",
+                "",
+                "Use o que puder",
+                "para passar por ele.",
+                "Lembre-se de manter",
+                "sua distância."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        3
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/noisemaker.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial9ab": {
+            "sign": [
+                "Esta alavanca deve",
+                "ser girada até o fim",
+                "para ativar totalmente.",
+                "",
+                "Ela se desativará",
+                "sozinha após",
+                "um tempo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/timedlever.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial9ac": {
+            "sign": [
+                "As máquinas e armadilhas",
+                "que você reuniu podem ser",
+                "usadas para se defender de",
+                "inimigos.",
+                "",
+                "Atrase-os e",
+                "atraia-os para",
+                "a morte."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9ace": {
+            "sign": [
+                "$",
+                "Comande seu gyrobot",
+                "para [Retornar e Pousar] se",
+                "não precisar mais",
+                "de sua assistência."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/land.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_land.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial9ad": {
+            "sign": [
+                "Os mortos-vivos dentro",
+                "destas celas aqui",
+                "devem ser mortos antes",
+                "que você possa prosseguir.",
+                "",
+                "Puxe a alavanca quando",
+                "estiver preparado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9ae": {
+            "sign": [
+                "Sentinelas são feitas para",
+                "escanear inimigos aleatoriamente.",
+                "$",
+                "Ordene que elas",
+                "[Olhem para...] e pressione$",
+                "para definir a direção da mira."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/lookat_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_lookat.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial9ae_gamepad": {
+            "sign": [
+                "Sentinelas são feitas para",
+                "escanear inimigos aleatoriamente.",
+                "$",
+                "Ordene que elas",
+                "[Olhem para...] e pressione$",
+                "para definir a direção da mira."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/lookat_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_lookat.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial9af": {
+            "sign": [
+                "$ $ $",
+                "Seu gyrobot pode pegar",
+                "itens com [Interagir].",
+                "",
+                "Use [Mover para] para fazer",
+                "o gyrobot [Soltar] itens,",
+                "onde você possa alcançá-los."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        3,
+                        4
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/retrieve.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_interact.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_move.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial9/sign_drop.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial9ag": {
+            "sign": [
+                "Gyrobots avançados podem",
+                "implantar armadilhas usando",
+                "o comando de soltar.",
+                "",
+                "Eles também podem operar",
+                "alavancas e funilar",
+                "armadilhas implantadas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9ah": {
+            "sign": [
+                "Gyrobots implantados",
+                "reconhecem suas máquinas",
+                "aliadas e as levarão para",
+                "o próximo nível se",
+                "forem deixadas para trás.",
+                "",
+                "Enquanto inimigos ignoram",
+                "gyrobots, eles podem ser",
+                "mortos por algumas armadilhas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9ai": {
+            "sign": [
+                "WARNING:",
+                "",
+                "Máquinas implantadas não",
+                "seguirão você através",
+                "deste portal. Colete as que",
+                "tiver para trazê-las",
+                "com você. Você não pode",
+                "voltar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9aj": {
+            "sign": [
+                "Activate the lever",
+                "at the end of the",
+                "platform and monsters.",
+                "will begin to attack.",
+                "Use tinkering knowledge",
+                "to survive the onslaught",
+                "and the gate will open."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial9/necrotron.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial9ajz": {
+            "sign": [
+                "NOTICE:",
+                "Your sentries will",
+                "fire at enemies they",
+                "spot, even if allies",
+                "are in the way.",
+                "",
+                "Place dummybots,",
+                "and yourself,",
+                "accordingly."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial9ak": {
+            "sign": [
+                "Adventurers who focus on",
+                "tinkering will have many",
+                "strategic advantages in",
+                "the dungeons."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        }
+    }
+}

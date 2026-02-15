@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "*3Abrindo caminho através de cada demônio em seu trajeto, você salta pelo\\n",
+        "portal sem um momento de hesitação. Parece que nenhuma entidade, mortal ou\\n",
+        "imortal, pode desafiar seu poder.\\n^",
+        "*3De repente, você se vê cansado em um salão branco infinito, pontilhado\\n",
+        "com pilares enormes que se estendem mais alto do que você pode ver. O cheiro de\\n",
+        "sangue está espesso em sua respiração, mas você suspeita que mais precisará ser derramado.\\n",
+        "*2Pode este lugar sobrenatural competir com Minotauros, Demônios; o próprio Baphomet?\\n",
+        "Você sente uma grande magia fluindo para a sala. Você fica apreensivo. Uma voz ressoa:\\n^",
+        "*3\\\"Testemunhamos sua força e sede de poder. Você não era esperado aqui.\\n",
+        "No entanto, estamos impressionados com sua ferocidade e foco. Pedimos que considere esta\\n",
+        "proposta, poderoso...\\\"\\n^",
+        "*3Enquanto a voz se dirige a você, você se vê incapaz ou relutante\\n",
+        "em rejeitar o que ela lhe diz. Eventualmente, há uma mudança inexplicável em seu\\n",
+        "ser mortal, e você sente-se desaparecendo...\\n^",
+        "*3Você sente o poder supremo de uma grande mente enquanto desaparece do mundo mortal.\\n",
+        "A primeira era chega ao fim, e a era do caos começa. Você tem certeza de que\\n",
+        "seu tempo é iminente e seu propósito será cumprido."
+    ],
+    "images": [
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/NoEternals.png",
+        "*images/ui/Main Menus/Story/Eternals.png",
+        "*images/ui/Main Menus/Story/white.png",
+        "*images/ui/Main Menus/Story/black.png"
+    ]
+}

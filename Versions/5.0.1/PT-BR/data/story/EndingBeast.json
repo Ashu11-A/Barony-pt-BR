@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "*3Através do portal, uma magia fraca o puxa da Cidadela.\\n",
+        "Seus pés flutuam sobre o chão enquanto ele treme violentamente.\\n",
+        "Tubos e pistões caem em um barulho abafado...\\n^",
+        "*1Você tenta afastar seu terror e fecha os olhos.\\n^",
+        "*3Você aparece de repente, em pé na Guilda dos Magos estão um mago e um bispo.\\n",
+        "Seus rostos estão confusos, mas eles aguardam sua reação com espanto paciente.\\n",
+        "São estas as mesmas pessoas que assassinaram sua espécie tão recentemente?\\n^",
+        "*3Embora instável no início, seus povos constroem uma aliança para a paz.\\n",
+        "Através do seu exemplo, insectoides, humanos, homens-bode e goblins abraçam a coragem\\n",
+        "em vez do medo. O comércio prospera em Hamlet enquanto as pessoas refreiam sua sede de poder.\\n^",
+        "*2Você assume a corte e logo é coroado o novo Barão. Você jura manter\\n",
+        "o poder do lich em segredo, e impedir que qualquer um busque esse poder novamente.\\n^",
+        "*1Um poder que você sabe que sempre estará esperando."
+    ],
+    "images": [
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/white.png",
+        "*images/ui/Main Menus/Story/HeroRescued.png",
+        "*images/ui/Main Menus/Story/intro1.png",
+        "*images/ui/Main Menus/Story/throne.png",
+        "*images/ui/Main Menus/Story/PowerWaiting.png"
+    ]
+}

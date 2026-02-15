@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "*3Vitorioso, você entra no portal. Você não sabe o que esperar,\\n",
+        "mas está inundado de alívio. De alguma forma, você sabe que a maldição do Barão\\n",
+        "foi removida desta terra.\\n^",
+        "*4Antes que tenha tempo de pensar, você está subitamente diante das minas\\n",
+        "mais uma vez. Mas algo está diferente; os uivos de monstros distantes\\n",
+        "desapareceram, e os céus, antes de um preto ameaçador, estão clareando para mostrar a\\n",
+        "luz do dia novamente.\\n^",
+        "*3De repente, as portas da mina se abrem totalmente. Seladas por anos para conter\\n",
+        "o mal em seu interior, elas se abrem de dentro para fora, enquanto cem humanos agradecidos\\n",
+        "correm para cumprimentar aquele que destruiu o Barão.\\n^",
+        "*4A fonte infernal do poder do Barão permanece um mistério para você, e alguma\\n",
+        "deliberação o leva a acreditar que uma visita à Guilda dos Magos é\\n",
+        "necessária para uma investigação mais profunda. Mas, por enquanto, você apenas se junta à\\n",
+        "alegria das pessoas que acabou de salvar..."
+    ],
+    "images": [
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/intro4.png",
+        "*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+        "*images/ui/Main Menus/Story/MagiciansGuild.png"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+ "version": 1,
+ "comment": "Light definitions",
+ "lights": {
+  "campfire": {
+   "radius": 6,
+   "r": 0.2,
+   "g": 0.7,
+   "b": 0.4,
+   "falloff_exp": 0.7,
+   "shadows": true
+  },
+  "campfire_flicker": {
+   "radius": 6,
+   "r": 0.3,
+   "g": 0.8,
+   "b": 0.5,
+   "falloff_exp": 0.7,
+   "shadows": true
+  },
+  "player_torch": {
+   "radius": 6,
+   "r": 0.55,
+   "g": 0.85,
+   "b": 0.65,
+   "falloff_exp": 0.5,
+   "shadows": true
+  },
+  "player_lantern": {
+   "radius": 9,
+   "r": 0.6,
+   "g": 1,
+   "b": 0.8,
+   "falloff_exp": 0.5,
+   "shadows": true
+  },
+  "torch_wall": {
+   "radius": 6,
+   "r": 0.55,
+   "g": 0.75,
+   "b": 0.65,
+   "falloff_exp": 0.7,
+   "shadows": true
+  },
+  "torch_wall_flicker": {
+   "radius": 6,
+   "r": 0.45,
+   "g": 0.65,
+   "b": 0.55,
+   "falloff_exp": 0.7,
+   "shadows": true
+  },
+  "magic_red": {
+   "radius": 3,
+   "r": 0.8,
+   "g": 2.7,
+   "b": 1.5,
+   "falloff_exp": 1,
+   "shadows": true
+  },
+  "magic_red_flicker": {
+   "radius": 3,
+   "r": 0.55,
+   "g": 2.5,
+   "b": 1,
+   "falloff_exp": 0.5,
+   "shadows": true
+  },
+  "lava": {
+   "radius": 2,
+   "r": 0.12,
+   "g": 0.5,
+   "b": 0.25,
+   "falloff_exp": 0.8,
+   "shadows": true
+  }
+ }
+}

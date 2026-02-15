@@ -1,0 +1,233 @@
+95 criatura#
+116 criaturas#
+158 Ash#
+159 Bateman#
+160 Chucky#
+161 Damien#
+162 Eggers#
+163 Freddy#
+164 Ghostface#
+165 Hannibal#
+166 Ichabod#
+167 Jigsaw#
+168 Krueger#
+169 Leatherface#
+170 Myers#
+171 Norman#
+172 Orlok#
+173 Pennywise#
+174 Qliphoth#
+176 Slender#
+177 Torrence#
+178 Umibozu#
+179 Voorhees#
+180 Wilkes#
+181 Xing Tian#
+182 Ygor#
+183 Zito#
+190 Doces#
+194 Doçura ou travessura!#
+195 BU!#
+196 Você está aqui!#
+217 A maioria das pessoas é tão ingrata por estar viva. Mas não você. Não mais.#
+221 A criatura te ignora se você mantiver distância!#
+224 Você gosta de filmes de terror?#
+227 Eu sou o fantasma com mais ginga, baby. Vá em frente. Faça o meu milênio!#
+228 Sacos de doces podem ter açúcar derretido acumulado dentro. Use uma toalha para se limpar.#
+230 Os ratos são generosos! Eles oferecem barras de chocolate de tamanho normal.#
+233 Eu evitaria doces velhos se fosse você. Pode ser demais para estômagos fracos.#
+255 Você vê um espírito flamejante aprisionado.#
+260 Você vê um poço de espíritos.#
+270 Você vê uma abóbora gigantesca e premiada.#
+274 Você vê uma mesa construída para tortura.#
+405 Seu feitiço destrói a abóbora gigantesca!#
+455 Você foi atingido por uma abóbora enorme!#
+456 Você não tem força para mover a abóbora.#
+457 Você atrai um espírito perdido do poço.#
+458 As chamas espirituais diminuíram.#
+467 O caldeirão está estagnado.#
+473 O caldeirão abençoa seu equipamento.#
+474 Não há mais uso para o caldeirão.#
+477 A mesa de tortura está pegajosa de sangue.#
+485 Aqui está o Johnny!!#
+486 Haverá comida, bebida e fantasmas... talvez até alguns assassinatos. Todos estão convidados.#
+487 Aqui jaz o corpo de Blake / Pisou no acelerador em vez do freio#
+488 Aqui jaz Vlad. Ele nunca bebeu... vinho.#
+489 O melhor amigo de um menino é sua mãe.#
+490 R.I.P.#
+491 Todos enlouquecemos um pouco às vezes.#
+492 Morrer -- estar realmente morto -- isso deve ser glorioso.#
+493 Você vai morrer lá em cima.#
+494 Sua mãe está aqui dentro. Gostaria de deixar um recado? Eu farei com que ela receba.#
+495 O pecado nunca morre.#
+496 Aqui jaz Ingrid / Assustada por um esqueleto medonho#
+497 Quando não houver mais espaço no inferno, os mortos caminharão sobre a terra.#
+498 Só trabalho e nada de diversão faz de Jack um menino bobo.#
+499 Venha brincar conosco. Para todo o sempre... e sempre... e sempre.#
+500 Tenha medo. Tenha muito medo.#
+501 Às vezes, morto é melhor.#
+538 "Você sabia?" / "Eu comi o fígado dele com algumas favas e um bom chianti." / "É verdade!"#
+539 "Você sabia?" / "Eu sou seu fã número um." / "É verdade!"#
+540 "Você sabia?" / "O que é sangue inocente senão para ser derramado?" / "É verdade!"#
+541 "Você sabia?" / "Eu vejo gente morta." / "É verdade!"#
+542 "Você sabia?" / "Eu sei o que você fez no verão passado." / "É verdade!"#
+543 "Você sabia?" / "Você não pode matar o bicho-papão." / "É verdade!"#
+544 "Você sabia?" / "Acho que todos têm direito a um bom susto." / "É verdade!"#
+545 "Você sabia?" / "O mal é real." / "É verdade!"#
+546 "Você sabia?" / "Você nunca deveria dizer 'eu já volto'." / "É verdade!"#
+547 "Você sabia?" / "Nós vamos despedaçar sua alma." / "É verdade!"#
+548 "Você sabia?" / "Anjos para alguns, demônios para outros." / "É verdade!"#
+549 "Você sabia?" / "Poupe seu fôlego para gritar." / "É verdade!"#
+550 "Você sabia?" / "Faça o que fizer, não caia no sono." / "É verdade!"#
+551 "Você sabia?" / "Eu gosto de assassinatos e execuções, principalmente." / "É verdade!"#
+552 "Você sabia?" / "Minha família sempre trabalhou com carne." / "É verdade!"#
+553 "Você sabia?" / "Você é uma verdadeira atração de curral." / "É verdade!"#
+554 "Você sabia?" / "Psicopatas não explodem quando a luz do sol os atinge." / "É verdade!"#
+555 "Você sabia?" / "Tenho certeza de que é muito mais assustador à noite." / "É verdade!"#
+556 "Você sabia?" / "Tem um pouco de vermelho em você." / "É verdade!"#
+557 "Você sabia?" / "Não leia o latim." / "É verdade!"#
+558 "Você sabia?" / "Então vamos apenas ignorar o urso?" / "É verdade!"#
+559 "Você sabia?" / "Você checou as crianças ultimamente?" / "É verdade!"#
+560 "Você sabia?" / "Inferno é apenas uma palavra. A realidade é muito pior." / "É verdade!"#
+561 "Você sabia?" / "Estou com esse pressentimento... um pressentimento estranho." / "É verdade!"#
+562 "Você sabia?" / "Sete dias." / "É verdade!"#
+563 "Você sabia?" / "Eles simplesmente não acreditam mais como antigamente." / "É verdade!"#
+564 "Você sabia?" / "Não é a casa que está assombrada." / "É verdade!"#
+565 "Você sabia?" / "Todos nós flutuamos aqui embaixo." / "É verdade!"#
+566 "Você sabia?" / "Eu nunca quis ser sua mãe." / "É verdade!"#
+567 "Você sabia?" / "Eu pareço algum tipo de monstro?" / "É verdade!"#
+568 "Você sabia?" / "Esta coisa precisa de trauma para se espalhar." / "É verdade!"#
+569 "Você sabia?" / "Eles saem principalmente à noite. Principalmente." / "É verdade!"#
+589 Você pega a chama espiritual da parede.#
+663 Você destrói a abóbora!#
+716 Você ouve o estrondo fraco de enormes abóboras rolando.#
+764 Você devora o saco de %s.#
+801 Esta é uma velha nota rabiscada: "Eu piór criatura de todas. ninguem paga pedagio ponte."#
+802 "eu nao sou assustador o bastante. eu fico bebado e me mato. criatura afogada"#
+886 Você pode abrir sacos de doces enquanto carregar tesouras.#
+908 Eca! Este doce estragou!#
+916 Você se sente mal por comer doce demais.#
+917 URP! Doce demais!#
+918 grudento#
+919 mastigável#
+920 crocante#
+921 gomoso#
+922 picante#
+923 azedo#
+924 pegajoso#
+925 velho#
+926 com cobertura#
+927 glaçado#
+928 confeitado#
+929 temático de desenho#
+930 super-herói#
+931 temático de monstro#
+932 bolachudo#
+933 derretido#
+934 barras de chocolate#
+935 barras de chocolate amargo#
+936 barras de chocolate branco#
+937 doces duros#
+938 pirulitos#
+939 puxa-puxa#
+940 balas de limão#
+941 quadradinhos de fruta#
+942 biscoitos de caramelo#
+943 torcidinhos de fruta#
+944 balas de chocolate#
+945 bolinhas de malte#
+946 passas com iogurte#
+947 quadradinhos de nozes#
+948 açúcar em pó#
+949 biscoitos de baunilha#
+950 e pedaços de alcaçuz#
+951 e canudos de açúcar#
+952 e balas de mel#
+953 e barras de coco#
+954 e biscoitos de aveia#
+955 e botões de açúcar#
+956 com canela forte#
+957 kit de montar e comer#
+958 e vitaminas vencidas#
+959 e gomas de laranja#
+960 e amendoins de circo#
+961 com biscoitos soltos#
+962 e biscoitos de animais#
+963 e copinhos de pudim#
+964 e pedaços de toffee#
+965 e balas de hortelã#
+966 O açúcar derretido deixa seus dedos escorregadios.#
+1002 um %+2d com navalhas#
+1003 um %+2d vencido#
+1004 um %+2d passado#
+1005 um %+2d levemente passado#
+1028 %d com navalhas %+2d#
+1029 %d vencidos %+2d#
+1030 %d passados %+2d#
+1031 %d levemente passados %+2d#
+1054 um contaminado#
+1055 um vencido#
+1056 um passado#
+1057 um levemente passado#
+1080 %d contaminados#
+1081 %d vencidos#
+1082 %d passados#
+1083 %d levemente passados#
+1093 Você não pode abrir o saco sem tesouras.#
+1505 foi esmagado em massa de torta de abóbora.#
+1515 invade a zona de conforto da criatura e leva uma bofetada.#
+1910 Doçura ou Travessura!#
+1911 Feliz Halloween, Trevo de Prata#
+1912 Temporada de PSL!#
+1913 Manual para os Recentemente Falecidos#
+1914 O Fantasma com mais Gingado#
+1915 Eu já volto!#
+1916 Está vindo de dentro da casa!#
+1917 Bem na hora da torta#
+1918 O Lobisomem tem culhões!#
+1919 FALSO!#
+1920 A Múmia veio na minha casa!#
+1921 É por isso que todos os esquisitos saíram!#
+1922 Dedo de homem morto!#
+1923 Candyman! Candyman! Candyman!#
+1924 Bloody Mary! Bloody Mary!#
+1925 Venha brincar conosco, Danny#
+1926 São apenas macarrão, Michael#
+1927 O que é isso? O que é isso?#
+1928 9, 10, Nunca durma novamente#
+1929 É apenas um sonho!#
+1930 É apenas uma caixa de quebra-cabeça!#
+1931 Foi meu primeiro funeral#
+1932 As regras do jogo são muito claras#
+1933 Somos amigos até o fim!#
+1934 Uma máscara nos diz mais que um rosto#
+1935 Você veio cantar canções de abóbora?#
+1936 Algo maligno vem por aí#
+1937 Criatura na masmorra!#
+1938 Todos têm direito a um bom susto#
+1939 Dedos pegajosos, pés cansados...#
+1946 NOTA: Remove apenas armadilhas geradas aleatoriamente, como abóboras e armadilhas de flechas nas bordas e corredores dos níveis.#
+2367 O símbolo desafia seu toque e não pode ser recuperado!#
+2368 Você coloca o símbolo no receptáculo...#
+2370 O símbolo começa a flutuar!#
+2377 Você vê um símbolo místico no topo de um pedestal.#
+2494 Ossos de prisioneiros mortos forram o chão da gaiola.#
+2495 A gaiola é fraca, mas seus habitantes eram mais fracos.#
+2497 Você vê uma cama com tiras.#
+2499 Você vê uma gaiola de prisão sombria.#
+2506 cela#
+2821 O %s / Senti poder do fantasma quando você o colocou naquele pedestal.#
+2823 O %s / Consegui aprisionar parte do poder que o fantasma de Herx liberou.#
+2824 O %s / Este portal perfura o selo das Cavernas usando o poder do fantasma.#
+2834 %s / Só estou interessado nos artefatos mais raros. Em particular, nos Símbolos de Halloween que foram roubados por Herx.#
+2836 %s / Veja, um membro de alto escalão da guilda como eu pode extorquir aqueles magos até o último centavo com seus símbolos preciosos!#
+3974 A abóbora enorme não pode ser movida por esse caminho.#
+4006 Reciclar chama espiritual#
+4007 Pegar chama espiritual#
+4021 Empurrar abóbora#
+4022 Pegar símbolo#
+4024 Atrair espírito#
+4126 Entregue o símbolo diretamente a mim. Não há necessidade de envolver formalidades de ouro agora!#
+4349 armadilha de abóbora#
+4358 abóbora#
+5805 Abóbora Gigante#

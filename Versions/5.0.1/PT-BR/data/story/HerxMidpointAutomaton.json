@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "Tendo derrotado o Barão e colocado seu orbe violeta no pedestal,\\n",
+        "você entra no portal. Você detecta uma magia poderosa surgindo sobre seu corpo.\\n^",
+        "Seu corpo é transportado com um flash branco.^ Você chega do lado de fora das\\n",
+        "minas de Hamlet e observa as condições climáticas sombrias melhorarem rapidamente.\\n",
+        "A luz quente do sol flui sobre o campo. À medida que as portas da mina se abrem totalmente,\\n",
+        "você vê humanos correndo pelas ruas. Eles parecem estar muito satisfeitos.\\n^",
+        "*3Você caminha em direção à Guilda dos Magos com uma consulta sobre o Orbe de Herx.\\n",
+        "O porteiro recusa sua entrada, no entanto. Aparentemente reconhecendo o desgaste que você\\n",
+        "sofreu, ele o instrui a procurar reparos na estalagem e retornar amanhã.\\n",
+        "Você volta às ruas e encontra cem humanos esperando por você.\\n",
+        "Evidentemente, eles querem que você se junte às festividades deles. Embora você não tenha\\n",
+        "rotinas de festa instaladas, os humanos o recrutam para o serviço de entretenimento.\\n",
+        "*2Eventualmente, os humanos se acalmam, e você pode retomar sua\\n",
+        "missão original de visitar a Guilda dos Magos..."
+    ],
+    "images": [
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/white.png",
+        "*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+        "*images/ui/Main Menus/Story/MagiciansGuild.png",
+        "*images/ui/Main Menus/Story/black.png"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "*3Através do portal, uma magia fraca o puxa da Cidadela.\\n",
+        "Seus pés flutuam sobre o chão enquanto ele treme violentamente.\\n",
+        "Tubos e pistões caem em um barulho abafado...\\n^",
+        "*1Suas entradas sensoriais são atenuadas e você observa a transferência de sua consciência.\\n^",
+        "*2Seus sistemas estão nominais. Você está com um mago e um bispo. Seus rostos se abrem\\n",
+        "em expressões de surpresa.\\n",
+        "Eles estão chocados ao ver que um autômato os resgatou\\n",
+        "do mal sobrenatural. Sua natureza não humana é o motivo?\\n^",
+        "*3As guildas e igrejas concordam, não há árbitro mais perfeito para o\\n",
+        "bem-estar dos humanos. Você é incumbido das tarefas da lei, assumido por\\n",
+        "ter objetividade perfeita como o novo Barão.\\n^",
+        "*2Suas decisões são infalíveis... ou são? O que é que o torna consciente?\\n",
+        "Você lidera Hamlet de volta à sua antiga glória. Mas problemas futuros podem exigir mais poder.\\n^",
+        "*1Um poder que você sabe que sempre estará esperando."
+    ],
+    "images": [
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/white.png",
+        "*images/ui/Main Menus/Story/HeroRescued.png",
+        "*images/ui/Main Menus/Story/throne.png",
+        "*images/ui/Main Menus/Story/intro1.png",
+        "*images/ui/Main Menus/Story/PowerWaiting.png"
+    ]
+}

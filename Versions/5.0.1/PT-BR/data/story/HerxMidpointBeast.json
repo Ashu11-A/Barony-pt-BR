@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "Tendo derrotado o Barão e colocado seu orbe violeta no pedestal,\\n",
+        "você entra no portal. Uma magia poderosa envia um formigamento por seu corpo.\\n^",
+        "Seu corpo é transportado com um flash branco.^ Você chega do lado de fora das\\n",
+        "minas de Hamlet e observa a escuridão amaldiçoada se afastar da terra.\\n",
+        "A luz quente do sol flui sobre o campo. À medida que as portas da mina se abrem totalmente,\\n",
+        "as pessoas correm para as ruas, aclimatando-se à sua liberdade.\\n^",
+        "Você corre para os edifícios próximos, procurando um lugar para se esconder e planejar seu\\n",
+        "próximo passo. Há humanos demais aqui para o seu gosto.\\n^",
+        "Você invade o que parece ser uma estalagem. Você passa a noite sob\\n",
+        "os lençóis de uma cama confortável enquanto os sons de folia o cercam.\\n^",
+        "Enquanto os humanos festejam pela hospedaria, você ouve falar de um poder ainda maior\\n",
+        "do que o de Herx, que dizem estar guardado na Guilda dos Magos...\\n^",
+        "Um alçapão no dormitório leva a um esgoto.\\n",
+        "Você espera que os humanos saiam..."
+    ],
+    "images": [
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/white.png",
+        "*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+        "*images/ui/Main Menus/Story/MagiciansGuild.png",
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/PowerWaiting.png",
+        "*images/ui/Main Menus/Story/black.png"
+    ]
+}

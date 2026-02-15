@@ -1,0 +1,43 @@
+{
+	"version": 1,
+	"contents": [
+		{
+			"    CATEGORIES": "-"
+		},
+		{
+			"ADVENTURE": "aventura"
+		},
+		{
+			"EXPERIENCE": "experiência"
+		},
+		{
+			"JOKER'S CHOICE": "coringa"
+		},
+		{
+			"TEAMWORK": "trabalho em equipe"
+		},
+		{
+			"TECHNIQUE": "técnica"
+		}
+	],
+	"contents_alphabetical": [
+		{
+			"    CATEGORIES": "-"
+		},
+		{
+			"ADVENTURE": "aventura"
+		},
+		{
+			"EXPERIENCE": "experiência"
+		},
+		{
+			"JOKER'S CHOICE": "coringa"
+		},
+		{
+			"TEAMWORK": "trabalho em equipe"
+		},
+		{
+			"TECHNIQUE": "técnica"
+		}
+	]
+}

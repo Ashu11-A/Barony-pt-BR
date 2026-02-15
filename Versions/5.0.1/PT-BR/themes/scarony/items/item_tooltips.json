@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"adjectives": {
+		"food_status": {
+			"broken": "Com lâmina",
+			"decrepit": "Vencido",
+			"worn": "Velho",
+			"serviceable": "Um pouco velho",
+			"excellent": "Fresco"
+		}
+	}
+}

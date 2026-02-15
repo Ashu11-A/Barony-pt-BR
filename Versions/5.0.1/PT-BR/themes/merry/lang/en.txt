@@ -1,0 +1,220 @@
+98 boneco de neve#
+103 elfo#
+110 ajudante do Papai Noel#
+119 bonecos de neve#
+124 elfos#
+131 ajudantes do Papai Noel#
+158 Blitzen#
+159 Cupido#
+160 Cometa#
+161 Corredor#
+162 Dançarino#
+163 Trovão#
+164 Kringle#
+165 Papai Noel#
+166 Claus#
+167 Sanctus#
+168 Papai Noel#
+169 Tamboril#
+170 Niklaus#
+171 Nicholas#
+172 Nicolas#
+173 Saltitante#
+174 Rudolfo#
+175 Jack#
+176 Noel#
+177 São Nicolau#
+178 Nicolo#
+179 Nikola#
+180 Frosty#
+181 Scrooge#
+182 Ebenezer#
+183 Yul#
+194 Boas Festas!#
+195 Ho ho ho! Feliz Natal!#
+196 Boas Festas!#
+197 Você foi travesso este ano?#
+198 Melhor do que uma meia cheia de carvão!#
+199 Lembre-se de enviar uma nota de "Obrigado"!#
+200 É melhor dar do que receber.#
+201 Esse item me fez pensar em você.#
+202 Uma ótima troca de presentes!#
+203 Ho ho ho! Não não não.#
+204 Você não quer estar na minha lista de travessos!#
+205 Você precisa de uma meia cheia de ouro!#
+206 Um presente generoso!#
+207 Você não deveria!#
+208 Você é muito gentil!#
+209 Eu conheço um bom menino que quer isso.#
+210 Eu conheço uma boa menina que quer isso.#
+211 As crianças sempre pedem isso.#
+212 Não é a época para isso.#
+213 Eu prefiro um pudim de figo.#
+214 Isso não está na minha lista, desculpe.#
+216 No Natal, todos os caminhos levam para casa.#
+217 O Natal sempre existirá enquanto estivermos de coração e mãos dadas.#
+218 Uma alegria compartilhada é uma alegria dobrada.#
+219 A lembrança, como uma vela, brilha mais forte no Natal.#
+220 O Natal é fazer um pouco mais por alguém.#
+221 O Natal é a época de acender o fogo da hospitalidade.#
+222 Que seus dias sejam felizes e brilhantes!#
+223 É a temporada de dar!#
+224 O Natal acena com uma varinha mágica sobre este mundo, e eis que tudo fica mais suave e bonito.#
+225 Não é quanto damos, mas o quanto de amor colocamos no ato de dar.#
+226 É a época mais maravilhosa do ano!#
+227 O Natal não é apenas um dia, é um estado de espírito.#
+228 O Natal é uma temporada não só de celebração, mas de reflexão.#
+229 O mundo ficou cansado ao longo dos anos, mas no Natal ele é jovem.#
+230 Quem não tem o Natal no coração nunca o encontrará sob a árvore.#
+231 A alegria de iluminar outras vidas torna-se para nós a magia das festas.#
+232 Eu deveria escrever uma filosofia dos brinquedos, mostrando que nada mais na vida precisa ser levado tão a sério.#
+233 Talvez a melhor decoração de Natal seja estar cercado de sorrisos.#
+234 Querido, está frio lá fora.#
+235 É a temporada de ser feliz!#
+255 Você vê uma tocha decorada.#
+262 Você vê uma fonte decorada.#
+266 Você vê uma caixa de presente.#
+267 Você vê uma grade decorada.#
+270 Você vê uma bola de neve gigante.#
+271 Você vê uma árvore de Natal.#
+373 Inventário da Caixa de Presente#
+374 Pegou %s da caixa de presente.#
+400 O feitiço tranca a caixa de presente!#
+404 O feitiço destranca a caixa de presente!#
+405 Seu feitiço destruí a bola de neve gigante!#
+455 Você é atingido por uma bola de neve gigante!#
+456 Você não tem força para mover a bola de neve gigante.#
+459 A caixa de presente se abre!#
+460 Você sela a caixa de presente!#
+461 Alguém fechou a caixa de presente!#
+462 A caixa de presente está trancada!#
+463 Você colocou %s na caixa de presente.#
+485 Há um cartão na árvore: "Eu acredito... eu acredito... é bobagem, mas eu acredito."#
+486 Há um cartão na árvore: "Uma boa consciência é um Natal contínuo."#
+487 Há um cartão na árvore: "Presentes de tempo e amor são certamente os ingredientes básicos de um Natal verdadeiramente alegre."#
+488 Há um cartão na árvore: "Um milagre de Natal é quando sua família não tem uma única discussão o dia todo."#
+489 Há um cartão na árvore: "E se o Natal não viesse de uma loja? E se ele significasse algo mais?"#
+490 Há um cartão na árvore: "No Natal, você diz a verdade."#
+491 Há um cartão na árvore: "Nenhum homem é um fracasso se tem amigos."#
+492 Há um cartão na árvore: "Ninguém deveria ficar sozinho no Natal."#
+493 Há um cartão na árvore: "O Natal é obrigatório, como uma tempestade, e todos passamos por isso juntos."#
+494 Há um cartão na árvore: "Tem que haver pelo menos um dia no ano para nos lembrar que estamos aqui por algo além de nós mesmos."#
+495 Há um cartão na árvore: "Reflita sobre suas bênçãos atuais – das quais todo homem tem muitas – e não sobre suas desgraças passadas, das quais todos têm algumas."#
+496 Há um cartão na árvore: "Tum-pum-pum-pum, tum-pum-pum-pum, veja o Frosty indo!"#
+497 Há um cartão na árvore: "Visco. Muitas vezes está infestado de narguilés."#
+498 Há um cartão na árvore: "O principal motivo de o Papai Noel ser tão alegre é porque ele sabe onde todas as garotas más vivem."#
+499 Há um cartão na árvore: "O clima está ótimo para um passeio de trenó junto com você."#
+500 Há um cartão na árvore: "Doces sinos de prata, todos parecem dizer, ding-dong, tá bom."#
+501 Há um cartão na árvore: "Ele me ama, eu amo você. Portanto, indiretamente, ele ama você."#
+502 Um boneco de neve surge da árvore!#
+540 "Você sabia?" "Papai Noel não cobra nada por gemas não identificadas." "É verdade!"#
+563 "Você sabia?" "Elfos e trolls são melhores amigos." "É verdade!"#
+564 "Você sabia?" "Papai Noel realmente é um gênio mágico!" "É verdade!"#
+568 "Você sabia?" "Caixas de presente quebradas não rendem muitos itens." "É verdade!"#
+663 Você destrói a bola de neve gigante!#
+667 Você atinge a caixa de presente!#
+671 A caixa de presente é despedaçada!#
+675 caixa de presente#
+716 Você ouve o leve estalo das bolas de neve gigantes.#
+1003 do ano passado %+2d#
+1004 um sobrante %+2d#
+1005 um re-presenteado %+2d#
+1029 %d do ano passado %+2d#
+1030 %d sobrante %+2d#
+1031 %d re-presenteado %+2d#
+1055 do ano passado#
+1056 um sobrante#
+1057 um re-presenteado#
+1081 %d do ano passado#
+1082 %d sobrante#
+1083 %d re-presenteado#
+1097 Você destrava a caixa de presente.#
+1098 Você tranca a caixa de presente.#
+1102 Você falhou ao destravar a caixa de presente.#
+1105 Esta caixa de presente já está destravada.#
+1505 falha ao desviar da bola de neve gigante que se aproxima.#
+1521 é riscado da lista dos travessos por um elfo.#
+1527 é adicionado à lista de travessos do Papai Noel.#
+1969 Pegar Tudo da Caixa de Presente#
+2366 O pedestal parece exigir algum tipo de elemento de feriado.#
+2367 O elemento escapa de seu alcance e não pode ser recuperado!#
+2368 Você coloca o elemento de feriado no receptáculo...#
+2370 O elemento de feriado começa a flutuar!#
+2377 Você vê um elemento de feriado em cima de um pedestal.#
+2520 Seu feitiço destrói a caixa de presente!#
+2712 Os %s Os ajudantes do Papai Noel estão mais fortes depois de sobreviver ao calabouço do Barão.#
+2821 Os %s Percebi o poder do ornamento quando você o colocou naquele pedestal.#
+2823 Os %s Consegui prender parte do poder que o ornamento de Herx liberou.#
+2824 Os %s Este portal perfura o selo para as Cavernas usando o poder do ornamento.#
+2834 %s Só estou interessado nos artefatos mais raros da terra. Em particular, os elementos de feriado que foram roubados por Herx.#
+2836 %s Veja, um membro de alto escalão de uma guilda como eu pode extorquir esses magos por cada centavo que eles têm com seus preciosos elementos de feriado!#
+3088 Aquela era do ano passado!#
+3099 caixa de presente#
+3243 Você está na minha lista dos travessos, %s %s!#
+3244 descobre que todos os %s estão na lista dos travessos de %s.#
+3317 Tranca portas e caixas de presente#
+3897 Você vê um compartimento escondido dentro da caixa de presente!#
+3974 A bola de neve gigante não pode ser movida dessa forma.#
+4004 Fechar caixa de presente#
+4005 Abrir caixa de presente#
+4010 Inspecionar árvore de Natal#
+4021 Empurrar bola de neve#
+4022 Pegar elemento de feriado#
+4088 Você encontrou %d peças de ouro na caixa de presente!#
+4098 Não há mais espaço na caixa de presente para um %s!#
+4099 Pegou %d itens da caixa de presente.#
+4126 Entregue o elemento diretamente para mim. Não há necessidade de envolver formalidades de ouro agora!#
+4197 Você colocou %d %s na caixa de presente.#
+4217 naughty#
+4218 não legal#
+4219 desobediente#
+4220 ganancioso#
+4221 cruel#
+4222 malvado#
+4223 grosseiro#
+4224 desleixado#
+4225 irresponsável#
+4226 fala de volta#
+4227 desperdiçador#
+4228 egoísta#
+4229 mentiroso#
+4230 ladrão#
+4231 impenitente#
+4232 bagunceiro#
+4233 dedo-duro#
+4234 Travesso#
+4235 Não legal#
+4236 Desobediente#
+4237 Ganancioso#
+4238 Cruel#
+4239 Malvado#
+4240 Grosseiro#
+4241 Desleixado#
+4242 Irresponsável#
+4243 Fala de volta#
+4244 Desperdiçador#
+4245 Egoísta#
+4246 Mentiroso#
+4247 Ladrão#
+4248 Impenitente#
+4249 Bagunceiro#
+4250 Dedo-duro#
+4252 Sorry, those are for Extra-Nice kids.#
+4253 Ah não, isso é para outra criança.#
+4254 Talvez se você for mais legal no próximo ano!#
+4255 You're on my Extra-Nice list!#
+4256 Aquela é endereçada para você!#
+4257 Feito especialmente para você na minha oficina.#
+4258 Dos bolsos secretos do meu saco!#
+4259 Eu guardo alguns desses no meu trenó, só por precaução.#
+4304 Você não é mais inimigo dos Ajudantes do Papai Noel.#
+4305 Agora você é considerado inimigo dos Ajudantes do Papai Noel por incitar violência!#
+4306 Agora você é considerado inimigo dos Ajudantes do Papai Noel por ser cúmplice de violência!#
+4349 armadilha de bola de neve#
+4357 árvore de natal#
+4358 bola de neve gigante#
+5120 Controlar o tamanho dos pop-ups no mundo para itens, árvores de Natal e diálogos de NPCs.#
+5122 Controlar o tamanho dos pop-ups no mundo para itens, árvores de Natal e diálogos de NPCs no modo tela dividida.#
+5715 Os elfos estão rindo de você! Você realmente vai deixar isso passar?#
+5805 Bola de Neve Gigante#
+5959 Gift Box#

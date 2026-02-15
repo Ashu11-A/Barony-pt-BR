@@ -1,0 +1,331 @@
+{
+	"version": 1,
+	"contents": [
+		{
+			"    CHARACTER": "-"
+		},
+		{
+			"CLASS OVERVIEW": "classe"
+		},
+		{
+			"CLASSES": "lista de classes"
+		},
+		{
+			"RACE & ALIGNMENT": "raças"
+		},
+		{
+			"EXPERIENCE POINTS (XP)": "xp"
+		},
+		{
+			"LEVELING UP": "subindo de nível"
+		},
+		{
+			"STATS & METASTATS": "atributos e meta-atributos"
+		},
+		{
+			"SKILLS": "perícias"
+		},
+		{
+			"GOLD": "ouro"
+		},
+		{
+			"    ACTIONS": "-"
+		},
+		{
+			"MELEE ATTACKS": "corpo a corpo"
+		},
+		{
+			"CRITICAL STRIKES": "críticos"
+		},
+		{
+			"FLANKING STRIKES": "flanqueamento"
+		},
+		{
+			"BACKSTABBING": "punhaladas"
+		},
+		{
+			"SNEAKING": "furtividade"
+		},
+		{
+			"LEGENDARY STRIKES": "golpes lendários"
+		},
+		{
+			"BLOCKING": "bloqueio"
+		},
+		{
+			"OFF-HAND CASTING": "conjuração secundária"
+		},
+		{
+			"STRAFE & BACKPEDAL": "movimentação lateral"
+		},
+		{
+			"MEMORIZED CASTING": "memorizado"
+		},
+		{
+			"SPELLBOOK CASTING": "conjuração via livro"
+		},
+		{
+			"MISSILE ATTACKS": "projéteis"
+		},
+		{
+			"THROWN ATTACKS": "arremesso"
+		},
+		{
+			"ITEM DEGRADATION": "degradação de equipamento"
+		},
+		{
+			"WANTED STATUS": "procurado"
+		},
+		{
+			"    STATS & METASTATS": "-"
+		},
+		{
+			"STRENGTH (STR)": "for"
+		},
+		{
+			"DEXTERITY (DEX)": "des"
+		},
+		{
+			"CONSTITUTION (CON)": "con"
+		},
+		{
+			"INTELLIGENCE (INT)": "int"
+		},
+		{
+			"PERCEPTION (PER)": "per"
+		},
+		{
+			"CHARISMA (CHR)": "car"
+		},
+		{
+			"ARMOR CLASS (AC)": "ca"
+		},
+		{
+			"HEALTH POINTS (HP)": "pv"
+		},
+		{
+			"MAGIC POINTS (MP)": "pm"
+		},
+		{
+			"MAGIC RESIST (RES)": "res"
+		},
+		{
+			"MAGIC POWER (PWR)": "pod"
+		},
+		{
+			"REGENERATION (RGN)": "reg"
+		},
+		{
+			"WEIGHT (WGT)": "peso"
+		},
+		{
+			"    SKILLS": "-"
+		},
+		{
+			"SWORD SKILL": "perícia espada"
+		},
+		{
+			"AXE SKILL": "perícia machado"
+		},
+		{
+			"POLEARM SKILL": "perícia arma de haste"
+		},
+		{
+			"MACE SKILL": "perícia maça"
+		},
+		{
+			"UNARMED SKILL": "perícia desarmado"
+		},
+		{
+			"STEALTH SKILL": "perícia furtividade"
+		},
+		{
+			"BLOCKING SKILL": "perícia bloqueio"
+		},
+		{
+			"RANGED SKILL": "perícia à distância"
+		},
+		{
+			"SORCERY SKILL": "perícia feitiçaria"
+		},
+		{
+			"MYSTICISM SKILL": "perícia misticismo"
+		},
+		{
+			"THAUMATURGY SKILL": "perícia taumaturgia"
+		},
+		{
+			"LORE SKILL": "perícia conhecimento"
+		},
+		{
+			"LEADERSHIP SKILL": "perícia liderança"
+		},
+		{
+			"TRADING SKILL": "perícia negociação"
+		},
+		{
+			"ALCHEMY SKILL": "perícia alquimia"
+		},
+		{
+			"TINKERING SKILL": "perícia funilaria"
+		}
+	],
+	"contents_alphabetical": [
+		{
+			"ALCHEMY SKILL": "perícia alquimia"
+		},
+		{
+			"ARMOR CLASS (AC)": "ca"
+		},
+		{
+			"AXE SKILL": "perícia machado"
+		},
+		{
+			"BACKSTABBING": "punhaladas"
+		},
+		{
+			"BLOCKING SKILL": "perícia bloqueio"
+		},
+		{
+			"BLOCKING": "bloqueio"
+		},
+		{
+			"CASTING MEMORIZED SPELLS": "memorizado"
+		},
+		{
+			"CHARISMA (CHR)": "car"
+		},
+		{
+			"CLASS": "classe"
+		},
+		{
+			"CLASSES LIST": "lista de classes"
+		},
+		{
+			"CONSTITUTION (CON)": "con"
+		},
+		{
+			"CRITICAL STRIKES": "críticos"
+		},
+		{
+			"DEXTERITY (DEX)": "des"
+		},
+		{
+			"EXPERIENCE POINTS (XP)": "xp"
+		},
+		{
+			"FLANKING STRIKES": "flanqueamento"
+		},
+		{
+			"GOLD": "ouro"
+		},
+		{
+			"HEALTH POINTS (HP)": "pv"
+		},
+		{
+			"INTELLIGENCE (INT)": "int"
+		},
+		{
+			"ITEM DURABILITY": "degradação de equipamento"
+		},
+		{
+			"LEADERSHIP SKILL": "perícia liderança"
+		},
+		{
+			"LEGENDARY STRIKES": "golpes lendários"
+		},
+		{
+			"LEVELING UP": "subindo de nível"
+		},
+		{
+			"LORE SKILL": "perícia conhecimento"
+		},
+		{
+			"MACE SKILL": "perícia maça"
+		},
+		{
+			"MAGIC POINTS (MP)": "pm"
+		},
+		{
+			"MAGIC POWER (PWR)": "pod"
+		},
+		{
+			"MAGIC RESIST (RES)": "res"
+		},
+		{
+			"MELEE ATTACKS": "corpo a corpo"
+		},
+		{
+			"MISSILE ATTACKS": "projéteis"
+		},
+		{
+			"MYSTICISM SKILL": "perícia misticismo"
+		},
+		{
+			"OFF-HAND CASTING": "conjuração secundária"
+		},
+		{
+			"PERCEPTION (PER)": "per"
+		},
+		{
+			"POLEARM SKILL": "perícia arma de haste"
+		},
+		{
+			"RACE & ALIGNMENT": "raças"
+		},
+		{
+			"RANGED SKILL": "perícia à distância"
+		},
+		{
+			"REGENERATION (RGN)": "reg"
+		},
+		{
+			"SKILLS": "perícias"
+		},
+		{
+			"SNEAKING": "furtividade"
+		},
+		{
+			"SORCERY SKILL": "perícia feitiçaria"
+		},
+		{
+			"SPELLBOOK CASTING": "conjuração via livro"
+		},
+		{
+			"STATS & METASTATS": "atributos e meta-atributos"
+		},
+		{
+			"STEALTH SKILL": "perícia furtividade"
+		},
+		{
+			"STRAFE & BACKPEDAL": "movimentação lateral"
+		},
+		{
+			"STRENGTH (STR)": "for"
+		},
+		{
+			"SWORD SKILL": "perícia espada"
+		},
+		{
+			"THAUMATURGY SKILL": "perícia taumaturgia"
+		},
+		{
+			"THROWN ATTACKS": "arremesso"
+		},
+		{
+			"TINKERING SKILL": "perícia funilaria"
+		},
+		{
+			"TRADING SKILL": "perícia negociação"
+		},
+		{
+			"UNARMED SKILL": "perícia desarmado"
+		},
+		{
+			"WANTED STATUS": "procurado"
+		},
+		{
+			"WEIGHT (WGT)": "peso"
+		}
+	]
+}

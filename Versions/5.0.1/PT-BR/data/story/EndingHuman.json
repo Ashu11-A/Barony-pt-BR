@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "*3Através do portal, uma magia fraca o puxa da Cidadela.\\n",
+        "Seus pés flutuam sobre o chão enquanto ele treme violentamente.\\n",
+        "Tubos e pistões caem em um barulho abafado...\\n^",
+        "*1Você tem uma sensação de paz distanciada, e um momento para ponderar sobre o que ocorreu.\\n^",
+        "*2Você abre os olhos. Em pé na Guilda dos Magos estão um mago e um bispo.\\n",
+        "Seus rostos relaxam em alívio...\\n",
+        "Nos dias seguintes, você trabalha com eles em segredo para evitar\\n",
+        "que os reinos do inferno pisem em Hamlet novamente.\\n^",
+        "Hamlet inicia sua ascensão rumo à sua antiga glória. As guildas se unem\\n",
+        "sob sua bandeira para eliminar os monstros restantes e reconstruir a cidade.\\n^",
+        "Os cidadãos imploram para que você assuma a corte e o coroam como o novo Barão. Você jura\\n",
+        "manter o poder do lich em segredo, e impedir que qualquer um busque esse poder novamente...\\n^",
+        "*1Um poder que você sabe que sempre estará esperando."
+    ],
+    "images": [
+        "images/ui/Main Menus/Story/black.png",
+        "images/ui/Main Menus/Story/white.png",
+        "images/ui/Main Menus/Story/HeroRescued.png",
+        "images/ui/Main Menus/Story/intro1.png",
+        "images/ui/Main Menus/Story/HumanThrone.png",
+        "images/ui/Main Menus/Story/PowerWaiting.png"
+    ]
+}

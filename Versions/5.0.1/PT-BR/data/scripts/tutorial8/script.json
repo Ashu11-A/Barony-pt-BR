@@ -1,0 +1,2747 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial8a": {
+            "sign": [
+                "$ ",
+                "",
+                "Seu HP está baixo como",
+                "resultado de envenenamento.",
+                "A Poção de Cura Extra",
+                "irá ajudar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/extrahealing_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/extrahealing.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8a_gamepad": {
+            "sign": [
+                "$ ",
+                "",
+                "Seu HP está baixo como",
+                "resultado de envenenamento.",
+                "A Poção de Cura Extra",
+                "irá ajudar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/extrahealing_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/extrahealing.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8b": {
+            "sign": [
+                "Para misturar poções, use o",
+                "Alambique com$ , e então",
+                "selecione duas poções",
+                "diferentes com$ .",
+                "",
+                "Então selecione o resultado",
+                "do slot inferior",
+                "com$ para prepará-la."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial8b_gamepad": {
+            "sign": [
+                "Para misturar poções, use o",
+                "Alambique com$ , e então",
+                "selecione duas poções",
+                "diferentes com$ .",
+                "",
+                "Então selecione Preparar com$",
+                "ou colete o resultado",
+                "do slot inferior."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuAlt2"
+                }
+            ]
+        },
+        "tutorial8c": {
+            "sign": [
+                "Poções podem ser",
+                "auxílios valiosos para",
+                "aventureiros, e",
+                "armas poderosas",
+                "contra seus inimigos.",
+                "",
+                "Aqueles que dominam",
+                "seu uso podem conquistar",
+                "a masmorra."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8d": {
+            "sign": [
+                "Alambiques abençoados podem",
+                "produzir misturas abençoadas.",
+                "$",
+                "Água e suco abençoados",
+                "têm grande valor de cura."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial8/sign_blessedalembic.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8e": {
+            "sign": [
+                "Alambiques amaldiçoados podem",
+                "produzir misturas amaldiçoadas.",
+                "$",
+                "Isso as contamina e",
+                "pode causar mais dano.",
+                "Água amaldiçoada pode",
+                "amaldiçoar um item."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial8/sign_cursedalembic.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8f": {
+            "sign": [
+                "Você deve usar o que",
+                "aprendeu, e",
+                "seu suprimento de poções",
+                "para ter sucesso. Certifique-se",
+                "de estar preparado.",
+                "",
+                "Você será agora testado.",
+                "Limpe a área",
+                "dos mortos-vivos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8g": {
+            "sign": [
+                "Alquimistas habilidosos têm",
+                "uma chance melhor de",
+                "duplicar com água.",
+                "",
+                "A falha resultará na",
+                "perda da poção."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8h": {
+            "sign": [
+                "Para ver as chances",
+                "de duplicação, paire sobre o",
+                "slot inferior do Alambique assim",
+                "que sua poção e água estiverem",
+                "preparadas para o preparo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8i": {
+            "sign": [
+                "Você pode melhorar",
+                "sua Perícia de Alquimia",
+                "bebendo poções pela",
+                "primeira vez.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Alchemy02_32.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8j": {
+            "sign": [
+                "À sua frente está o",
+                "Alambique que pode ser",
+                "usado para preparar poções.",
+                "$",
+                "Misture novas poções de",
+                "duas garrafas diferentes."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial8/sign_alembic.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8k": {
+            "sign": [
+                "Cuidado com o inimigo mortal",
+                "além desta porta.",
+                "",
+                "Seria prudente",
+                "manter este portão fechado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8l": {
+            "sign": [
+                "A alavanca para este portão",
+                "fica além da aranha",
+                "na outra sala."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/spiderlever.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial8m": {
+            "sign": [
+                "Poção de Paralisia",
+                "",
+                "$ ",
+                "",
+                "Inflige Paralisia,",
+                "interrompendo o movimento e",
+                "ataques. Você pode beber",
+                "poções enquanto paralisado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/paralyze.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8n": {
+            "sign": [
+                "À vezes, arremessar uma",
+                "poção benéfica é",
+                "a melhor maneira de",
+                "ajudar aliados."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8o": {
+            "sign": [
+                "Poção de Cura de Enfermidade",
+                "$",
+                "Beber isso remove",
+                "a maioria dos efeitos de status,",
+                "incluindo os positivos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial8/sign_cure.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8p": {
+            "sign": [
+                "Poções com efeitos",
+                "benéficos são consumidas como",
+                "a ação padrão, enquanto",
+                "poções prejudiciais são",
+                "equipadas para serem",
+                "arremessadas com$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/potionoffense_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial8p_gamepad": {
+            "sign": [
+                "Poções com efeitos",
+                "benéficos são consumidas como",
+                "a ação padrão, enquanto",
+                "poções prejudiciais são",
+                "equipadas para serem",
+                "arremessadas com$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/potionoffense_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial8q": {
+            "sign": [
+                "Poções podem ser",
+                "arremessadas ou bebidas.",
+                "",
+                "Se uma poção estiver",
+                "identificada, seu",
+                "comportamento padrão de$ e",
+                "da Hotbar é adequado",
+                "ao seu efeito."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial8q_gamepad": {
+            "sign": [
+                "Poções podem ser",
+                "arremessadas ou bebidas.",
+                "",
+                "Se uma poção estiver",
+                "identificada, seu",
+                "comportamento padrão de$ e",
+                "da Hotbar é adequado",
+                "ao seu efeito."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial8r": {
+            "sign": [
+                "Você está Envenenado.",
+                "",
+                "$ ",
+                "",
+                "Beba isso do seu",
+                "inventário com$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/cureailment.png",
+                    "sizex": 32,
+                    "sizey": 32
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial8r_gamepad": {
+            "sign": [
+                "Você está Envenenado.",
+                "",
+                "$ ",
+                "",
+                "Beba isso do seu",
+                "inventário com$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/cureailment.png",
+                    "sizex": 32,
+                    "sizey": 32
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial8s": {
+            "sign": [
+                "Cada tipo de poção",
+                "vem em uma certa",
+                "gama de cores,",
+                "e pode ser útil",
+                "ou prejudicial."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8t": {
+            "sign": [
+                "Para empunhar poções",
+                "não identificadas ou benéficas,",
+                "da sua hotbar,",
+                "segure$ enquanto pressiona",
+                "a tecla atribuída da hotbar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "MenuConfirm",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8t_gamepad": {
+            "sign": [
+                "Para empunhar poções",
+                "não identificadas ou benéficas,",
+                "pressione$ na poção",
+                "no seu inventário e",
+                "selecione [Empunhar] na",
+                "lista suspensa."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial8u": {
+            "sign": [
+                "Poção de Enfermidade",
+                "",
+                "$ ",
+                "",
+                "Arremesse em um inimigo",
+                "para infligir veneno.",
+                "Destrua o boneco",
+                "e prossiga."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/potionthrow.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/poisoned.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8v": {
+            "sign": [
+                "Use poções para",
+                "garantir que a sentinela",
+                "derrote o esqueleto.",
+                "A sentinela está danificada",
+                "e falhará sem",
+                "assistência.",
+                "",
+                "Puxe a alavanca",
+                "para começar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/healsentry.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial8w": {
+            "sign": [
+                "Todas as boas receitas",
+                "têm um ingrediente base.",
+                "Misturas ruins resultam em",
+                "uma poção de enfermidade.",
+                "",
+                "Misture suco de fruta e",
+                "bebida no alambique",
+                "para uma receita falha."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/sickbrew_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial8w_gamepad": {
+            "sign": [
+                "Todas as boas receitas",
+                "têm um ingrediente base.",
+                "Misturas ruins resultam em",
+                "uma poção de enfermidade.",
+                "",
+                "Misture suco de fruta e",
+                "bebida no alambique",
+                "para uma receita falha."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/sickbrew_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial8x": {
+            "sign": [
+                "Ácido",
+                "$",
+                "Usado para fazer Poções",
+                "Instáveis mortais que",
+                "escalam em poder com",
+                "o preparador."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial8/sign_acid.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8y": {
+            "sign": [
+                "No próximo salão,",
+                "você encontrará uma",
+                "variedade de poções",
+                "para experimentar.",
+                "",
+                "Quando você tiver criado",
+                "uma mistura bem-sucedida, sua",
+                "receita será adicionada à",
+                "aba de Receitas do Alambique."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8z": {
+            "sign": [
+                "Os males e as bênçãos",
+                "oferecidos pelas fontes",
+                "são irresistíveis para a",
+                "maioria dos aventureiros.",
+                "Especialmente para",
+                "aqueles que buscam poções."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/fountains.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial8ab": {
+            "sign": [
+                "Poção de Restaurar Magia",
+                "$",
+                "Útil para conjuradores.",
+                "Misture com Suco de Fruta para",
+                "criar Poções de Cura."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_restoremp.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8ac": {
+            "sign": [
+                "Poção de Cegueira",
+                "",
+                "$",
+                "",
+                "Aqueles afligidos têm",
+                "dificuldade em enxergar.",
+                "Misture com Suco de Fruta para",
+                "completar a receita de",
+                "Cura de Enfermidade."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/blind.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8ad": {
+            "sign": [
+                "Poção de Confusão",
+                "$ ",
+                "Misture Bebida com",
+                "Poções de Confusão",
+                "para obter mais Ácido.",
+                "",
+                "Confusão também transforma",
+                "Suco de Fruta em Bebida",
+                "e Ácido em Suco de Fruta."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/confuse.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8ae": {
+            "sign": [
+                "Poção de Invisibilidade",
+                "",
+                "$",
+                "",
+                "Concede Invisibilidade.",
+                "Misture com Restaurar Magia",
+                "para criar poderosas",
+                "poções de Cura Extra."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/invisible.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8af": {
+            "sign": [
+                "A alquimia pode",
+                "exigir muito do",
+                "seu inventário.",
+                "",
+                "Segure$ e pressione$",
+                "nos itens do inventário para",
+                "soltá-los rapidamente.",
+                "Organize automaticamente com$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "MenuConfirm",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Attack"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Auto-organizar Inventário"
+                }
+            ]
+        },
+        "tutorial8af_gamepad": {
+            "sign": [
+                "A alquimia pode",
+                "exigir muito do",
+                "seu inventário.",
+                "",
+                "Regularmente remova itens",
+                "que não precisa com$ ,",
+                "e organize automaticamente com$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuAlt2"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Auto-organizar Inventário"
+                }
+            ]
+        },
+        "tutorial8ag": {
+            "sign": [
+                "$",
+                "Beber ou",
+                "misturar poções pode",
+                "ocasionalmente produzir",
+                "uma garrafa vazia que",
+                "alquimistas podem reutilizar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial8/sign_bottle.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8ah": {
+            "sign": [
+                "Beber ou ser",
+                "atingido por Bebida arremessada",
+                "causa embriaguez.",
+                "",
+                "$",
+                "",
+                "Estar bêbado afeta seus",
+                "atributos e faz sua",
+                "mira falhar por um tempo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/system/drunk.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8ai": {
+            "sign": [
+                "Garrafas de Bebida",
+                "e Suco de Fruta",
+                "geralmente não curam tanto",
+                "quanto Poções de Cura,",
+                "mas elas são",
+                "mais comuns."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8aj": {
+            "sign": [
+                "Água Engarrafada",
+                "$",
+                "Misture água com outras",
+                "poções para duplicá-las.",
+                "Pode reduzir um pouco a fome.",
+                "Água abençoada é mortal",
+                "para certos monstros."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/duplicate_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial8/sign_water.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8aj_gamepad": {
+            "sign": [
+                "Água Engarrafada",
+                "$",
+                "Misture água com outras",
+                "poções para duplicá-las.",
+                "Pode reduzir um pouco a fome.",
+                "Água abençoada é mortal",
+                "para certos monstros."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/duplicate_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial8/sign_water.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial8ak": {
+            "sign": [
+                "$",
+                "Prepare uma Poção de Velocidade",
+                "combinando Bebida com",
+                "uma Poção de Cura de Enfermidade."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/speed.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8al": {
+            "sign": [
+                "$ ",
+                "Prepare uma",
+                "Poção de Levitação",
+                "misturando poções de Cura de",
+                "Enfermidade com Invisibilidade."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/levitation.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8am": {
+            "sign": [
+                "$ ",
+                "",
+                "Poções de Tempestade",
+                "podem ser preparadas com segurança",
+                "misturando poções de Ácido e",
+                "Velocidade."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/thunderstorm_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/stoneblood.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8am_gamepad": {
+            "sign": [
+                "$ ",
+                "",
+                "Poções de Tempestade",
+                "podem ser preparadas com segurança",
+                "misturando poções de Ácido e",
+                "Velocidade."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/thunderstorm_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/stoneblood.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8pm": {
+            "sign": [
+                "CUIDADO:",
+                "Uma receita incorreta",
+                "usando Ácido resultará",
+                "em uma explosão mortal.",
+                "$ ",
+                "Se você busca aprender",
+                "receitas mais poderosas",
+                "usando ácido, prepare suas",
+                "curas e cura."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/splode_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/burning.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8pm_gamepad": {
+            "sign": [
+                "CUIDADO:",
+                "Uma receita incorreta",
+                "usando Ácido resultará",
+                "em uma explosão mortal.",
+                "$ ",
+                "Se você busca aprender",
+                "receitas mais poderosas",
+                "usando ácido, prepare suas",
+                "curas e cura."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/splode_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/burning.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial8an": {
+            "sign": [
+                "CUIDADO:",
+                "Monstros são conhecidos",
+                "por infestarem o encanamento.",
+                "",
+                "Certifique-se de estar pronto para",
+                "se defender antes de",
+                "tentar beber",
+                "ou abrir fontes de água."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/watermonsters.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial8ao": {
+            "sign": [
+                "Equipe garrafas vazias",
+                "para extrair de pias ou",
+                "fontes usando$ .",
+                "",
+                "Isso encherá sua",
+                "garrafa com água",
+                "ou outras poções."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/tap_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Attack"
+                }
+            ]
+        },
+        "tutorial8ao_gamepad": {
+            "sign": [
+                "Equipe garrafas vazias",
+                "para extrair de pias ou",
+                "fontes usando$ .",
+                "",
+                "Isso encherá sua",
+                "garrafa com água",
+                "ou outras poções."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/tap_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Attack"
+                }
+            ]
+        },
+        "tutorial8aw": {
+            "sign": [
+                "A água da masmorra é muito",
+                "impura para o preparo.",
+                "Alquimistas devem contar com",
+                "bombas de água fresca, lojas,",
+                "ou fontes para suprimentos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial8az": {
+            "sign": [
+                "Decantação:",
+                "",
+                "Misturar duas poções",
+                "com o mesmo efeito",
+                "em um único tipo",
+                "de garrafa, permitindo",
+                "que sejam organizadas",
+                "juntas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/decanting_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial8az_gamepad": {
+            "sign": [
+                "Decantação:",
+                "",
+                "Misturar duas poções",
+                "com o mesmo efeito",
+                "em um único tipo",
+                "de garrafa, permitindo",
+                "que sejam organizadas",
+                "juntas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/decanting_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        }
+    }
+}

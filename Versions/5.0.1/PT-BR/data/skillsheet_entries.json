@@ -1,0 +1,868 @@
+{
+	"version": 1,
+	"colors": {
+		"default": {
+			"r": 201,
+			"g": 162,
+			"b": 100,
+			"a": 255
+		},
+		"novice": {
+			"r": 74,
+			"g": 196,
+			"b": 20,
+			"a": 255
+		},
+		"expert": {
+			"r": 55,
+			"g": 149,
+			"b": 215,
+			"a": 255
+		},
+		"legend": {
+			"r": 230,
+			"g": 183,
+			"b": 20,
+			"a": 255
+		}
+	},
+	"skill_background_icons": {
+		"default": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00_00.png",
+		"default_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00Select_00.png",
+		"novice": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20_00.png",
+		"novice_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20Select_00.png",
+		"expert": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60_00.png",
+		"expert_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60Select_00.png",
+		"legend": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100_00.png",
+		"legend_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100Select_00.png"
+	},
+	"skill_select_images": {
+		"highlight_left": "#*images/ui/SkillSheet/UI_Skills_SkillSelector_01.png",
+		"selected_left": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100_01.png",
+		"highlight_right": "#*images/ui/SkillSheet/UI_Skills_SkillSelectorR_01.png",
+		"selected_right": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100R_01.png"
+	},
+	"window_scaling": {
+		"standard_scale_modifier_x": 2,
+		"standard_scale_modifier_y": 1.2,
+		"compact_scale_modifier_x": 0.5,
+		"compact_scale_modifier_y": 0
+	},
+	"alchemy_potion_names_to_filter": [
+		"potion of ",
+		"bottle of "
+	],
+	"skills": [
+		{
+			"name": "Furtividade",
+			"id": 1,
+			"sfx": 549,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Stealth01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+			"description": "Fornece visibilidade reduzida aos inimigos, bônus de dano de ataque furtivo corpo a corpo e visão adicional ao esgueirar-se. Use o comando Defender sem segurar um escudo para esgueirar-se.",
+			"legend_text": "Esgueirar-se concede invisibilidade. O bônus de dano de punhalada pelas costas é dobrado.",
+			"effects_position": {
+				"effect_start_offset_x": 80,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 88
+			},
+			"effects": [
+				{
+					"tag": "STEALTH_VIS_REDUCTION",
+					"title": "Redução de Visibilidade:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "STEALTH_SNEAK_VIS",
+					"title": "Bônus de Visão Furtiva:",
+					"value": "%+d Light"
+				},
+				{
+					"tag": "STEALTH_BACKSTAB",
+					"title": "Dano Bônus de Punhalada:",
+					"value": "%+d ATK",
+					"realtime_update": true
+				},
+				{
+					"tag": "STEALTH_CURRENT_VIS",
+					"title": "Visibilidade Atual:",
+					"value": "%d Tiles",
+					"realtime_update": true
+				}
+			]
+		},
+		{
+			"name": "Bloqueio",
+			"id": 13,
+			"sfx": 599,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Blocking01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Blocking01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"description": "Aumenta o bônus de Classe de Armadura ao defender. Fornece bônus passivo de Classe de Armadura para escudos empunhados. Melhora a durabilidade de itens da mão secundária durante o combate.",
+			"legend_text": "Escudos nunca se degradam ao serem atingidos.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "BLOCK_AC_INCREASE",
+					"title": "Aumento de CA ao Defender:\r\n(Escudos)",
+					"value": "%+d AC"
+				},
+				{
+					"tag": "BLOCK_AC_INCREASE_OFFHAND",
+					"title": "Aumento de CA ao Defender:\r\n(Não-escudos)",
+					"value": "%+d AC"
+				},
+				{
+					"tag": "PASSIVE_AC_INCREASE",
+					"title": "Aumento de CA Passivo:\r\n(Escudos)",
+					"value": "%+d AC"
+				},
+				{
+					"tag": "BLOCK_DEGRADE_NORMAL_CHANCE",
+					"title": "Chance de degradar escudo:\r\n (Ao receber dano)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "BLOCK_DEGRADE_DEFENDING_CHANCE",
+					"title": "Chance de degradar escudo:\r\n (Ao Defender)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "À Distância",
+			"id": 8,
+			"sfx": 600,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Ranged01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+			"description": "Aumenta o dano à distância/arremesso e melhora a durabilidade de armamentos à distância.",
+			"legend_text": "Armamentos à distância nunca se degradam ao usar.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Variância de dano de ATQ à distância:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "RANGED_DEGRADE_CHANCE",
+					"title": "Chance de degradar arma à distância:",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "RANGED_PIERCE_CHANCE",
+					"title": "Chance de flecha perfurante em ataque à distância:\r\n (usando atributo PER)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "RANGED_THROWN_DMG",
+					"title": "ATQ de arma de arremesso:",
+					"value": "%+d%%"
+				}
+			]
+		},
+		{
+			"name": "Desarmado",
+			"id": 14,
+			"sfx": 594,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Unarmed01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Aumenta o dano desarmado com punhos nus ou armas de punho. Melhora a durabilidade de armas de punho e aplica repulsão em golpes totalmente carregados.",
+			"legend_text": "+5 de ATQ e inflige estado de Paralisia por 1 segundo em golpe de punhalada furtiva totalmente carregado.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Variância de dano de ATQ desarmado:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "UNARMED_BONUS_DMG",
+					"title": "Bônus de ATQ desarmado:",
+					"value": "%+d ATK"
+				},
+				{
+					"tag": "GLOVE_DEGRADE_CHANCE",
+					"title": "Chance de degradar arma de punho:\r\n (Golpes normais)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "GLOVE_DEGRADE0_CHANCE",
+					"title": "Chance de degradar arma de punho:\r\n (Ao causar 0 de dano)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "UNARMED_KNOCKBACK_DIST",
+					"title": "Distância de repulsão de arma de punho:",
+					"value": "%+d%%"
+				}
+			]
+		},
+		{
+			"name": "Espadas",
+			"id": 9,
+			"sfx": 588,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swords01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swords01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Aumenta o dano e melhora a durabilidade de armamentos de espada.",
+			"legend_text": "+5 de ATQ e inflige estado de Sangramento por 5 segundos em golpe totalmente carregado.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Variância de dano de ATQ de espada:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "SWORD_DEGRADE_CHANCE",
+					"title": "Chance de degradar arma:\r\n (Golpes normais)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "SWORD_DEGRADE0_CHANCE",
+					"title": "Chance de degradar arma:\r\n (Ao causar 0 de dano)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Armas de Haste",
+			"id": 12,
+			"sfx": 578,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Polearms01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Polearms01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Aumenta o dano e melhora a durabilidade de armamentos de haste.",
+			"legend_text": "+5 de ATQ e inflige estado de Repulsão em golpe totalmente carregado.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Variância de dano de ATQ de arma de haste:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "POLEARM_DEGRADE_CHANCE",
+					"title": "Chance de degradar arma:\r\n (Golpes normais)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "POLEARM_DEGRADE0_CHANCE",
+					"title": "Chance de degradar arma:\r\n (Ao causar 0 de dano)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Machados",
+			"id": 11,
+			"sfx": 570,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Axes01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Axes01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Aumenta o dano e melhora a durabilidade de armamentos de machado.",
+			"legend_text": "+10 de ATQ e inflige estado de Lentidão por 3 segundos em golpe totalmente carregado.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Variância de dano de ATQ de machado:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "AXE_DEGRADE_CHANCE",
+					"title": "Chance de degradar arma:\r\n (Golpes normais)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "AXE_DEGRADE0_CHANCE",
+					"title": "Chance de degradar arma:\r\n (Ao causar 0 de dano)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Maças",
+			"id": 10,
+			"sfx": 575,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Maces01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Maces01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Aumenta o dano e melhora a durabilidade de armamentos de maça.",
+			"legend_text": "+5 de ATQ e 25% de chance de infligir estado de Paralisia por 1,5 segundo em golpe totalmente carregado.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Variância de dano de ATQ de maça:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "MACE_DEGRADE_CHANCE",
+					"title": "Chance de degradar arma:\r\n (Golpes normais)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "MACE_DEGRADE0_CHANCE",
+					"title": "Chance de degradar arma:\r\n (Ao causar 0 de dano)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Liderança",
+			"id": 5,
+			"sfx": 603,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Leadership01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Leadership01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+			"description": "Aumenta o número de seguidores NPCs que podem ser recrutados ao mesmo tempo e desbloqueia mais comandos de seguidor ao interagir.",
+			"legend_text": "Pode recrutar goblins, homens-bode e insetoides, além das lealdades raciais padrão.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "LEADER_MAX_FOLLOWERS",
+					"title": "Máximo de seguidores:",
+					"value": "%d"
+				},
+				{
+					"tag": "LEADER_FOLLOWER_SPEED",
+					"title": "Bônus de velocidade de movimento de seguidor:",
+					"value": "+%d DEX"
+				},
+				{
+					"tag": "LEADER_CHARM_MONSTER",
+					"title": "Chance base do feitiço Enfeitiçar Monstro:\r\n (Usando perícia + atributo CAR)",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "LIST_LEADER_AVAILABLE_FOLLOWERS",
+					"title": "Raças aliadas recrutáveis atuais:",
+					"value": "%s",
+					"auto_resize_value": true
+				}
+			]
+		},
+		{
+			"name": "Negociação",
+			"id": 2,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Trading01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Trading01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+			"description": "Reduz os preços de compra e melhora os preços de venda ao negociar com lojistas.",
+			"legend_text": "Desbloqueia a habilidade de vender itens de qualquer tipo para qualquer lojista.",
+			"effects_position": {
+				"effect_start_offset_x": 102,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 110
+			},
+			"effects": [
+				{
+					"tag": "TRADING_BUY_PRICE",
+					"title": "Acréscimo de preço ao comprar itens da loja:",
+					"value": "%+.f%% Gold"
+				},
+				{
+					"tag": "TRADING_SELL_PRICE",
+					"title": "Penalidade de revenda ao vender itens para a loja:\r\n (Usando perícia + atributo CAR)",
+					"value": "%.f%% Gold"
+				}
+			]
+		},
+		{
+			"name": "Conhecimento",
+			"id": 3,
+			"sfx": 568,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Lore01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Lore01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Lore02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Lore02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"description": "Aumenta a velocidade de avaliação e permite avaliar itens de maior valor em ouro. Maior atributo PER melhora as habilidades de avaliação.",
+			"legend_text": "+25% de velocidade de avaliação para todos os itens. Itens não identificados têm seus valores em ouro revelados.",
+			"effects_position": {
+				"effect_start_offset_x": 88,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 96
+			},
+			"effects": [
+				{
+					"tag": "APPRAISE_GOLD_FAST",
+					"title": "Valor máximo em ouro capaz de avaliar rapidamente:",
+					"value": "%d Gold"
+				},
+				{
+					"tag": "APPRAISE_MAX_GOLD_VALUE",
+					"title": "Valor máximo em ouro capaz de avaliar lentamente:",
+					"value": "%d Gold"
+				},
+				{
+					"tag": "APPRAISE_SPEEDUP_CONSUMABLES",
+					"title": "Redução de tempo de avaliação Comida/Pergaminhos/Poções:",
+					"value": "%.f%%"
+				},
+				{
+					"tag": "APPRAISE_SPEEDUP",
+					"title": "Redução de tempo de avaliação Todos os outros itens:\r\n (Com total de perícia acima de 50)",
+					"value": "%.f%%"
+				},
+				{
+					"tag": "APPRAISE_FLOOR_BONUS",
+					"title": "Redução de tempo de avaliação para todos os itens do inventário ao avançar para o próximo andar:",
+					"value": "%.f%%"
+				},
+				{
+					"tag": "APPRAISE_WORTHLESS_GLASS",
+					"title": "Capaz de avaliar Vidro Sem Valor:",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Funilaria",
+			"id": 0,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Tinkering01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"description": "Melhora a habilidade com kits de funileiro, aumentando a quantidade de itens criáveis e máquinas instaladas. Aumenta as chances de gazuar objetos no mundo.",
+			"legend_text": "Capaz de reparar a maioria das armas e armaduras usando um kit de funileiro e encontrar itens bônus ou ouro ao gazuar baús.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "TINKERING_LOCKPICK_CHESTS_DOORS",
+					"title": "Chance de gazuar baús e portas:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_SCRAP_CHESTS",
+					"title": "Chance de sucata ao gazuar baús:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_SCRAP_AUTOMATONS",
+					"title": "Chance de sucata ao gazuar Autômatos:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_DISARM_ARROWS",
+					"title": "Chance de desarmar armadilhas de flechas:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_KIT_SCRAP_BONUS",
+					"title": "Sucata bônus ao recuperar:\r\n (Usando perícia + atributo PER)",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "TINKERING_KIT_REPAIR_ITEM",
+					"title": "Item de Metal/Mágico de maior nível capaz de reparar:\r\n (Usando perícia + atributo PER)",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "TINKERING_MAX_ALLIES",
+					"title": "Máximo de aliados de\r\n funilaria instalados:",
+					"value": "%d"
+				}
+			]
+		},
+		{
+			"name": "Alquimia",
+			"id": 15,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Alchemy01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"description": "Melhora a habilidade de fabricar poções com alambiques e aumenta o dano de poções ofensivas arremessadas.\r\nBeba ou fabrique poções para aprender ingredientes úteis em Alquimia.",
+			"legend_text": "Alambiques nunca se degradam.\r\nPoções fabricadas têm +2 de bênção.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "ALCHEMY_POTION_EFFECT_DMG",
+					"title": "Dano do efeito da poção:",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "ALCHEMY_THROWN_IMPACT_DMG",
+					"title": "Dano de impacto da\r\n poção arremessada:",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "ALCHEMY_DUPLICATION_CHANCE",
+					"title": "Chance de duplicação de\r\n poção usando água:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_EMPTY_BOTTLE_CONSUME",
+					"title": "Recuperação de garrafa vazia\r\n ao consumir poções:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_EMPTY_BOTTLE_BREW",
+					"title": "Recuperação de garrafa vazia\r\n ao fabricar poções:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_LEARNT_INGREDIENTS_BASE",
+					"title": "Ingredientes de Alquimia\r\n aprendidos:\r\n (Primário)",
+					"value": "%s",
+					"custom_value_width_offset": 0,
+					"auto_resize_value": true,
+					"realtime_update": true
+				},
+				{
+					"tag": "ALCHEMY_LEARNT_INGREDIENTS_SECONDARY",
+					"title": "Ingredientes de Alquimia\r\n aprendidos:\r\n (Secundário)",
+					"value": "%s",
+					"custom_value_width_offset": 0,
+					"auto_resize_value": true,
+					"realtime_update": true
+				}
+			]
+		},
+		{
+			"name": "Feitiçaria",
+			"id": 7,
+			"sfx": 597,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Sorcery01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Sorcery01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Sorcery02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Sorcery02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Permite que feitiços de Feitiçaria de nível superior sejam aprendidos em livros de feitiços. Aumenta ainda mais os bônus de poder de feitiço de Feitiçaria do atributo INT quando acima do nível de perícia Especialista (60).",
+			"legend_text": "Feitiços de Feitiçaria têm +40% de bônus de poder do atributo INT e +100% de redução de tempo de conjuração do atributo DES.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Bônus base de poder de feitiço:\r\n (Usando 2x atributo INT)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Nível mais alto de Feitiçaria\r\n capaz de aprender:\r\n (Usando perícia + atributo INT)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+					"title": "Feitiços aprendidos capazes de\r\n avançar o nível de\r\n perícia de Feitiçaria atual:",
+					"title_short": "Feitiços aprendidos\r\n capazes de avançar\r\n o nível de perícia de\r\n Feitiçaria atual:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Feitiços no nível de\r\n Feitiçaria atual:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Capaz de falhar na conjuração\r\n de feitiços aprendidos:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Nível mais alto de Feitiçaria\r\n para conjurar via Livro\r\n sem atrapalhar-se:\r\n (Usando perícia + atributo INT)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Misticismo",
+			"id": 6,
+			"sfx": 596,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Mysticism01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Mysticism01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Mysticism02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Mysticism02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Permite que feitiços de Misticismo de nível superior sejam aprendidos em livros de feitiços. Aumenta ainda mais os bônus de poder de feitiço de Misticismo dos atributos INT + CAR quando acima do nível de perícia Especialista (60).",
+			"legend_text": "Feitiços de Misticismo têm +40% de bônus de poder dos atributos INT/CAR e +100% de redução de tempo de conjuração do atributo DES.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Bônus base de poder de feitiço:\r\n (Usando atributo INT + CAR)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Nível mais alto de Misticismo\r\n capaz de aprender:\r\n (Usando perícia + atributo INT)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+					"title": "Feitiços aprendidos capazes de\r\n avançar o nível de\r\n perícia de Misticismo atual:",
+					"title_short": "Feitiços aprendidos\r\n capazes de avançar\r\n o nível de\r\n perícia de\r\n Misticismo atual:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Feitiços no nível de\r\n Misticismo atual:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Capaz de falhar na conjuração\r\n de feitiços aprendidos:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Nível mais alto de Misticismo\r\n para conjurar via Livro\r\n sem atrapalhar-se:\r\n (Usando perícia + atributo INT)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Taumaturgia",
+			"shortname": "Thauma",
+			"id": 4,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Thaumaturgy01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Thaumaturgy01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Thaumaturgy02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Thaumaturgy02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"description": "Permite que feitiços de Taumaturgia de nível superior sejam aprendidos em livros de feitiços. Aumenta ainda mais os bônus de poder de feitiço de Taumaturgia dos atributos INT + CON quando acima do nível de perícia Especialista (60).",
+			"legend_text": "Feitiços de Taumaturgia têm +40% de bônus de poder dos atributos INT/CON e +100% de redução de tempo de conjuração do atributo DES.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Bônus base de poder de feitiço:\r\n (Usando atributo INT + CON)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Nível mais alto de Taumaturgia\r\n capaz de aprender:\r\n (Usando perícia + atributo INT)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+					"title": "Feitiços aprendidos capazes de\r\n avançar o nível de\r\n perícia de Taumaturgia atual:",
+					"title_short": "Feitiços aprendidos\r\n capazes de avançar\r\n o nível de\r\n perícia de\r\n Taumaturgia atual:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Feitiços no nível de\r\n Taumaturgia atual:",
+					"title_short": "Feitiços no nível de\r\n Taumaturgia\r\n atual:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Capaz de falhar na conjuração\r\n de feitiços aprendidos:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Nível mais alto de Taumaturgia\r\n para conjurar via Livro\r\n sem atrapalhar-se:\r\n (Usando perícia + atributo INT)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Magia",
+			"id": 33,
+			"sfx": 597,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Magic01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Magic01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Permite que feitiços de magia de nível superior sejam aprendidos em livros de feitiços. Equipe feitiços através do menu de Magia e use o comando Conjurar, ou empunhe livros de feitiços e use o comando Defender para usar magia.",
+			"legend_text": "Aprende automaticamente o feitiço Dominar.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Bônus base de poder de feitiço:\r\n (Usando atributo INT)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Nível mais alto de Magia\r\n capaz de aprender:\r\n (Usando perícia + atributo INT)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Feitiços no nível de\r\n Magia atual:",
+					"value": "%s",
+					"auto_resize_value": true
+				}
+			]
+		},
+		{
+			"name": "Conjuração",
+			"id": 34,
+			"sfx": 596,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Casting01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Melhora a confiabilidade de Conjurar feitiços e Conjurar via Livro, reduzindo as chances de atrapalhar-se ou gastar mana excessivamente. Aumenta a regeneração passiva de MP.",
+			"legend_text": "Aprende automaticamente o feitiço Raio de Força com custo (0) de MP.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "CASTING_MP_REGEN_SKILL_MULTIPLIER",
+					"title": "Multiplicador de INT da regen de MP\r\n por perícia:",
+					"value": "%dx INT",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_MP_REGEN",
+					"title": "Taxa base de regen de MP:\r\n (Antes de modificadores de\r\n item/raça)",
+					"value": "1 MP a cada\r\n%.2f segundos",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Capaz de falhar na conjuração\r\n de feitiços aprendidos:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Nível mais alto de Magia\r\n para conjurar via Livro\r\n sem atrapalhar-se:\r\n (Usando perícia + atributo INT)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Natação",
+			"id": 32,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swimming01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swimming01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"description": "Aumenta a velocidade de movimento ao nadar em líquidos.",
+			"legend_text": "Caminhada na água permanente sobre água e lava.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "SWIM_SPEED_TOTAL",
+					"title": "Velocidade de movimento\r\n ao nadar:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "SWIM_SPEED_BASE",
+					"title": "Penalidade multiplicadora de\r\n velocidade base em líquidos:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "SWIM_SPEED_BONUS",
+					"title": "Multiplicador de velocidade bônus\r\n da perícia Natação:",
+					"value": "+%d%%"
+				}
+			]
+		}
+	]
+}

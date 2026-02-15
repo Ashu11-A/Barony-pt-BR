@@ -1,0 +1,1768 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial1z": {
+            "sign": [
+                "Use as teclas $$$$",
+                "para caminhar por aí.",
+                "",
+                "Mova $ para olhar e virar.",
+                "",
+                "Pressione $ para interagir com",
+                "objetos no mundo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        2,
+                        4
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Mover para Frente"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Mover para Esquerda"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Mover para Trás"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Mover para Direita"
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/Glyphs/Mouse/Mouse_Base_00.png",
+                    "sizex": 22,
+                    "sizey": 40
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial1z_gamepad": {
+            "sign": [
+                "Incline$ para caminhar por aí.",
+                "",
+                "Incline$ para olhar e virar.",
+                "",
+                "Pressione$ para interagir com",
+                "objetos no mundo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        2,
+                        4
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/Glyphs/Stick_PS_L_00.png",
+                    "sizex": 34,
+                    "sizey": 34
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/Glyphs/Stick_PS_R_00.png",
+                    "sizex": 34,
+                    "sizey": 34
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial1a": {
+            "sign": [
+                "Pressione$ para acessar",
+                "o Menu de Pausa.",
+                "",
+                "Para sair de qualquer teste, selecione",
+                "",
+                "[ Retornar ao Centro de Testes ]"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Pausar Jogo"
+                }
+            ]
+        },
+        "tutorial1b": {
+            "sign": [
+                "Equipe a espada para",
+                "aumentar seu ATK e",
+                "matar inimigos mais rápido.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial1/sign_sword.png",
+                    "sizex": 74,
+                    "sizey": 74
+                }
+            ]
+        },
+        "tutorial1c": {
+            "sign": [
+                "$",
+                "Equipe escudos para ganhar AC,",
+                "reduzindo o dano recebido.",
+                "",
+                "Segure$para Bloquear,",
+                "aumentando ainda mais o AC."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        1,
+                        4
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/shieldequip.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial1/sign_shield.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                }
+            ]
+        },
+        "tutorial1d": {
+            "sign": [
+                "Esta alavanca opera o",
+                "portão perto da cama.",
+                "$",
+                "Aponte para as alavancas e",
+                "pressione$ para alternar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1
+                    ],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/lever.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial1/sign_levergate.png",
+                    "sizex": 189,
+                    "sizey": 87
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial1e": {
+            "sign": [
+                "Colete tochas da",
+                "parede com$ .",
+                "$",
+                "Tochas equipadas iluminam",
+                "o caminho, mas queimarão",
+                "com o tempo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        4,
+                        5
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/torchget.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial1/sign_torch.png",
+                    "sizex": 74,
+                    "sizey": 74
+                }
+            ]
+        },
+        "tutorial1e2": {
+            "sign": [
+                "Acesse seu personagem",
+                "pressionando$ .",
+                "Pressione$ para usar itens.",
+                "Pegue e mova itens com$ .",
+                "Pressione$ novamente ou$",
+                "para sair do menu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        0,
+                        2,
+                        3
+                    ],
+                    [
+                        0,
+                        2,
+                        3,
+                        4
+                    ],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/torch_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Status do Personagem"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuLeftClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Status do Personagem"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuCancel"
+                }
+            ]
+        },
+        "tutorial1e2_gamepad": {
+            "sign": [
+                "Acesse seu personagem",
+                "pressionando$ .",
+                "",
+                "Use$$$$para",
+                "navegar pelo inventário.",
+                "",
+                "Pressione$ para usar itens.",
+                "Use$ para pegar e colocar.",
+                "Pressione$ ou$ para fechar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        2,
+                        4
+                    ],
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/torch_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Status do Personagem"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuLeft"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuUp"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuDown"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRight"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuAlt1"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Status do Personagem"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuCancel"
+                }
+            ]
+        },
+        "tutorial1f": {
+            "sign": [
+                "Algumas luvas podem aumentar",
+                "seu dano Desarmado.",
+                "",
+                "Para usar ataques Desarmados,",
+                "desequipe sua arma."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial1g": {
+            "sign": [
+                "Inimigos atacam",
+                "em um ritmo regular.",
+                "",
+                "Bloqueie até ser atingido,",
+                "então ataque rapidamente,",
+                "e bloqueie novamente para",
+                "evitar receber dano."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1
+                    ],
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/block-attack.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial1h": {
+            "sign": [
+                "Arraste itens para a hotbar",
+                "com$ , ou paire e",
+                "use $-$ para atribuir.",
+                "",
+                "Use a hotbar com$-$,",
+                "ou destaque com$ $ e",
+                "e então pressione$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        4
+                    ],
+                    [
+                        0,
+                        3
+                    ],
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/hotbarassign_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                },
+                {
+                    "type": "image",
+                    "value": "Mover para Frente",
+                    "sizex": 26,
+                    "sizey": 26
+                },
+                {
+                    "type": "image",
+                    "value": "Mover para Frente",
+                    "sizex": 26,
+                    "sizey": 26
+                },
+                {
+                    "type": "image",
+                    "value": "Mover para Frente",
+                    "sizex": 26,
+                    "sizey": 26
+                },
+                {
+                    "type": "image",
+                    "value": "Mover para Frente",
+                    "sizex": 26,
+                    "sizey": 26
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atalho Esquerda"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atalho Direita"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atalho Cima / Selecionar"
+                }
+            ]
+        },
+        "tutorial1h_gamepad": {
+            "sign": [
+                "From the inventory,",
+                "pegue itens com$ e mova",
+                "para a hotbar com$.",
+                "Pressione$ novamente para",
+                "colocar itens em um slot.",
+                "",
+                "With the inventory closed,",
+                "segure$$ ou$ para acessar",
+                "os slots da hotbar $ e $ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        3
+                    ],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/hotbarassign_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuAlt1"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuPageRight"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuAlt1"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atalho Esquerda"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atalho Cima / Selecionar"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atalho Direita"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "HotbarFacebarModifierLeft"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "HotbarFacebarModifierRight"
+                }
+            ]
+        },
+        "tutorial1ha": {
+            "sign": [
+                "Você não pode empunhar um",
+                "escudo e uma tocha",
+                "ao mesmo tempo!",
+                "",
+                "Use sua hotbar para",
+                "alternar rapidamente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/hotswap_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial1ha_gamepad": {
+            "sign": [
+                "Você não pode empunhar um",
+                "escudo e uma tocha",
+                "ao mesmo tempo!",
+                "",
+                "Use sua hotbar para",
+                "alternar rapidamente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/hotswap_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial1i": {
+            "sign": [
+                "Toque rapidamente em$ para Atacar.",
+                "",
+                "Segure$ até que sua",
+                "arma balance para",
+                "um Golpe Crítico."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        1,
+                        3
+                    ],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/attacks.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial1i2": {
+            "sign": [
+                "Veja a Ficha do Personagem",
+                "com$, à direita.",
+                "",
+                "Paire com$ para aprender",
+                "sobre atributos como ATK."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    []
+                ],
+                "word_highlights2": [
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/atk_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Status do Personagem"
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/Glyphs/Mouse/Mouse_Base_00.png",
+                    "sizex": 22,
+                    "sizey": 40
+                }
+            ]
+        },
+        "tutorial1i2_gamepad": {
+            "sign": [
+                "Veja a Ficha do Personagem",
+                "com$ , à direita.",
+                "",
+                "Toque em$ duas vezes e aprenda",
+                "sobre atributos como ATK",
+                "navegando até eles",
+                "e segurando$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/atk_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Status do Personagem"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuPageRight"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial1j": {
+            "sign": [
+                "Sua compreensão de",
+                "ataques, bloqueio e",
+                "tipos de armas",
+                "será testada.",
+                "",
+                "Cada teste tem",
+                "um teste final."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial1jz": {
+            "sign": [
+                "Observe o ritmo de ataque",
+                "do inimigo através da",
+                "porta à sua direita.",
+                "",
+                "Siga pela",
+                "porta à sua esquerda",
+                "quando estiver pronto."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        4
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial1kz": {
+            "sign": [
+                "Equipamentos podem degradar",
+                "e eventualmente quebrar.",
+                "",
+                "Armas causam menos dano",
+                "em qualidade inferior."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial1ky": {
+            "sign": [
+                "Perícias com armas melhoram",
+                "o dano da arma.",
+                "Armas também degradam",
+                "com menos frequência com",
+                "perícia mais alta.",
+                "",
+                "Saiba mais sobre perícias",
+                "na lista de perícias.",
+                "",
+                "$$$$$$$$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/skillslist_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Swords02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Maces02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Polearms02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Axes02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Ranged02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Unarmed02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Blocking02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial1ky_gamepad": {
+            "sign": [
+                "Perícias com armas melhoram",
+                "o dano da arma.",
+                "Armas também degradam",
+                "com menos frequência com",
+                "perícia mais alta.",
+                "",
+                "Saiba mais sobre perícias",
+                "na lista de perícias.",
+                "",
+                "$$$$$$$$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/skillslist_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Swords02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Maces02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Polearms02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Axes02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Ranged02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Unarmed02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Blocking02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial1k": {
+            "sign": [
+                "O bloqueio pode reduzir",
+                "o dano de ataque a zero.",
+                "",
+                "Segure$para Bloquear",
+                "pelo tempo que for necessário",
+                "para adiar a morte."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial1/block.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                }
+            ]
+        },
+        "tutorial1l": {
+            "sign": [
+                "Inimigos são resistentes",
+                "ou vulneráveis a",
+                "diferentes tipos de armas.",
+                "$",
+                "Isso pode ser decisivo",
+                "na vitória ou derrota."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial1/sign_mace.png",
+                    "sizex": 189,
+                    "sizey": 87
+                }
+            ]
+        },
+        "tutorial1m": {
+            "sign": [
+                "Usar adequadamente ataques,",
+                "tipos de armas, golpes",
+                "críticos e bloqueio ajudará",
+                "você a sobreviver",
+                "na masmorra."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial1mo": {
+            "sign": [
+                "Parabéns!",
+                "Você acabou de passar",
+                "no Teste Introdutório.",
+                "",
+                "Teste 1:",
+                "Básicos da Masmorra",
+                "e Combate de Curto Alcance"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial1n": {
+            "sign": [
+                "Alçapões geralmente",
+                "levarão você para",
+                "o próximo nível.",
+                "",
+                "Este leva você ao",
+                "Centro do Salão de Testes",
+                "onde você pode explorar",
+                "mais Testes."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        }
+    }
+}

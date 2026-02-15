@@ -1,0 +1,1611 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial7a": {
+            "sign": [
+                "Que belo equipamento.",
+                "É uma pena que você",
+                "não possa usá-lo você mesmo.",
+                "",
+                "Um bom Líder",
+                "deve usar seus",
+                "recursos sabiamente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/partyequip_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7b": {
+            "sign": [
+                "Sua habilidade de",
+                "comandar seguidores",
+                "efetivamente será",
+                "testada."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7c": {
+            "sign": [
+                "Pergaminhos de Invocação",
+                "podem fornecer aliados",
+                "em um momento difícil.",
+                "",
+                "Você deve guardar este",
+                "pergaminho para o teste",
+                "ao final deste",
+                "Desafio."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial7d": {
+            "sign": [
+                "Ordene aos seguidores",
+                "para [Esperar] e mantê-los",
+                "fora do caminho.",
+                "$ $",
+                "Quando definido como [Seguir]",
+                "os seguidores tentarão",
+                "ficar perto de você."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_wait.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_follow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7d_gamepad": {
+            "sign": [
+                "Ordene aos seguidores",
+                "para [Esperar] e mantê-los",
+                "fora do caminho.",
+                "$ $",
+                "Quando definido como [Seguir]",
+                "os seguidores tentarão",
+                "ficar perto de você."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_wait.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_follow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7do": {
+            "sign": [
+                "Seguidores sempre atacarão",
+                "os inimigos que avistarem.",
+                "",
+                "Para impedi-los de",
+                "começar uma luta,",
+                "mantenha-os",
+                "fora do caminho",
+                "até que você esteja pronto."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/moveall_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7do_gamepad": {
+            "sign": [
+                "Seguidores sempre atacarão",
+                "os inimigos que avistarem.",
+                "",
+                "Para impedi-los de",
+                "começar uma luta,",
+                "mantenha-os",
+                "fora do caminho",
+                "até que você esteja pronto."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/moveall_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7e": {
+            "sign": [
+                "Você precisará",
+                "posicionar seu seguidor",
+                "para que ele possa limpar",
+                "o caminho para você.",
+                "",
+                "Seguidores podem ser",
+                "cautelosos. Você pode precisar",
+                "ordená-los a [Mover-se]",
+                "mais adiante para melhores resultados."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/movefurther_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7f": {
+            "sign": [
+                "Usar seus seguidores",
+                "estrategicamente pode ajudar",
+                "você a sobreviver e conquistar",
+                "a masmorra."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial7g": {
+            "sign": [
+                "Se você ordenar que um",
+                "seguidor se [Mover],",
+                "ele esperará lá",
+                "pela sua próxima ordem.",
+                "$",
+                "Use$para emitir outra",
+                "ordem de qualquer lugar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        2
+                    ],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2,
+                        3
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    []
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_moveto.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Mostrar Comandos de NPC"
+                }
+            ]
+        },
+        "tutorial7h": {
+            "sign": [
+                "Você pode ordenar que",
+                "aliados peguem e",
+                "usem equipamentos",
+                "com [Interagir].",
+                "",
+                "Eles usarão itens",
+                "em seus esforços para",
+                "ajudar você."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/lantern_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7i": {
+            "sign": [
+                "Você pode comandar seu",
+                "seguidor de qualquer distância",
+                "pressionando$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Mostrar Comandos de NPC"
+                }
+            ]
+        },
+        "tutorial7j": {
+            "sign": [
+                "Você precisará da ajuda",
+                "de um aliado para abrir",
+                "este portão.",
+                "$",
+                "Ordene seu aliado",
+                "para [Interagir] com o",
+                "interruptor que você não alcança."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/interactgate_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_interact.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7j_gamepad": {
+            "sign": [
+                "Você precisará da ajuda",
+                "de um aliado para abrir",
+                "este portão.",
+                "$",
+                "Ordene seu aliado",
+                "para [Interagir] com o",
+                "interruptor que você não alcança."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/interactgate_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_interact.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7k": {
+            "sign": [
+                "Você pode contar com",
+                "a ajuda de seguidores",
+                "para auxílio.",
+                "",
+                "Pressione$ para recrutar",
+                "o humano do outro",
+                "lado do vão."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/recruit.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial7kb": {
+            "sign": [
+                "A quantidade de seguidores",
+                "que pode ter ao mesmo tempo,",
+                "e os comandos que você tem",
+                "disponíveis, dependem da",
+                "sua Perícia de",
+                "Liderança.",
+                "",
+                "$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Leadership02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7l": {
+            "sign": [
+                "Tome cuidado em",
+                "como você comanda",
+                "seus aliados.",
+                "",
+                "Eles não são o herói",
+                "que você é, mas cuide",
+                "deles e eles irão",
+                "atendê-lo bem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7m": {
+            "sign": [
+                "Seguidores humanos são",
+                "proficientes com a maioria",
+                "das armas e equipamentos.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/bowman_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_shortbow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7n": {
+            "sign": [
+                "AVISO:",
+                "Esta alavanca abre",
+                "o portão.",
+                "",
+                "Confraternização com",
+                "guardiões esqueléticos",
+                "não recomendada."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7o": {
+            "sign": [
+                "Você pode recrutar",
+                "Kelly através do portão.",
+                "",
+                "Puxe esta alavanca assim que",
+                "estiver pronto para libertar",
+                "seu novo seguidor."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial7op": {
+            "sign": [
+                "Assistência de Mira de Interação",
+                "ajuda você a interagir com",
+                "objetos próximos sem",
+                "precisar mirar.",
+                "",
+                "Use$para escolher entre",
+                "várias ações próximas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/tooltipoff_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Próxima Dica de Interação"
+                }
+            ]
+        },
+        "tutorial7p": {
+            "sign": [
+                "Use$para emitir o",
+                "mesmo comando repetidamente",
+                "sem ter que abrir",
+                "a roda de comandos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Comandar NPC"
+                }
+            ]
+        },
+        "tutorial7q": {
+            "sign": [
+                "Você foi impossibilitado",
+                "de lutar por",
+                "si mesmo.",
+                "",
+                "Três humanos estão",
+                "prontos para ajudá-lo.",
+                "Recrute-os e prepare-os",
+                "para a batalha."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/partyrecruit.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7r": {
+            "sign": [
+                "Veja o status do seguidor",
+                "no canto superior direito",
+                "da tela. O último",
+                "seguidor ativo fica",
+                "destacado.",
+                "",
+                "Role para o próximo",
+                "seguidor usando$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Alternar NPCs"
+                }
+            ]
+        },
+        "tutorial7s": {
+            "sign": [
+                "Toque em$ para alternar rápido",
+                "entre seus seguidores,",
+                "permitindo que emita",
+                "comandos para cada um",
+                "usando$e$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0,
+                        2,
+                        3
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        0
+                    ],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Alternar NPCs"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Mostrar Comandos de NPC"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Comandar NPC"
+                }
+            ]
+        },
+        "tutorial7t": {
+            "sign": [
+                "BEWARE:",
+                "",
+                "Você deve gerir",
+                "seus seguidores com",
+                "cuidado para garantir que",
+                "não sejam esmagados pela",
+                "armadilha de pedregulho",
+                "no caminho à frente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/bouldermove.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7z": {
+            "sign": [
+                "Ordene aos seguidores que",
+                "[Descansem] uma vez por andar,",
+                "o que recupera o HP.",
+                "$",
+                "Eles também podem se recuperar",
+                "ao serem ordenados a",
+                "[Interagir] com comida."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/foodgive.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_rest.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7u": {
+            "sign": [
+                "É prudente ordenar que os",
+                "seguidores [Esperem]",
+                "enquanto você explora adiante.",
+                "",
+                "Segure$ao emitir",
+                "alguns comandos para dirigir",
+                "todos os seus seguidores",
+                "com uma única ordem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        4
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/allwait_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                }
+            ]
+        },
+        "tutorial7u_gamepad": {
+            "sign": [
+                "É prudente ordenar que os",
+                "seguidores [Esperem]",
+                "enquanto você explora adiante.",
+                "",
+                "Segure$ao emitir",
+                "alguns comandos para dirigir",
+                "todos os seus seguidores",
+                "com uma única ordem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        4
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        0,
+                        3
+                    ],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/allwait_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                }
+            ]
+        },
+        "tutorial7up": {
+            "sign": [
+                "Este portão só",
+                "será aberto quando todos",
+                "os inimigos tiverem sido",
+                "derrotados."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": []
+        }
+    }
+}

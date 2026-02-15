@@ -1,0 +1,376 @@
+{
+	"version": 1,
+	"contents": [
+		{
+			"    HUMANOIDS": "-"
+		},
+		{
+			"HUMANS": "humano"
+		},
+		{
+			"GOBLIN": "goblin"
+		},
+		{
+			"THE POTATO KING": "rei batata"
+		},
+		{
+			"GNOME": "gnomo"
+		},
+		{
+			"GNOME THIEF": "gnomo ladrão"
+		},
+		{
+			"SHOPKEEPER": "lojista"
+		},
+		{
+			"MYSTERIOUS MERCHANT": "loja misteriosa"
+		},
+		{
+			"    BEASTS": "-"
+		},
+		{
+			"RAT": "rato"
+		},
+		{
+			"ALGERNON": "algernon"
+		},
+		{
+			"BAT": "morcego"
+		},
+		{
+			"SPIDER": "aranha"
+		},
+		{
+			"CRAB": "caranguejo"
+		},
+		{
+			"SHELOB": "shelob"
+		},
+		{
+			"BUBBLES": "bubbles"
+		},
+		{
+			"TROLL": "troll"
+		},
+		{
+			"THUMPUS": "thumpus"
+		},
+		{
+			"SCORPION": "escorpião"
+		},
+		{
+			"SKRABBLAG": "skrabblag"
+		},
+		{
+			"SCARAB": "escaravelho"
+		},
+		{
+			"XYGGI": "xyggi"
+		},
+		{
+			"COCKATRICE": "cocatriz"
+		},
+		{
+			"MINOTAUR": "minotauro"
+		},
+		{
+			"    BEASTFOLK": "-"
+		},
+		{
+			"INSECTOID": "insetoide"
+		},
+		{
+			"BUGBEAR": "bugbear"
+		},
+		{
+			"KOBOLD": "kobold"
+		},
+		{
+			"GOATMAN": "homem-bode"
+		},
+		{
+			"GHARBAD": "gharbad"
+		},
+		{
+			"    UNDEAD": "-"
+		},
+		{
+			"GHOST": "fantasma"
+		},
+		{
+			"SKELETON": "esqueleto"
+		},
+		{
+			"FUNNY BONES": "funny bones"
+		},
+		{
+			"GHOULS": "ghoul"
+		},
+		{
+			"CORAL GRIMES": "coral grimes"
+		},
+		{
+			"ENSLAVED GHOULS": "ghoul escravizado"
+		},
+		{
+			"REVENANT SKULL": "crânio revenante"
+		},
+		{
+			"VAMPIRE": "vampiro"
+		},
+		{
+			"BRAM KINDLY": "bram kindly"
+		},
+		{
+			"SHADOW": "sombra"
+		},
+		{
+			"ARTEMISIA": "artemisia"
+		},
+		{
+			"BARATHEON": "baratheon"
+		},
+		{
+			"BARON HERX": "lich"
+		},
+		{
+			"ERUDYCE": "lich de gelo"
+		},
+		{
+			"ORPHEUS": "lich de fogo"
+		},
+		{
+			"    DEMONICS": "-"
+		},
+		{
+			"SUCCUBUS": "súcubo"
+		},
+		{
+			"LILITH": "lilith"
+		},
+		{
+			"SUCCUBUS CONSORTS": "súcubos de bram"
+		},
+		{
+			"INCUBUS": "íncubo"
+		},
+		{
+			"IMP": "diabrete"
+		},
+		{
+			"DEMON": "demônio"
+		},
+		{
+			"DEU DE'BREAU": "deudebreau"
+		},
+		{
+			"BAPHOMET": "diabo"
+		},
+		{
+			"    CONSTRUCTS": "-"
+		},
+		{
+			"AUTOMATON": "autômato"
+		},
+		{
+			"CRYSTAL GOLEM": "golem de cristal"
+		},
+		{
+			"SENTRYBOT": "sentinela robô"
+		},
+		{
+			"SPELLBOT": "sentinela mágica"
+		},
+		{
+			"DUMMYBOT": "boneco de treino"
+		},
+		{
+			"MIMIC": "mímico"
+		},
+		{
+			"    ELEMENTALS": "-"
+		},
+		{
+			"SLIMES": "gosma"
+		},
+		{
+			"EARTH SPRITE": "elemental da terra"
+		}
+	],
+	"contents_alphabetical": [
+		{
+			"ALGERNON": "algernon"
+		},
+		{
+			"ARTEMISIA": "artemisia"
+		},
+		{
+			"AUTOMATON": "autômato"
+		},
+		{
+			"BAPHOMET": "diabo"
+		},
+		{
+			"BARATHEON": "baratheon"
+		},
+		{
+			"BARON HERX": "lich"
+		},
+		{
+			"BAT": "morcego"
+		},
+		{
+			"BRAM KINDLY": "bram kindly"
+		},
+		{
+			"BUBBLES": "bubbles"
+		},
+		{
+			"BUGBEAR": "bugbear"
+		},
+		{
+			"COCKATRICE": "cocatriz"
+		},
+		{
+			"CORAL GRIMES": "coral grimes"
+		},
+		{
+			"CRAB": "caranguejo"
+		},
+		{
+			"CRYSTAL GOLEM": "golem de cristal"
+		},
+		{
+			"DEMON": "demônio"
+		},
+		{
+			"DEU DE'BREAU": "deudebreau"
+		},
+		{
+			"DUMMYBOT": "boneco de treino"
+		},
+		{
+			"EARTH SPRITE": "espírito da terra"
+		},
+		{
+			"ENSLAVED GHOULS": "ghoul escravizado"
+		},
+		{
+			"ERUDYCE": "lich de gelo"
+		},
+		{
+			"FUNNY BONES": "funny bones"
+		},
+		{
+			"GHARBAD": "gharbad"
+		},
+		{
+			"GHOST": "fantasma"
+		},
+		{
+			"GHOULS": "ghoul"
+		},
+		{
+			"GNOME": "gnomo"
+		},
+		{
+			"GNOME THIEF": "gnomo ladrão"
+		},
+		{
+			"GOATMAN": "homem-bode"
+		},
+		{
+			"GOBLIN": "goblin"
+		},
+		{
+			"HUMANS": "humano"
+		},
+		{
+			"IMP": "diabrete"
+		},
+		{
+			"INCUBUS": "íncubo"
+		},
+		{
+			"INSECTOID": "insetoide"
+		},
+		{
+			"KOBOLD": "kobold"
+		},
+		{
+			"LILITH": "lilith"
+		},
+		{
+			"MIMIC": "mímico"
+		},
+		{
+			"MINOTAUR": "minotauro"
+		},
+		{
+			"MYSTERIOUS MERCHANT": "loja misteriosa"
+		},
+		{
+			"ORPHEUS": "lich de fogo"
+		},
+		{
+			"RAT": "rato"
+		},
+		{
+			"REVENANT SKULL": "crânio revenante"
+		},
+		{
+			"SCARAB": "escaravelho"
+		},
+		{
+			"SCORPION": "escorpião"
+		},
+		{
+			"SENTRYBOT": "sentinela robô"
+		},
+		{
+			"SHADOW": "sombra"
+		},
+		{
+			"SHELOB": "shelob"
+		},
+		{
+			"SHOPKEEPER": "lojista"
+		},
+		{
+			"SKELETON": "esqueleto"
+		},
+		{
+			"SKRABBLAG": "skrabblag"
+		},
+		{
+			"SLIMES": "gosma"
+		},
+		{
+			"SPELLBOT": "sentinela mágica"
+		},
+		{
+			"SPIDER": "aranha"
+		},
+		{
+			"SUCCUBUS CONSORTS": "súcubos de bram"
+		},
+		{
+			"SUCCUBUS": "súcubo"
+		},
+		{
+			"THE POTATO KING": "rei batata"
+		},
+		{
+			"THUMPUS": "thumpus"
+		},
+		{
+			"TROLL": "troll"
+		},
+		{
+			"VAMPIRE": "vampiro"
+		},
+		{
+			"XYGGI": "xyggi"
+		}
+	]
+}

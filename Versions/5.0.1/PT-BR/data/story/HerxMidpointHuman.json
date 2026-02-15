@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "Tendo derrotado o Barão e colocado seu orbe violeta no pedestal,\\n",
+        "você entra no portal. Uma magia poderosa envia um formigamento por seu corpo.\\n^",
+        "Seu corpo é transportado com um flash branco.^ Você chega do lado de fora das\\n",
+        "minas de Hamlet e observa a escuridão amaldiçoada se afastar da terra.\\n",
+        "A luz quente do sol flui sobre o campo. À medida que as portas da mina se abrem totalmente,\\n",
+        "as pessoas correm para as ruas, aclimatando-se à sua liberdade.\\n^",
+        "*3Você marcha até a Guilda dos Magos em busca de respostas sobre o orbe de Herx,\\n",
+        "mas o porteiro de lá o manda embora. Vendo-o abatido por sua jornada,\\n",
+        "ele o encoraja a descansar. \"As respostas que você procura estarão aqui amanhã.\"\\n",
+        "Você volta às ruas e encontra cem pessoas esperando por você, o herói delas.\\n",
+        "Você se junta a elas em uma folia bem merecida, mas resolve visitar a Guilda dos Magos\\n",
+        "assim que a alegria diminuir..."
+    ],
+    "images": [
+        "images/ui/Main Menus/Story/black.png",
+        "images/ui/Main Menus/Story/white.png",
+        "images/ui/Main Menus/Story/Hamlet_Rescue.png",
+        "images/ui/Main Menus/Story/MagiciansGuild.png",
+        "images/ui/Main Menus/Story/black.png"
+    ]
+}

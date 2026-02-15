@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "*2Abrindo caminho através de cada demônio em seu trajeto, você salta pelo\\n",
+        "portal.^ Nenhuma entidade, mortal ou imortal, pode desafiar seu poder.\\n^",
+        "*2De repente, você se vê cansado em um salão branco infinito, pontilhado\\n",
+        "com pilares enormes que se estendem mais alto do que você pode ver.\\n",
+        "*2Nervosamente, você espera seu próximo inimigo aparecer.\\n",
+        "Você fica apreensivo quando uma voz ressoa:\\n^",
+        "*3\\\"Testemunhamos sua força e sede de poder. Você não era esperado aqui.\\n",
+        "No entanto, estamos impressionados com sua ferocidade e foco. Pedimos que considere esta\\n",
+        "proposta, poderoso...\\\"\\n^",
+        "*3Enquanto a voz se dirige a você, você se sente tentado por suas palavras. Ela fala\\n",
+        "de um poder maior que Herx e Baphomet. Ela afirma ser maior que\\n",
+        "até mesmo você. A perspectiva de um competidor não será tolerada...\\n^",
+        "*2Sem aviso, você se vê transportado para uma moradia humana em Hamlet.\\n",
+        "Mas seus habitantes estão bêbados demais para notar enquanto você escapa para um quarto nos fundos.\\n^",
+        "*1Um alçapão leva a um esgoto, além do qual você pode sentir uma grande magia acenando..."
+    ],
+    "images": [
+        "*images/ui/Main Menus/Story/black.png",
+        "*images/ui/Main Menus/Story/white.png",
+        "*images/ui/Main Menus/Story/NoEternals.png",
+        "*images/ui/Main Menus/Story/Eternals.png",
+        "*images/ui/Main Menus/Story/white.png",
+        "*images/ui/Main Menus/Story/MagiciansGuild.png",
+        "*images/ui/Main Menus/Story/black.png"
+    ]
+}

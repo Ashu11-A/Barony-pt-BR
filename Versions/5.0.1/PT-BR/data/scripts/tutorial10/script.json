@@ -1,0 +1,1436 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial10a": {
+            "sign": [
+                "O inimigo na próxima",
+                "sala é capaz de",
+                "envenenar você com",
+                "seus ataques.",
+                "",
+                "Alguns aventureiros mantêm",
+                "curas à mão. Outros",
+                "apenas aguentam firme",
+                "ou evitam receber golpes."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/blockcrab.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial10b": {
+            "sign": [
+                "$",
+                "Levar os itens que você",
+                "encontrar de volta ao mercado",
+                "pode aumentar suas",
+                "chances de sucesso."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/system/shopkeeper.png",
+                    "sizex": 74,
+                    "sizey": 74
+                }
+            ]
+        },
+        "tutorial10c": {
+            "sign": [
+                "Os lojistas tratarão",
+                "você de forma diferente se",
+                "você estiver sob os efeitos",
+                "de polimorfismo.",
+                "",
+                "A maioria dos monstros se comporta",
+                "de forma muito diferente se você",
+                "lançar uma poção de polimorfismo",
+                "neles."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/polythrow.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial10d": {
+            "sign": [
+                "Aventureiros de todas",
+                "as classes precisarão ser",
+                "engenhosos com os itens.",
+                "",
+                "Compras inteligentes podem",
+                "ser a diferença",
+                "entre estar preparado",
+                "e estar morto."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial10e": {
+            "sign": [
+                "Os lojistas",
+                "não pagarão bem por uma",
+                "gema não avaliada, pois",
+                "pode ser vidro sem valor!",
+                "",
+                "Use um pergaminho de identificação",
+                "quando sua perícia de avaliação",
+                "não for alta o suficiente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial10f": {
+            "sign": [
+                "Se um Lojista for morto,",
+                "eles deixam cair tudo",
+                "o que estão vendendo.",
+                "Mas a notícia corre rápido",
+                "nas masmorras.",
+                "",
+                "Inimigos da",
+                "Guilda dos Mercadores são",
+                "atacados à primeira vista."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial10g": {
+            "sign": [
+                "Lojistas têm um ótimo",
+                "treinamento de autodefesa",
+                "e tentarão",
+                "aniquilar todos os agressores",
+                "com extremo rigor."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial10h": {
+            "sign": [
+                "Cada Lojista negocia",
+                "em uma categoria específica",
+                "de mercadorias.",
+                "",
+                "Este só negocia chapéus,",
+                "então ele não comprará sua gema.",
+                "",
+                "Use este interruptor para",
+                "abrir o caminho para encontrar",
+                "outros compradores."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/nosale_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial10h_gamepad": {
+            "sign": [
+                "Cada Lojista negocia",
+                "em uma categoria específica",
+                "de mercadorias.",
+                "",
+                "Este só negocia chapéus,",
+                "então ele não comprará sua gema.",
+                "",
+                "Use este interruptor para",
+                "abrir o caminho para encontrar",
+                "outros compradores."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/nosale_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial10i": {
+            "sign": [
+                "Com o menu da loja aberto,",
+                "pressione$ em seus itens",
+                "para vendê-los.",
+                "",
+                "Pressione$ em itens no",
+                "inventário do Lojista",
+                "para comprar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/buysell_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial10i_gamepad": {
+            "sign": [
+                "Com o menu da loja aberto,",
+                "pressione$ em seus itens",
+                "para vendê-los.",
+                "",
+                "Pressione$ em itens no",
+                "inventário do Lojista",
+                "para comprar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/buysell_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial10j": {
+            "sign": [
+                "Você pode começar a negociar",
+                "aproximando-se dos lojistas",
+                "e pressionando$ .",
+                "",
+                "Para fechar o menu",
+                "da loja, pressione$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Use"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial10j_gamepad": {
+            "sign": [
+                "Você pode começar a negociar",
+                "aproximando-se dos lojistas",
+                "e pressionando$ .",
+                "",
+                "Para fechar o menu",
+                "da loja, pressione$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Use"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuCancel"
+                }
+            ]
+        },
+        "tutorial10k": {
+            "sign": [
+                "Lojas sempre parecem",
+                "distintas, não importa",
+                "onde sejam encontradas.",
+                "$",
+                "Procure por placas fora das",
+                "lojas para uma prévia do",
+                "que elas compram e vendem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial10/sign_shophat.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial10l": {
+            "sign": [
+                "Esta gema pode ser arremessada",
+                "como qualquer pedra, mas seu",
+                "valor real está no que um",
+                "lojista paga por ela.",
+                "$",
+                "Maximize o valor de troca",
+                "com alta perícia de negociação."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial10/sign_gem.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial10m": {
+            "sign": [
+                "Todo item tem um",
+                "valor em ouro exibido",
+                "quando você passa o mouse sobre ele",
+                "em seu inventário.",
+                "",
+                "O valor de um item pode mudar",
+                "quando ele é avaliado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/value_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial10m_gamepad": {
+            "sign": [
+                "Todo item tem um",
+                "valor em ouro exibido",
+                "quando você passa o mouse sobre ele",
+                "em seu inventário.",
+                "",
+                "O valor de um item pode mudar",
+                "quando ele é avaliado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/value_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial10n": {
+            "sign": [
+                "O ouro não pode matar monstros,",
+                "nem irá alimentá-lo.",
+                "$",
+                "No entanto, ele permite que você",
+                "negocie com os lojistas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial10/sign_gold.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial10o": {
+            "sign": [
+                "Joalheiros compram e vendem",
+                "amuletos, anéis e gemas.",
+                "$",
+                "Aqui você pode vender sua",
+                "gema por muito ouro!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial10/sign_jeweler.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial10p": {
+            "sign": [
+                "Se você estiver acumulando",
+                "muitas coisas para vender, uma",
+                "Loja de Variedades é um",
+                "achado de muita sorte.",
+                "$",
+                "Eles comprarão qualquer coisa",
+                "e terão itens aleatórios."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial10/sign_general.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial10q": {
+            "sign": [
+                "Veja quanto ouro você",
+                "acumulou em sua",
+                "ficha de personagem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial10r": {
+            "sign": [
+                "Para soltar ouro, paire sobre",
+                "sua contagem de ouro, segure$",
+                "e escolha quanto soltar.",
+                "",
+                "Se você estiver carregando muito",
+                "ouro, seu peso pode",
+                "se acumular e atrasar você."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        3,
+                        4,
+                        5
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/dropgold_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial10r_gamepad": {
+            "sign": [
+                "Para soltar ouro, paire sobre",
+                "sua contagem de ouro, pressione$",
+                "e escolha quanto soltar.",
+                "",
+                "Se você estiver carregando muito",
+                "ouro, seu peso pode",
+                "se acumular e atrasar você."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        3,
+                        4,
+                        5
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/dropgold_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial10s": {
+            "sign": [
+                "Na masmorra, você",
+                "pode não ter a sorte de",
+                "encontrar um comprador para",
+                "suas mercadorias.",
+                "",
+                "Você terá que decidir",
+                "se é prudente manter",
+                "itens volumosos por",
+                "seu valor de troca."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial10t": {
+            "sign": [
+                "Os lojistas",
+                "neste mercado são",
+                "sua única opção para",
+                "se equipar adequadamente",
+                "para o teste deste desafio.",
+                "",
+                "Compre e venda para",
+                "se preparar",
+                "como preferir."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial10u": {
+            "sign": [
+                "Através deste portal encontra-se",
+                "uma série de lutas cada vez",
+                "mais desafiadoras.",
+                "Compre o que quer que ajude",
+                "você a ter sucesso.",
+                "",
+                "Sua engenhosidade",
+                "será testada."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial10v": {
+            "sign": [
+                "Itens que encontrar em lojas",
+                "que estiverem espalhados por",
+                "mesas ou em baús",
+                "são seus para pegar.",
+                "",
+                "Os únicos itens que importam",
+                "para os lojistas são aqueles",
+                "encontrados em seu inventário."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    []
+                ]
+            },
+            "variables": []
+        },
+        "tutorial10w": {
+            "sign": [
+                "Enfrentar dois inimigos de",
+                "uma vez pode complicar",
+                "muito uma luta.",
+                "",
+                "Todos os aventureiros devem",
+                "estar prontos para enfrentar tanto",
+                "atacantes à distância quanto",
+                "de curto alcance."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/killtwo.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial10x": {
+            "sign": [
+                "O próximo inimigo empunha um",
+                "cajado mágico, que pode",
+                "atrasar e causar muito dano,",
+                "ignorando o seu AC.",
+                "",
+                "Itens podem reduzir efeitos",
+                "mágicos. Use táticas de",
+                "emboscada para evitar",
+                "projéteis mágicos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/staffambush.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        }
+    }
+}

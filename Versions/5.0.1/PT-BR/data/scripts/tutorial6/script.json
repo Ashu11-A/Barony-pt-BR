@@ -1,0 +1,908 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial6a": {
+            "sign": [
+                "Enquanto invisível,",
+                "os inimigos ainda podem",
+                "detectar você se estiver",
+                "muito perto, especialmente",
+                "se você atacar.",
+                "",
+                "$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/invisible.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial6b": {
+            "sign": [
+                "Destrua os esqueletos",
+                "no pátio",
+                "à sua direita.",
+                "",
+                "O portão à sua",
+                "esquerda será então",
+                "aberto."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    []
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6c": {
+            "sign": [
+                "Lembre-se das fraquezas",
+                "a tipos de armas ao",
+                "atacar furtivamente.",
+                "$",
+                "Esteja pronto para golpear novamente",
+                "após realizar seu",
+                "golpe de abertura!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        3,
+                        4
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/swordmace.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial6/sign_ironmace.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial6d": {
+            "sign": [
+                "Observe a direção",
+                "para a qual os inimigos estão voltados e",
+                "cronometre seu ataque para",
+                "garantir um ataque pelas costas.",
+                "",
+                "Você não precisa",
+                "usar furtividade quando as costas",
+                "do seu inimigo estiverem viradas!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/backturned.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial6do": {
+            "sign": [
+                "Fragmentos de cristal",
+                "são tochas fracas",
+                "que nunca se apagam,",
+                "mas são muito frágeis.",
+                "",
+                "A penalidade de visibilidade",
+                "de tochas de cristal",
+                "é metade daquela de",
+                "tochas normais."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6e": {
+            "sign": [
+                "Aventureiros podem",
+                "precisar usar furtividade",
+                "a seu favor para",
+                "sobreviver na masmorra."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6f": {
+            "sign": [
+                "Quando um inimigo está ocupado",
+                "com outro adversário você",
+                "pode aumentar o dano",
+                "com golpes de flanco.",
+                "",
+                "Não chegue muito perto ou",
+                "eles voltarão sua",
+                "atenção para você!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        4
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/flanking.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial6g": {
+            "sign": [
+                "Saber lutar",
+                "é bom, mas abordar",
+                "uma luta com vantagem",
+                "pode garantir a vitória."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6h": {
+            "sign": [
+                "$",
+                "Os inimigos têm mais",
+                "dificuldade em detectar",
+                "você no escuro.",
+                "Segurar uma tocha torna",
+                "você muito mais fácil de ver."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/sneaklight.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial1/sign_torch.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial6i": {
+            "sign": [
+                "$",
+                "",
+                "Sem nenhum item",
+                "na sua mão secundária,",
+                "segure$para esgueirar-se."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    []
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Stealth02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                }
+            ]
+        },
+        "tutorial6j": {
+            "sign": [
+                "Assim como defender,",
+                "esgueirar-se faz você",
+                "mover-se mais devagar.",
+                "",
+                "Também torna você",
+                "mais difícil de detectar e",
+                "permite que você veja melhor",
+                "no escuro."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6k": {
+            "sign": [
+                "Inimigos que",
+                "não estão cientes de você",
+                "recebem bônus de dano",
+                "de ataque pelas costas",
+                "quando atacados por trás."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6l": {
+            "sign": [
+                "Segure$ para carregar",
+                "um golpe crítico para",
+                "maximizar o dano do seu",
+                "ataque de abertura ao",
+                "atacar inimigos pelas costas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/followstrike.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial6m": {
+            "sign": [
+                "Sua perícia em furtividade",
+                "será agora testada.",
+                "",
+                "Mate o líder goblin",
+                "e escape com vida.",
+                "Evite ou mate os demais!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6n": {
+            "sign": [
+                "Flanquear, esgueirar-se,",
+                "ataques pelas costas e gerir",
+                "a luz ajudará aventureiros a",
+                "sobreviverem na masmorra."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial6no": {
+            "sign": [
+                "Parabéns!",
+                "Este é o último dos",
+                "seis testes básicos.",
+                "Heróis realizam grandes feitos",
+                "com estas lições.",
+                "",
+                "Os testes 7 - 10 dão",
+                "lições especializadas.",
+                "Domine-os se você",
+                "desejar mais perícia."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6o": {
+            "sign": [
+                "Este portão só abre",
+                "quando o líder goblin",
+                "tiver sido morto."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    []
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6p": {
+            "sign": [
+                "Colete tochas para",
+                "escurecer áreas e tornar",
+                "a furtividade mais fácil."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/darken.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial6pa": {
+            "sign": [
+                "Após ser detectado,",
+                "aventureiros furtivos podem",
+                "fugir e tentar",
+                "esgueirar-se até um",
+                "alvo mais uma vez."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    []
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6q": {
+            "sign": [
+                "Trolls são quase cegos.",
+                "Inimigos mais perceptivos",
+                "podem detectar você de",
+                "mais longe.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        1
+                    ],
+                    []
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+                    "sizex": 48,
+                    "sizey": 48
+                }
+            ]
+        }
+    }
+}

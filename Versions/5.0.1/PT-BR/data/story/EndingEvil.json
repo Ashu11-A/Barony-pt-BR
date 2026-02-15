@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+        "*3Através do portal, uma magia fraca o puxa da Cidadela.\\n",
+        "Seus pés flutuam sobre o chão enquanto ele treme violentamente.\\n",
+        "Tubos e pistões caem em um barulho abafado...\\n^",
+        "*1Você cerra os olhos, confiante de que o portal o levará para a segurança.\\n^",
+        "*2Parece que você conseguiu o que veio buscar, embora não da maneira que antecipou.\\n",
+        "O poder não pode ser apenas mantido... ele deve ser usado.\\n^",
+        "Os anos seguintes não são fáceis para o mundo da superfície. Eventualmente, eles aprendem\\n",
+        "que a alegria e a glória são encontradas na força.\\n^",
+        "*1Você destrói aqueles que se opõem a você. Eventualmente, até os humanos carregam sua bandeira.\\n",
+        "*2Algum império pode desafiar o que você construiu? Profetas ensinam que o\\n",
+        "espírito humano é mais forte do que qualquer coisa. Você teme que esse poder seja real...\\n^",
+        "*1Um poder que você sabe que sempre estará esperando."
+    ],
+    "images": [
+        "images/ui/Main Menus/Story/black.png",
+        "images/ui/Main Menus/Story/white.png",
+        "images/ui/Main Menus/Story/PowerWaiting.png",
+        "images/ui/Main Menus/Story/intro3.png",
+        "images/ui/Main Menus/Story/EvilThrone.png",
+        "images/ui/Main Menus/Story/PowerWaiting.png"
+    ]
+}

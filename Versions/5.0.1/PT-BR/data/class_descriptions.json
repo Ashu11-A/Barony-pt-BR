@@ -1,0 +1,1187 @@
+{
+	"version": 1,
+	"descriptions": {
+		"barbarian": {
+			"id": 0,
+			"stats": [
+				"good",
+				"decent",
+				"decent",
+				"bad",
+				"average",
+				"bad"
+			],
+			"survival_complexity": [
+				3,
+				2
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				4
+			],
+			"desc": [
+				"Bárbaro",
+				"Um combatente habilidoso. O que",
+				"lhes falta em armadura, eles compensam",
+				"em força e proeza de combate.",
+				"proeza de combate.",
+				"Bárbaros podem rapidamente",
+				"eliminar inimigos menores antes",
+				"de sofrer ataques usando a",
+				"arma certa para o trabalho.",
+				"Um ataque surpresa é a chave",
+				"para uma vitória rápida. Manter-se",
+				"ágil permitirá que o",
+				"Bárbaro evite danos."
+			]
+		},
+		"warrior": {
+			"id": 1,
+			"stats": [
+				"good",
+				"bad",
+				"good",
+				"bad",
+				"bad",
+				"good"
+			],
+			"survival_complexity": [
+				4,
+				1
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				4,
+				0
+			],
+			"desc": [
+				"Guerreiro",
+				"O soldado treinado. Eles",
+				"são pesadamente blindados e",
+				"são líderes capazes.",
+				"Guerreiros são bem equipados",
+				"para a maioria das lutas, assumindo",
+				"que saibam como bloquear no",
+				"momento certo.",
+				"Mas a arrogância é a ruína",
+				"de muitos Guerreiros, seja",
+				"andando muito devagar perto de",
+				"armadilhas, ou permitindo que a magia",
+				"atravesse sua armadura."
+			]
+		},
+		"healer": {
+			"id": 2,
+			"stats": [
+				"average",
+				"average",
+				"decent",
+				"good",
+				"decent",
+				"average"
+			],
+			"survival_complexity": [
+				4,
+				2
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				4
+			],
+			"desc": [
+				"Curandeiro",
+				"Um médico talentoso. Embora",
+				"sejam combatentes medíocres, eles",
+				"vêm equipados com suprimentos",
+				"médicos e outras habilidades",
+				"de cura.",
+				"Comparado a outros usuários",
+				"de magia, o Curandeiro é um",
+				"herói mais durável e versátil",
+				"conforme ganha",
+				"experiência.",
+				"Com cuidado, podem se tornar",
+				"um taumaturgo muito resistente."
+			]
+		},
+		"rogue": {
+			"id": 3,
+			"stats": [
+				"bad",
+				"good",
+				"bad",
+				"bad",
+				"good",
+				"decent"
+			],
+			"survival_complexity": [
+				2,
+				3
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Ladino",
+				"O vândalo profissional.",
+				"Ladrões destros e habilidosos,",
+				"o que lhes falta em poder, eles",
+				"compensam em versatilidade.",
+				"Até Ladinos habilidosos sucumbem",
+				"tentando viver pela lâmina.",
+				"Sua mão ágil pode tirar",
+				"munição de armadilhas, e usando",
+				"furtividade, um Ladino paciente",
+				"sobrevive eliminando inimigos fortes",
+				"de longe, e praticando",
+				"emboscadas contra alvos frágeis."
+			]
+		},
+		"wanderer": {
+			"id": 4,
+			"stats": [
+				"decent",
+				"average",
+				"decent",
+				"average",
+				"decent",
+				"bad"
+			],
+			"survival_complexity": [
+				4,
+				1
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0
+			],
+			"desc": [
+				"Andarilho",
+				"O viajante endurecido.",
+				"Fraco em armadura e habilidade",
+				"de combate, mas bem equipado",
+				"para explorar a masmorra.",
+				"O amplo estoque de comida do",
+				"Andarilho proporciona um início",
+				"paciente para sua aventura,",
+				"permitindo que joguem com segurança.",
+				"Sua natureza resistente",
+				"os transforma em combatentes",
+				"muito duráveis conforme sua",
+				"jornada avança."
+			]
+		},
+		"cleric": {
+			"id": 5,
+			"stats": [
+				"average",
+				"bad",
+				"decent",
+				"decent",
+				"average",
+				"average"
+			],
+			"survival_complexity": [
+				3,
+				2
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0
+			],
+			"desc": [
+				"Clérigo",
+				"Estudantes da igreja.",
+				"Bem preparados, eles são",
+				"combatentes defensivos capazes,",
+				"prontos para esmagar mortos-vivos.",
+				"Treinados para aprender uma poderosa",
+				"bênção, Clérigos são taumaturgos",
+				"habilidosos que ajudam o",
+				"grupo a se recuperar mais rápido.",
+				"Um Clérigo sábio faz uso da",
+				"magia quando disponível, sem",
+				"abandonar seu treinamento",
+				"marcial."
+			]
+		},
+		"merchant": {
+			"id": 6,
+			"stats": [
+				"average",
+				"bad",
+				"decent",
+				"average",
+				"decent",
+				"good"
+			],
+			"survival_complexity": [
+				3,
+				2
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				8,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Mercador",
+				"Um comerciante experiente. Eles",
+				"são habilidosos no mercado",
+				"e adeptos em identificar",
+				"gemas e artefatos estrangeiros.",
+				"Embora decentemente equipados,",
+				"exploradores Mercadores",
+				"sobreviverão mais se",
+				"desenvolverem habilidades que mantenham",
+				"os inimigos à distância, especialmente",
+				"adotando seguidores e",
+				"habilidades de criação às quais",
+				"são naturalmente inclinados."
+			]
+		},
+		"wizard": {
+			"id": 7,
+			"stats": [
+				"bad",
+				"average",
+				"bad",
+				"good",
+				"good",
+				"decent"
+			],
+			"survival_complexity": [
+				2,
+				2
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0
+			],
+			"desc": [
+				"Mago",
+				"O mago sábio. Embora",
+				"frágeis, eles são extremamente",
+				"versados em feitiçaria.",
+				"Muitos jovens aventureiros",
+				"encontram sucesso precoce com",
+				"feitiços poderosos. No entanto,",
+				"a maioria dos usuários de magia",
+				"não pode conjurar indefinidamente.",
+				"Para ter sucesso como Mago, deve-se",
+				"aprender quando basta finalizar",
+				"os inimigos com um golpe forte",
+				"de uma arma de haste."
+			]
+		},
+		"arcanist": {
+			"id": 8,
+			"stats": [
+				"bad",
+				"decent",
+				"bad",
+				"decent",
+				"decent",
+				"bad"
+			],
+			"survival_complexity": [
+				3,
+				3
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0
+			],
+			"desc": [
+				"Arcanista",
+				"Um conjurador astuto. Menos",
+				"adepto à magia que o",
+				"Mago, mas com talentos e",
+				"equipamentos mais diversos.",
+				"Por terem ataques à distância",
+				"mundanos e mágicos à disposição,",
+				"Arcanistas de sucesso dependem da",
+				"mobilidade para manter as",
+				"ameaças à distância.",
+				"Adicionar munição especial ou feitiços",
+				"permitirá que o Arcanista",
+				"aumente seu poder."
+			]
+		},
+		"joker": {
+			"id": 9,
+			"stats": [
+				"average",
+				"average",
+				"average",
+				"average",
+				"average",
+				"average"
+			],
+			"survival_complexity": [
+				1,
+				3
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				4
+			],
+			"desc": [
+				"Coringa",
+				"O curinga.",
+				"Coringas vêm com muito pouco",
+				"equipamento, mas eles têm alguns",
+				"truques na manga,",
+				"apesar de tudo.",
+				"Coringas tendem a gravitar",
+				"em direção a truques mágicos",
+				"e comando de seguidores,",
+				"mas sua natureza caótica",
+				"resulta em falta de foco.",
+				"Melhor improvisar e manter-se",
+				"flexível."
+			]
+		},
+		"sexton": {
+			"id": 10,
+			"stats": [
+				"average",
+				"good",
+				"bad",
+				"good",
+				"bad",
+				"average"
+			],
+			"survival_complexity": [
+				3,
+				4
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				4
+			],
+			"desc": [
+				"Sacristão",
+				"Um oficial do templo que serve",
+				"nas sombras, usando furtividade e",
+				"misticismo para deslizar pela",
+				"masmorra com a ajuda de",
+				"algumas ferramentas raras.",
+				"Sacristães são planejadores",
+				"meticulosos, e seus diversos",
+				"talentos trazem sucesso quando",
+				"reservam tempo para abordar cada",
+				"problema com reflexão.",
+				"Sacristães que entram em pânico falham",
+				"em usar as ferramentas à disposição."
+			]
+		},
+		"ninja": {
+			"stats": [
+				"decent",
+				"good",
+				"average",
+				"poor",
+				"decent",
+				"bad"
+			],
+			"survival_complexity": [
+				2,
+				2
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				4,
+				0
+			],
+			"id": 11,
+			"desc": [
+				"Ninja",
+				"Um assassino altamente especializado.",
+				"Eles emboscam inimigos com",
+				"espadas ou armas de longo alcance,",
+				"usando alguns outros truques para",
+				"sair de situações ruins.",
+				"Ninjas fazem bem em encontrar lâminas",
+				"reservas. Sua espada frágil é",
+				"afiada, mas uma quebra no momento",
+				"errado pode ser fatal.",
+				"Para melhorar suas chances, o",
+				"Ninja deve manter o controle de",
+				"como uma luta começa."
+			]
+		},
+		"monk": {
+			"id": 12,
+			"stats": [
+				"decent",
+				"bad",
+				"good",
+				"average",
+				"bad",
+				"bad"
+			],
+			"survival_complexity": [
+				5,
+				1
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				4,
+				0,
+				0
+			],
+			"desc": [
+				"Monge",
+				"Disciplinado e resistente. Com",
+				"pouco treinamento ofensivo e",
+				"bens materiais, Monges dependem",
+				"de sua excelente fortitude e",
+				"adaptabilidade.",
+				"O Monge é excepcional em",
+				"bloquear ataques, e demora muito",
+				"para sentir fome.",
+				"Abordar desafios pacientemente",
+				"favorece as forças do Monge.",
+				"Mantenha uma tocha ou escudo à",
+				"mão para defesa."
+			]
+		},
+		"conjurer": {
+			"id": 13,
+			"stats": [
+				"bad",
+				"bad",
+				"decent",
+				"good",
+				"decent",
+				"decent"
+			],
+			"survival_complexity": [
+				3,
+				3
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Conjurador",
+				"Um usuário de magia frágil, mas adepto,",
+				"capaz de conjurar aliados",
+				"com um feitiço confiável.",
+				"Indisponível para qualquer outra",
+				"classe, o feitiço Conjurar Esqueleto",
+				"fornece um companheiro persistente,",
+				"mesmo que ele seja morto.",
+				"Aliados conjurados aumentam em",
+				"poder, desde que tenham permissão",
+				"para matar inimigos e ganhar",
+				"experiência. Nutra esses",
+				"aliados para ter sucesso."
+			]
+		},
+		"accursed": {
+			"id": 14,
+			"stats": [
+				"average",
+				"average",
+				"bad",
+				"good",
+				"good",
+				"average"
+			],
+			"survival_complexity": [
+				1,
+				3
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Amaldiçoado",
+				"Os Amaldiçoados sofrem de uma",
+				"fome bestial, mas ganham poder",
+				"mágico sobrenatural e",
+				"velocidade.",
+				"Uma biblioteca arcana encontrada nas",
+				"profundezas da masmorra pode",
+				"ter a cura.",
+				"Enquanto aflito, o Amaldiçoado deve",
+				"agir rápido e colher sangue",
+				"para evitar a inanição.",
+				"Por mais poderosos que sejam, aqueles",
+				"sem perícia irão falhar."
+			]
+		},
+		"mesmer": {
+			"id": 15,
+			"stats": [
+				"average",
+				"average",
+				"bad",
+				"good",
+				"decent",
+				"good"
+			],
+			"survival_complexity": [
+				3,
+				3
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Mesmerista",
+				"O Mesmerista usa feitiços de",
+				"psianimus e habilidade de liderança",
+				"para forçar outros à batalha.",
+				"Mesmeristas só podem encantar um por",
+				"vez, então devem ser estratégicos",
+				"no recrutamento.",
+				"Seguidores podem ficar mais fortes",
+				"com experiência; nutri-los pode",
+				"ser sábio. O feitiço Encantar",
+				"é difícil de aprender.",
+				"Mesmeristas devem usar muitos tipos",
+				"de feitiços para ter sucesso."
+			]
+		},
+		"brewer": {
+			"id": 16,
+			"stats": [
+				"average",
+				"decent",
+				"decent",
+				"bad",
+				"poor",
+				"decent"
+			],
+			"survival_complexity": [
+				2,
+				5
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				4,
+				0
+			],
+			"desc": [
+				"Cervejeiro",
+				"Um alquimista talentoso que também",
+				"se sente à vontade com as relações",
+				"e brigas de bar que uma boa",
+				"bebida trará.",
+				"bring.",
+				"Cervejeiros de sucesso priorizam",
+				"coletar, fermentar e duplicar",
+				"poções para nunca ficarem sem",
+				"suprimentos.",
+				"Uma mochila cheia de garrafas permite",
+				"que o Cervejeiro se adapte",
+				"rapidamente."
+			]
+		},
+		"mechanist": {
+			"id": 17,
+			"stats": [
+				"bad",
+				"decent",
+				"bad",
+				"average",
+				"good",
+				"average"
+			],
+			"survival_complexity": [
+				2,
+				5
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				8,
+				0,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Mecânico",
+				"Um artesão habilidoso, o Mecânico",
+				"usa um kit de ferramentas para",
+				"criar e manter armas mecânicas,",
+				"deixando que engenhocas façam",
+				"o trabalho sujo.",
+				"work.",
+				"Mecânicos de sucesso usam a previsão",
+				"para planejar e estão preparados com",
+				"a ferramenta certa para qualquer",
+				"problema. Aqueles que tentam",
+				"depender de força e velocidade",
+				"podem ter dificuldade."
+			]
+		},
+		"punisher": {
+			"id": 18,
+			"stats": [
+				"decent",
+				"average",
+				"bad",
+				"average",
+				"decent",
+				"decent"
+			],
+			"survival_complexity": [
+				2,
+				4
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				4,
+				0
+			],
+			"desc": [
+				"Punidor",
+				"O Punidor escolhe lutas injustas,",
+				"brincando com os inimigos usando",
+				"magia negra e um chicote antes de",
+				"executar, ou liberando seus",
+				"demônios interiores para",
+				"fazer o trabalho.",
+				"Punidores não são duráveis e",
+				"devem manter o controle no",
+				"combate.",
+				"Manter-se móvel é a chave para",
+				"explorar o maior alcance de ataque",
+				"do seu chicote exclusivo."
+			]
+		},
+		"shaman": {
+			"id": 19,
+			"stats": [
+				"average",
+				"average",
+				"average",
+				"average",
+				"average",
+				"average"
+			],
+			"survival_complexity": [
+				2,
+				4
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Xamã",
+				"O Xamã é um místico cuja conexão",
+				"com os espíritos da natureza permite",
+				"que eles se transformem em formas",
+				"bestiais.",
+				"Os talentos de cada forma oferecem",
+				"diversas vantagens na masmorra.",
+				"dungeon.",
+				"Enquanto transformados, Xamãs fazem",
+				"amizades diferentes e podem tolerar",
+				"comidas diferentes. Ser uma fera",
+				"influenciará como o Xamã cresce.",
+				"how the Shaman grows."
+			]
+		},
+		"hunter": {
+			"id": 20,
+			"stats": [
+				"bad",
+				"good",
+				"bad",
+				"average",
+				"good",
+				"average"
+			],
+			"survival_complexity": [
+				2,
+				2
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				4,
+				0
+			],
+			"desc": [
+				"Caçador",
+				"Equipado para rastrear e abater",
+				"inimigos de longe, o Caçador usa",
+				"flechas especiais e um bumerangue",
+				"mágico para garantir que nunca precise",
+				"lutar corpo a corpo.",
+				"fight toe-to-toe.",
+				"Caçadores são frágeis e devem evitar",
+				"serem acuados em um canto.",
+				"a corner.",
+				"Manter-se escondido e usar a munição",
+				"com sabedoria é a chave para a sua",
+				"sobrevivência."
+			]
+		},
+		"class_bard": {
+			"id": 21,
+			"stats": [
+				"bad",
+				"decent",
+				"poor",
+				"average",
+				"poor",
+				"good"
+			],
+			"survival_complexity": [
+				3,
+				3
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				4,
+				0
+			],
+			"desc": [
+				"Bardo",
+				"Este aventureiro barulhento pode não",
+				"parecer muito um lutador, mago ou",
+				"ladino, mas uma lâmina veloz e",
+				"inteligência aguçada fazem do Bardo",
+				"um combatente muito capaz.",
+				"capable combatant.",
+				"Bardos precisarão dominar o aparo com",
+				"sua espada para sobreviver em combates",
+				"próximos. A música certa para a",
+				"situação certa pode trazer sucesso",
+				"rápido para o grupo de um Bardo.",
+				"success to a Bard's party."
+			]
+		},
+		"class_sapper": {
+			"id": 22,
+			"stats": [
+				"decent",
+				"decent",
+				"decent",
+				"average",
+				"poor",
+				"bad"
+			],
+			"survival_complexity": [
+				4,
+				4
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0
+			],
+			"desc": [
+				"Sapador",
+				"Um soldado engenhoso, o Sapador tem",
+				"várias ferramentas que ajudam a",
+				"destruir inimigos além das linhas",
+				"de frente.",
+				"Mas, sem a proeza defensiva de outros",
+				"lutadores, devem ter cuidado para não",
+				"serem sobrecarregados pelo combate",
+				"de curta distância.",
+				"quarters combat.",
+				"Sapadores de sucesso combinam suas",
+				"ferramentas para garantir uma vitória",
+				"decisiva."
+			]
+		},
+		"class_scion": {
+			"id": 23,
+			"stats": [
+				"bad",
+				"poor",
+				"bad",
+				"good",
+				"average",
+				"decent"
+			],
+			"survival_complexity": [
+				2,
+				4
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Herdeiro",
+				"Embora muito bem treinado em todas",
+				"as disciplinas conhecidas da magia,",
+				"o Herdeiro é inadequado para",
+				"batalhas físicas.",
+				"No entanto, o Herdeiro tem formas",
+				"de manter os inimigos afastados",
+				"enquanto um feitiço faz o trabalho.",
+				"Um Herdeiro de sucesso é muito capaz",
+				"de aprender novos feitiços em sua",
+				"jornada. Eles devem esperar se",
+				"adaptar com essa vantagem.",
+				"adapt with that advantage."
+			]
+		},
+		"class_hermit": {
+			"id": 24,
+			"stats": [
+				"average",
+				"bad",
+				"poor",
+				"good",
+				"poor",
+				"decent"
+			],
+			"survival_complexity": [
+				3,
+				3
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"desc": [
+				"Eremita",
+				"Embora não esteja equipado com",
+				"equipamentos de batalha tradicionais,",
+				"o Eremita sobrevive combinando",
+				"aptidão tanto mágica quanto física.",
+				"and physical aptitude.",
+				"Embora isolado, o Eremita não está",
+				"sozinho. Um animal de estimação fiel",
+				"serve como uma distração excepcional,",
+				"e o shillelagh inquebrável é",
+				"devastador contra inimigos",
+				"impedidos.",
+				"hindered foes."
+			]
+		},
+		"class_paladin": {
+			"id": 25,
+			"stats": [
+				"good",
+				"poor",
+				"decent",
+				"poor",
+				"bad",
+				"decent"
+			],
+			"survival_complexity": [
+				4,
+				2
+			],
+			"line_spacing": [
+				0,
+				0,
+				0,
+				0,
+				4,
+				0,
+				0,
+				0,
+				0,
+				4,
+				0
+			],
+			"desc": [
+				"Paladino",
+				"Empunhando uma lâmina grande e magia",
+				"divina, as soluções do Paladino são",
+				"simples e eficazes. Embora seja adepto",
+				"em lidar com desafios marciais,",
+				"um Paladino deve estar à altura da",
+				"ocasião quando lutas honrosas não",
+				"estiverem disponíveis.",
+				"Disciplina contínua com magias",
+				"milagrosas pode melhorar a",
+				"adaptabilidade.",
+				"miraculous magics may",
+				"improve adaptability."
+			]
+		},
+		"shapeshift_rat": {
+			"id": 100,
+			"stats": [
+				"bad",
+				"good",
+				"bad",
+				"decent",
+				"bad",
+				"bad"
+			],
+			"survival_complexity": [
+				1,
+				1
+			],
+			"line_spacing": [],
+			"desc": []
+		},
+		"shapeshift_spider": {
+			"id": 101,
+			"stats": [
+				"bad",
+				"bad",
+				"decent",
+				"bad",
+				"good",
+				"bad"
+			],
+			"survival_complexity": [
+				1,
+				1
+			],
+			"line_spacing": [],
+			"desc": []
+		},
+		"shapeshift_troll": {
+			"id": 102,
+			"stats": [
+				"good",
+				"bad",
+				"decent",
+				"bad",
+				"bad",
+				"bad"
+			],
+			"survival_complexity": [
+				1,
+				1
+			],
+			"line_spacing": [],
+			"desc": []
+		},
+		"shapeshift_imp": {
+			"id": 103,
+			"stats": [
+				"bad",
+				"bad",
+				"bad",
+				"decent",
+				"bad",
+				"good"
+			],
+			"survival_complexity": [
+				1,
+				1
+			],
+			"line_spacing": [],
+			"desc": []
+		}
+	}
+}

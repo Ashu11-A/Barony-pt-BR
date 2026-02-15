@@ -1,0 +1,1705 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial5a": {
+            "sign": [
+                "Portas, móveis e",
+                "baús podem bloquear seu caminho.",
+                "Ataques corpo a corpo podem",
+                "destruí-los tão bem quanto",
+                "bolas de fogo, inimigos",
+                "e pedregulhos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        0
+                    ],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/furniture.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial5b": {
+            "sign": [
+                "Com feitiços ativos,",
+                "livros de feitiços empunhados e",
+                "cajados mágicos, você pode",
+                "acessar uma variedade de",
+                "feitiços rapidamente.",
+                "",
+                "$ $ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/SpellbookGreen.png",
+                    "sizex": 36,
+                    "sizey": 36
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/forcebolt.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/RedMysticStaff.png",
+                    "sizex": 36,
+                    "sizey": 36
+                }
+            ]
+        },
+        "tutorial5c": {
+            "sign": [
+                "Use seu conhecimento de",
+                "magia para limpar esta",
+                "sala dos mortos-vivos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5d": {
+            "sign": [
+                "Você pode empunhar",
+                "automaticamente livros de",
+                "feitiços difíceis usando-os",
+                "da sua hotbar.",
+                "",
+                "Para empunhar um livro de feitiços",
+                "da sua hotbar sem",
+                "tentar memorizar,",
+                "segure$ antes de usar."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "MenuRightClick",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5d_gamepad": {
+            "sign": [
+                "Você pode empunhar",
+                "livros de feitiços difíceis, ou",
+                "livros memorizados",
+                "anteriormente, usando-os",
+                "da sua hotbar.",
+                "",
+                "Alguns feitiços são mais",
+                "poderosos se conjurados de",
+                "um livro de feitiços empunhado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5e": {
+            "sign": [
+                "Estes pergaminhos removem",
+                "maldições de itens.",
+                "Use-os do seu",
+                "inventário com$ .",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_cursed.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5e_gamepad": {
+            "sign": [
+                "Estes pergaminhos removem",
+                "maldições de itens.",
+                "Use-os do seu",
+                "inventário com$ .",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        0
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_cursed.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5f": {
+            "sign": [
+                "Perícias de magia baixas podem",
+                "falhar seus feitiços.",
+                "",
+                "$",
+                "",
+                "Apenas tente novamente!",
+                "A prática leva à perfeição."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/fizzle.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Casting02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5g": {
+            "sign": [
+                "A masmorra esconde muitos",
+                "segredos. Alguns exigem",
+                "habilidades para acessar.",
+                "",
+                "Frequentemente, eles escondem",
+                "grandes recompensas."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5h": {
+            "sign": [
+                "Livros de feitiços, feitiços",
+                "memorizados, pergaminhos e",
+                "cajados mágicos fornecem muitas",
+                "maneiras para conjuradores",
+                "sobreviverem e conquistarem",
+                "a masmorra."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5i": {
+            "sign": [
+                "Livros de feitiços permitem",
+                "memorizar feitiços.",
+                "",
+                "$",
+                "",
+                "Use livros de feitiços em seu",
+                "inventário com$ e [Ler]",
+                "para memorizar o feitiço."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial5i_gamepad": {
+            "sign": [
+                "Livros de feitiços permitem",
+                "memorizar feitiços.",
+                "",
+                "$",
+                "",
+                "Use livros de feitiços em seu",
+                "inventário com$ e [Ler]",
+                "para memorizar o feitiço."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial5j": {
+            "sign": [
+                "$",
+                "Cajados mágicos são carregados",
+                "com um único tipo de",
+                "feitiço que qualquer aventureiro",
+                "pode usar. Equipe-os e",
+                "conjure com eles usando$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_firestaff.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Atacar"
+                }
+            ]
+        },
+        "tutorial5k": {
+            "sign": [
+                "Aventureiros precisam",
+                "entender a magia a",
+                "fim de sobreviverem",
+                "nas masmorras."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5l": {
+            "sign": [
+                "Alguns feitiços exigem",
+                "mais INT ou Perícia",
+                "de magia para memorizar.",
+                "",
+                "$ $",
+                "",
+                "Você ainda pode conjurar esses",
+                "feitiços equipando",
+                "o livro."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic01.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5m": {
+            "sign": [
+                "Feitiços memorizados aparecem",
+                "na sua lista de magia, e podem",
+                "ser colocados na hotbar.",
+                "$",
+                "Acesse rapidamente a",
+                "lista com$e prepare",
+                "o feitiço com$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/magiclist_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_readyspell.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Lista de Feitiços"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial5m_gamepad": {
+            "sign": [
+                "Feitiços memorizados aparecem",
+                "na sua lista de magia, e",
+                "podem ser colocados para uso",
+                "rápido na hotbar.",
+                "$",
+                "Acesse a lista do",
+                "inventário com$e prepare",
+                "o feitiço com$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/magiclist_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_readyspell.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuPageLeftAlt"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial5n": {
+            "sign": [
+                "Conjure seu feitiço",
+                "preparado com$.",
+                "",
+                "Conjurar consome MP,",
+                "dependendo do feitiço."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/cast_memorized.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Conjurar Feitiço"
+                }
+            ]
+        },
+        "tutorial5o": {
+            "sign": [
+                "Pressione$ em livros de feitiços",
+                "em seu inventário",
+                "e selecione [Empunhar] para",
+                "equipá-los.",
+                "",
+                "Conjure de livros",
+                "empunhados usando$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                }
+            ]
+        },
+        "tutorial5o_gamepad": {
+            "sign": [
+                "Pressione$ em livros de feitiços",
+                "em seu inventário",
+                "e selecione [Empunhar] para",
+                "equipá-los.",
+                "",
+                "Conjure de livros",
+                "empunhados usando$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                }
+            ]
+        },
+        "tutorial5p": {
+            "sign": [
+                "$",
+                "Pergaminhos podem conter",
+                "magia especial que",
+                "só pode ser usada",
+                "uma única vez."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_scroll.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5q": {
+            "sign": [
+                "Este portão só pode",
+                "ser aberto com um feitiço",
+                "de um livro empunhado.",
+                "",
+                "$ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/open_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/opening.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5q_gamepad": {
+            "sign": [
+                "Este portão só pode",
+                "ser aberto com um feitiço",
+                "de um livro empunhado.",
+                "",
+                "$ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/open_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defender"
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/opening.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5r": {
+            "sign": [
+                "Você precisará",
+                "pensar rápido para tirar",
+                "o máximo proveito de",
+                "sua magia.",
+                "",
+                "Certifique-se de estar preparado."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5s": {
+            "sign": [
+                "Ative este portal",
+                "mágico com$ quando você",
+                "estiver pronto para o teste."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Usar"
+                }
+            ]
+        },
+        "tutorial5t": {
+            "sign": [
+                "Chapéus de mago podem aumentar",
+                "sua INT, o que melhora",
+                "sua habilidade mágica.",
+                "$",
+                "Um chapéu de mago abençoado",
+                "aumentará a INT ainda mais."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        4,
+                        5
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_wizardhat.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5u": {
+            "sign": [
+                "Levitação",
+                "",
+                "$ ",
+                "",
+                "Permite que aventureiros",
+                "atravessem líquidos",
+                "e fossos livremente"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/levitation.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5v": {
+            "sign": [
+                "Pergaminho de Recarga",
+                "$ ",
+                "Cajados mágicos podem",
+                "ser recarregados com",
+                "este pergaminho."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    []
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_recharge.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5w": {
+            "sign": [
+                "Feitiços sustentados permanecem",
+                "ativos após conjurados, e",
+                "continuam a drenar MP.",
+                "",
+                "$",
+                "",
+                "Re-conjure feitiços sustentados",
+                "para desativá-los."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "word_highlights2": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0
+                    ],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/sustained.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/light.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5x": {
+            "sign": [
+                "Sono",
+                "",
+                "$ ",
+                "",
+                "Faz com que o alvo",
+                "caia em um breve sono.",
+                "Alvos adormecidos irão",
+                "acordar se forem feridos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        4
+                    ],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/sleep.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/sleep.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5y": {
+            "sign": [
+                "$$",
+                "O MP regenera lentamente",
+                "com o tempo (RGN), ou você",
+                "pode encontrar poções de",
+                "restaurar magia para",
+                "restaurar o MP instantaneamente."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_restoremp.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5z": {
+            "sign": [
+                "Frio",
+                "",
+                "$ ",
+                "",
+                "Causa dano e",
+                "desacelera os alvos"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/cold.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/cold.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5aa": {
+            "sign": [
+                "$ $ $",
+                "Feitiçaria, Taumaturgia",
+                "e Misticismo são as",
+                "três escolas que",
+                "governam a Perícia mágica.",
+                "",
+                "Cada uma tem seu próprio",
+                "sortimento de Feitiços",
+                "e Itens Mágicos."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_sorcery.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_thaumaturgy.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_mysticism.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5ab": {
+            "sign": [
+                "$",
+                "Feitiços são marcados para",
+                "mostrar se o conjurador pode",
+                "ganhar Perícia com eles.",
+                "",
+                "Conjure feitiços práticos",
+                "que desafiem suas",
+                "Perícias para progredir."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2
+                    ]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_spell_training.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        }
+    }
+}
